@@ -1,0 +1,3001 @@
+customer_id,nome,idade,genero,cidade,estado,tipo_residencia,renda_estimada
+1,Cliente 1,56.0,F,Sao Paulo,SP,Apartamento,4554.6
+2,Cliente 2,69.0,M,São Paulo,SP,Apartamento,2708.47
+3,Cliente 3,46.0,F,Belo Horizonte,MG,Apartamento,3885.44
+4,Cliente 4,32.0,,Rio de janeiro,RJ,KITNET,"3676,37"
+5,Cliente 5,60.0,F,Rio de janeiro,RJ,Casa,6101.65
+6,Cliente 6,25.0,F,Rio de Janeiro,RJ,Casa,2037.14
+7,Cliente 7,,F,Sao Paulo,SP,KITNET,6812.63
+8,Cliente 8,38.0,M,Porto Alegre,RS,Casa,2608.48
+9,Cliente 9,56.0,M,Sao Paulo,SP,Apartamento,1489.91
+10,Cliente 10,75.0,F,Recife,PE,Apartamento,3174.63
+11,Cliente 11,36.0,M,Salvador,BA,Apartamento,8360.21
+12,Cliente 12,40.0,F,São Paulo,SP,KITNET,4842.81
+13,Cliente 13,28.0,Outro,São Paulo,SP,,4404.45
+14,Cliente 14,28.0,M,Sao Paulo,SP,Apartamento,4692.78
+15,Cliente 15,41.0,M,Rio de janeiro,RJ,Casa,2345.61
+16,Cliente 16,70.0,F,Rio de janeiro,RJ,KITNET,"3989,07"
+17,Cliente 17,53.0,M,Porto Alegre,RS,Casa,3503.75
+18,Cliente 18,57.0,F,Recife,PE,Casa,6213.6
+19,Cliente 19,41.0,M,São Paulo,SP,KITNET,3336.97
+20,Cliente 20,20.0,F,Porto Alegre,RS,Casa,2932.59
+21,Cliente 21,39.0,M,Rio de janeiro,RJ,Casa,1752.8
+22,Cliente 22,70.0,F,Porto Alegre,RS,Casa,3710.02
+23,Cliente 23,19.0,F,Salvador,BA,KITNET,3939.43
+24,Cliente 24,41.0,F,Rio de janeiro,RJ,Apartamento,1697.62
+25,Cliente 25,61.0,M,Curitiba,PR,Apartamento,4179.75
+26,Cliente 26,47.0,F,Recife,PE,Casa,3849.77
+27,Cliente 27,55.0,F,Belo Horizonte,MG,Apartamento,5020.17
+28,Cliente 28,19.0,M,São Paulo,SP,Apartamento,5318.55
+29,Cliente 29,77.0,M,Rio de Janeiro,RJ,Casa,3641.42
+30,Cliente 30,38.0,M,Salvador,BA,Casa,1945.45
+31,Cliente 31,50.0,F,Fortaleza,CE,Casa,2254.07
+32,Cliente 32,29.0,F,Belo Horizonte,MG,,6143.19
+33,Cliente 33,75.0,F,Rio de Janeiro,RJ,Apartamento,3748.23
+34,Cliente 34,39.0,M,Rio de janeiro,RJ,KITNET,6119.23
+35,Cliente 35,78.0,M,Fortaleza,CE,Casa,4247.91
+36,Cliente 36,61.0,F,Sao Paulo,SP,Apartamento,4630.6
+37,Cliente 37,42.0,F,Sao Paulo,SP,Apartamento,4908.09
+38,Cliente 38,66.0,,Salvador,BA,Apartamento,1665.29
+39,Cliente 39,44.0,M,Sao Paulo,SP,,3960.43
+40,Cliente 40,76.0,F,Fortaleza,CE,Casa,1644.5
+41,Cliente 41,59.0,M,Fortaleza,CE,Casa,3072.63
+42,Cliente 42,45.0,M,Recife,PE,Apartamento,4460.25
+43,Cliente 43,77.0,F,Belo Horizonte,MG,Apartamento,1962.0
+44,Cliente 44,33.0,F,São Paulo,SP,Apartamento,4339.01
+45,Cliente 45,32.0,,Curitiba,PR,Casa,1252.45
+46,Cliente 46,79.0,M,Porto Alegre,RS,Apartamento,5214.98
+47,Cliente 47,79.0,M,Sao Paulo,SP,Casa,2503.34
+48,Cliente 48,64.0,F,Salvador,BA,Casa,1959.32
+49,Cliente 49,79.0,F,Sao Paulo,SP,Apartamento,1346.97
+50,Cliente 50,68.0,M,Porto Alegre,RS,Apartamento,2630.97
+51,Cliente 51,61.0,M,Belo Horizonte,MG,Casa,1084.0
+52,Cliente 52,72.0,M,Recife,PE,Casa,2677.4
+53,Cliente 53,69.0,F,Fortaleza,CE,Casa,5149.23
+54,Cliente 54,74.0,M,Recife,PE,Casa,3216.93
+55,Cliente 55,20.0,M,Rio de janeiro,RJ,Apartamento,1733.72
+56,Cliente 56,54.0,M,Sao Paulo,SP,KITNET,3839.39
+57,Cliente 57,68.0,M,São Paulo,SP,Casa,3706.84
+58,Cliente 58,24.0,M,Rio de janeiro,RJ,Apartamento,6434.91
+59,Cliente 59,38.0,F,Belo Horizonte,MG,KITNET,4686.08
+60,Cliente 60,26.0,M,Sao Paulo,SP,Apartamento,3958.4
+61,Cliente 61,56.0,F,Rio de janeiro,RJ,Casa,4857.6
+62,Cliente 62,35.0,M,Sao Paulo,SP,,3298.43
+63,Cliente 63,21.0,F,Salvador,BA,Casa,3386.88
+64,Cliente 64,42.0,F,Belo Horizonte,MG,Casa,5988.41
+65,Cliente 65,77.0,F,Curitiba,PR,Casa,1046.63
+66,Cliente 66,31.0,F,Fortaleza,CE,Casa,4951.92
+67,Cliente 67,67.0,M,Rio de Janeiro,RJ,Casa,3333.81
+68,Cliente 68,75.0,M,Fortaleza,CE,Casa,3062.77
+69,Cliente 69,26.0,F,Fortaleza,CE,Casa,2670.66
+70,Cliente 70,43.0,,Rio de janeiro,RJ,Apartamento,3730.51
+71,Cliente 71,70.0,F,Belo Horizonte,MG,KITNET,3434.71
+72,Cliente 72,19.0,F,Sao Paulo,SP,Casa,2877.95
+73,Cliente 73,37.0,F,Recife,PE,KITNET,2446.01
+74,Cliente 74,45.0,F,Rio de Janeiro,RJ,KITNET,1427.0
+75,Cliente 75,64.0,M,Porto Alegre,RS,Apartamento,2414.29
+76,Cliente 76,77.0,F,Rio de janeiro,RJ,Casa,2731.56
+77,Cliente 77,24.0,,Rio de Janeiro,RJ,Apartamento,3726.85
+78,Cliente 78,,M,Curitiba,PR,KITNET,6444.63
+79,Cliente 79,78.0,F,Salvador,BA,Apartamento,2576.07
+80,Cliente 80,25.0,M,Belo Horizonte,MG,Casa,1964.4
+81,Cliente 81,64.0,F,Porto Alegre,RS,Apartamento,2428.26
+82,Cliente 82,52.0,M,Rio de janeiro,RJ,Apartamento,3730.02
+83,Cliente 83,31.0,F,Fortaleza,CE,Apartamento,4382.95
+84,Cliente 84,34.0,F,São Paulo,SP,Casa,4592.52
+85,Cliente 85,53.0,M,Rio de janeiro,RJ,Casa,4741.56
+86,Cliente 86,67.0,F,São Paulo,SP,Apartamento,4953.85
+87,Cliente 87,57.0,F,Fortaleza,CE,KITNET,3081.67
+88,Cliente 88,21.0,Outro,Salvador,BA,Casa,6579.71
+89,Cliente 89,19.0,M,Belo Horizonte,MG,,2967.85
+90,Cliente 90,79.0,M,Sao Paulo,SP,Casa,3664.01
+91,Cliente 91,23.0,M,Rio de janeiro,RJ,Apartamento,5443.74
+92,Cliente 92,71.0,,Recife,PE,Apartamento,4349.64
+93,Cliente 93,59.0,Outro,Fortaleza,CE,Apartamento,881.0
+94,Cliente 94,21.0,F,Rio de janeiro,RJ,KITNET,3508.45
+95,Cliente 95,71.0,F,Curitiba,PR,Casa,4792.95
+96,Cliente 96,46.0,F,Salvador,BA,KITNET,1484.79
+97,Cliente 97,35.0,F,Curitiba,PR,Casa,4626.04
+98,Cliente 98,43.0,M,Rio de Janeiro,RJ,Apartamento,4085.23
+99,Cliente 99,61.0,F,Belo Horizonte,MG,Apartamento,"5275,88"
+100,Cliente 100,51.0,M,Rio de Janeiro,RJ,Apartamento,2462.1
+101,Cliente 101,27.0,F,Rio de janeiro,RJ,Casa,4993.84
+102,Cliente 102,79.0,F,Porto Alegre,RS,KITNET,3739.41
+103,Cliente 103,53.0,F,Porto Alegre,RS,Casa,6149.08
+104,Cliente 104,31.0,M,Belo Horizonte,MG,Casa,7679.07
+105,Cliente 105,48.0,M,Recife,PE,Apartamento,5807.5
+106,Cliente 106,65.0,M,Salvador,BA,Casa,4220.78
+107,Cliente 107,32.0,M,Recife,PE,Apartamento,"6981,51"
+108,Cliente 108,25.0,M,Salvador,BA,Casa,4405.22
+109,Cliente 109,31.0,Outro,Fortaleza,CE,Casa,2138.08
+110,Cliente 110,40.0,F,Rio de janeiro,RJ,Apartamento,3441.09
+111,Cliente 111,77.0,M,Rio de Janeiro,RJ,Apartamento,4642.51
+112,Cliente 112,74.0,M,Porto Alegre,RS,Casa,"4738,93"
+113,Cliente 113,79.0,M,Curitiba,PR,Apartamento,1812.1
+114,Cliente 114,57.0,F,Sao Paulo,SP,Apartamento,1859.7
+115,Cliente 115,38.0,F,São Paulo,SP,Apartamento,2988.04
+116,Cliente 116,33.0,Outro,Sao Paulo,SP,Casa,4301.82
+117,Cliente 117,62.0,F,Rio de Janeiro,RJ,Apartamento,4493.84
+118,Cliente 118,35.0,,Rio de Janeiro,RJ,Apartamento,3711.96
+119,Cliente 119,64.0,F,Salvador,BA,Apartamento,2248.36
+120,Cliente 120,70.0,M,Recife,PE,Casa,6105.41
+121,Cliente 121,41.0,Outro,Sao Paulo,SP,Apartamento,1891.91
+122,Cliente 122,43.0,M,Salvador,BA,Apartamento,5453.51
+123,Cliente 123,42.0,F,Salvador,BA,Apartamento,4608.23
+124,Cliente 124,77.0,M,Recife,PE,Casa,5420.5
+125,Cliente 125,77.0,F,Curitiba,PR,KITNET,2833.35
+126,Cliente 126,77.0,F,Porto Alegre,RS,Apartamento,3286.02
+127,Cliente 127,62.0,F,Belo Horizonte,MG,Casa,3582.56
+128,Cliente 128,58.0,F,Porto Alegre,RS,Casa,2785.4
+129,Cliente 129,46.0,M,São Paulo,SP,KITNET,3837.89
+130,Cliente 130,32.0,M,Sao Paulo,SP,Casa,5868.63
+131,Cliente 131,,M,Porto Alegre,RS,,1554.75
+132,Cliente 132,18.0,M,Belo Horizonte,MG,Apartamento,2514.18
+133,Cliente 133,42.0,F,Fortaleza,CE,Apartamento,2351.38
+134,Cliente 134,24.0,M,Sao Paulo,SP,Casa,3358.37
+135,Cliente 135,26.0,,Belo Horizonte,MG,Casa,3296.71
+136,Cliente 136,41.0,F,Salvador,BA,KITNET,4658.47
+137,Cliente 137,18.0,F,Rio de Janeiro,RJ,Casa,"3550,58"
+138,Cliente 138,61.0,M,Curitiba,PR,Apartamento,3954.32
+139,Cliente 139,25.0,F,São Paulo,SP,Casa,4097.67
+140,Cliente 140,41.0,Outro,Belo Horizonte,MG,Casa,3868.11
+141,Cliente 141,,F,Porto Alegre,RS,Casa,4554.97
+142,Cliente 142,68.0,F,Rio de Janeiro,RJ,Apartamento,3316.51
+143,Cliente 143,34.0,F,Porto Alegre,RS,,5969.55
+144,Cliente 144,25.0,M,Sao Paulo,SP,Casa,7312.43
+145,Cliente 145,52.0,F,Belo Horizonte,MG,Casa,4559.35
+146,Cliente 146,52.0,M,Porto Alegre,RS,Casa,3841.99
+147,Cliente 147,50.0,M,Recife,PE,Apartamento,4436.87
+148,Cliente 148,76.0,M,Rio de janeiro,RJ,Casa,1848.45
+149,Cliente 149,22.0,M,Rio de Janeiro,RJ,KITNET,3770.16
+150,Cliente 150,59.0,M,Fortaleza,CE,Apartamento,2403.01
+151,Cliente 151,56.0,M,Rio de Janeiro,RJ,Apartamento,29008.0
+152,Cliente 152,75.0,,Porto Alegre,RS,Casa,"2410,46"
+153,Cliente 153,58.0,F,Porto Alegre,RS,,"2982,83"
+154,Cliente 154,45.0,,São Paulo,SP,Casa,843.0
+155,Cliente 155,24.0,M,Recife,PE,Casa,1740.13
+156,Cliente 156,26.0,M,Fortaleza,CE,Apartamento,4032.31
+157,Cliente 157,25.0,F,Curitiba,PR,Apartamento,2196.73
+158,Cliente 158,29.0,M,São Paulo,SP,Casa,5095.66
+159,Cliente 159,51.0,M,Sao Paulo,SP,Casa,2069.17
+160,Cliente 160,50.0,F,Fortaleza,CE,Apartamento,4179.88
+161,Cliente 161,65.0,M,Belo Horizonte,MG,Casa,16425.0
+162,Cliente 162,72.0,F,Rio de janeiro,RJ,Apartamento,4078.2
+163,Cliente 163,40.0,F,São Paulo,SP,Apartamento,1197.82
+164,Cliente 164,79.0,M,Rio de janeiro,RJ,Casa,2820.23
+165,Cliente 165,41.0,M,Recife,PE,Casa,2230.68
+166,Cliente 166,,F,Sao Paulo,SP,Casa,4824.85
+167,Cliente 167,52.0,F,Sao Paulo,SP,Apartamento,4193.39
+168,Cliente 168,61.0,M,Curitiba,PR,Apartamento,1651.14
+169,Cliente 169,57.0,,Sao Paulo,SP,Casa,3195.23
+170,Cliente 170,39.0,M,Porto Alegre,RS,Apartamento,2341.52
+171,Cliente 171,44.0,F,Rio de Janeiro,RJ,,4925.39
+172,Cliente 172,52.0,,Rio de Janeiro,RJ,Casa,5407.29
+173,Cliente 173,18.0,M,Curitiba,PR,KITNET,1337.53
+174,Cliente 174,52.0,M,Porto Alegre,RS,Casa,4740.05
+175,Cliente 175,54.0,M,Rio de Janeiro,RJ,Casa,2265.06
+176,Cliente 176,64.0,M,Belo Horizonte,MG,Casa,3120.62
+177,Cliente 177,31.0,M,Porto Alegre,RS,Casa,3548.38
+178,Cliente 178,20.0,F,Recife,PE,Casa,6224.91
+179,Cliente 179,18.0,M,Salvador,BA,Casa,1994.23
+180,Cliente 180,22.0,F,Rio de janeiro,RJ,KITNET,4752.12
+181,Cliente 181,43.0,,Porto Alegre,RS,Apartamento,1742.74
+182,Cliente 182,72.0,F,Rio de janeiro,RJ,Apartamento,1639.11
+183,Cliente 183,31.0,F,Belo Horizonte,MG,Casa,3542.7
+184,Cliente 184,56.0,M,Salvador,BA,Casa,3532.59
+185,Cliente 185,44.0,F,Fortaleza,CE,Casa,1072.0
+186,Cliente 186,26.0,F,Curitiba,PR,Apartamento,5239.39
+187,Cliente 187,32.0,M,Porto Alegre,RS,KITNET,1193.0
+188,Cliente 188,32.0,M,Curitiba,PR,Casa,3281.09
+189,Cliente 189,43.0,F,Sao Paulo,SP,Casa,5491.42
+190,Cliente 190,59.0,M,Rio de janeiro,RJ,Apartamento,6813.78
+191,Cliente 191,77.0,M,Rio de janeiro,RJ,Casa,2955.43
+192,Cliente 192,30.0,M,Sao Paulo,SP,Casa,1350.58
+193,Cliente 193,68.0,M,Fortaleza,CE,Apartamento,5435.82
+194,Cliente 194,49.0,F,São Paulo,SP,Apartamento,4797.73
+195,Cliente 195,56.0,F,Recife,PE,Casa,2766.51
+196,Cliente 196,66.0,F,Porto Alegre,RS,Casa,2576.39
+197,Cliente 197,69.0,M,Rio de janeiro,RJ,,2423.91
+198,Cliente 198,78.0,M,Recife,PE,Casa,2983.12
+199,Cliente 199,49.0,F,Rio de janeiro,RJ,Casa,3974.1
+200,Cliente 200,21.0,M,São Paulo,SP,Casa,2650.98
+201,Cliente 201,47.0,M,Sao Paulo,SP,Casa,2840.63
+202,Cliente 202,54.0,F,São Paulo,SP,Casa,4461.92
+203,Cliente 203,40.0,M,Rio de janeiro,RJ,Apartamento,1276.38
+204,Cliente 204,56.0,F,Sao Paulo,SP,Casa,2936.1
+205,Cliente 205,62.0,M,São Paulo,SP,Casa,986.09
+206,Cliente 206,32.0,M,Fortaleza,CE,Apartamento,3662.62
+207,Cliente 207,,M,Sao Paulo,SP,Apartamento,1394.0
+208,Cliente 208,46.0,,Porto Alegre,RS,KITNET,4835.02
+209,Cliente 209,53.0,F,Rio de janeiro,RJ,KITNET,1528.04
+210,Cliente 210,30.0,,Belo Horizonte,MG,Casa,841.13
+211,Cliente 211,49.0,F,Curitiba,PR,Apartamento,2954.58
+212,Cliente 212,24.0,M,Rio de janeiro,RJ,Casa,6066.66
+213,Cliente 213,76.0,F,Porto Alegre,RS,,4566.79
+214,Cliente 214,68.0,F,Rio de Janeiro,RJ,Casa,857.0
+215,Cliente 215,39.0,F,Recife,PE,,1485.31
+216,Cliente 216,45.0,M,Recife,PE,Apartamento,2906.6
+217,Cliente 217,19.0,F,Curitiba,PR,Casa,6857.53
+218,Cliente 218,59.0,M,Rio de janeiro,RJ,Apartamento,2091.57
+219,Cliente 219,62.0,M,Curitiba,PR,,2103.67
+220,Cliente 220,,F,Salvador,BA,KITNET,21158.0
+221,Cliente 221,74.0,F,Rio de janeiro,RJ,Casa,3792.36
+222,Cliente 222,70.0,M,Sao Paulo,SP,Apartamento,24388.0
+223,Cliente 223,23.0,M,Sao Paulo,SP,Casa,2409.35
+224,Cliente 224,45.0,F,Salvador,BA,Casa,3347.55
+225,Cliente 225,45.0,F,Fortaleza,CE,Casa,5473.45
+226,Cliente 226,61.0,F,Salvador,BA,Casa,3282.74
+227,Cliente 227,61.0,,Salvador,BA,Apartamento,5184.58
+228,Cliente 228,37.0,F,Curitiba,PR,Casa,4080.9
+229,Cliente 229,47.0,M,São Paulo,SP,Apartamento,1940.56
+230,Cliente 230,79.0,F,Sao Paulo,SP,Casa,3475.52
+231,Cliente 231,28.0,M,São Paulo,SP,Casa,4972.08
+232,Cliente 232,75.0,M,Salvador,BA,Casa,4504.12
+233,Cliente 233,72.0,F,Fortaleza,CE,Casa,3439.62
+234,Cliente 234,45.0,M,Sao Paulo,SP,Casa,1364.0
+235,Cliente 235,42.0,Outro,Rio de janeiro,RJ,Casa,806.01
+236,Cliente 236,56.0,F,Rio de janeiro,RJ,Apartamento,1125.04
+237,Cliente 237,79.0,F,Rio de janeiro,RJ,Casa,2734.34
+238,Cliente 238,50.0,F,Porto Alegre,RS,Casa,2934.32
+239,Cliente 239,18.0,F,Curitiba,PR,Casa,1286.88
+240,Cliente 240,74.0,F,Rio de Janeiro,RJ,KITNET,5033.77
+241,Cliente 241,44.0,F,Salvador,BA,KITNET,1604.35
+242,Cliente 242,79.0,M,Rio de Janeiro,RJ,Casa,1444.16
+243,Cliente 243,74.0,F,Belo Horizonte,MG,Casa,3632.35
+244,Cliente 244,69.0,M,Curitiba,PR,Casa,4960.86
+245,Cliente 245,30.0,F,Rio de janeiro,RJ,,6582.28
+246,Cliente 246,58.0,F,Sao Paulo,SP,Casa,4373.82
+247,Cliente 247,20.0,F,Curitiba,PR,Casa,5869.74
+248,Cliente 248,56.0,M,Porto Alegre,RS,Casa,1681.92
+249,Cliente 249,23.0,M,Sao Paulo,SP,Casa,6739.61
+250,Cliente 250,25.0,F,São Paulo,SP,Casa,800.0
+251,Cliente 251,44.0,M,Porto Alegre,RS,Apartamento,2744.24
+252,Cliente 252,26.0,M,São Paulo,SP,Casa,4340.98
+253,Cliente 253,79.0,M,Sao Paulo,SP,Apartamento,1092.17
+254,Cliente 254,54.0,,Rio de janeiro,RJ,Casa,2109.42
+255,Cliente 255,50.0,F,Rio de Janeiro,RJ,Casa,1871.12
+256,Cliente 256,68.0,M,Salvador,BA,KITNET,3034.67
+257,Cliente 257,59.0,M,Curitiba,PR,Casa,5632.37
+258,Cliente 258,61.0,M,Curitiba,PR,Apartamento,"3525,24"
+259,Cliente 259,41.0,F,Rio de janeiro,RJ,Apartamento,2805.4
+260,Cliente 260,32.0,F,Salvador,BA,Casa,1015.0
+261,Cliente 261,76.0,M,São Paulo,SP,,4200.13
+262,Cliente 262,71.0,M,Rio de Janeiro,RJ,Casa,4685.02
+263,Cliente 263,49.0,M,Salvador,BA,KITNET,949.97
+264,Cliente 264,49.0,F,São Paulo,SP,Casa,3399.54
+265,Cliente 265,41.0,F,Salvador,BA,KITNET,3789.51
+266,Cliente 266,58.0,M,Belo Horizonte,MG,Casa,4946.9
+267,Cliente 267,69.0,M,Curitiba,PR,Apartamento,2412.85
+268,Cliente 268,66.0,M,Belo Horizonte,MG,Apartamento,2186.96
+269,Cliente 269,79.0,,Salvador,BA,KITNET,2815.25
+270,Cliente 270,,M,Porto Alegre,RS,KITNET,5426.66
+271,Cliente 271,75.0,F,Curitiba,PR,Apartamento,5065.77
+272,Cliente 272,69.0,F,Rio de Janeiro,RJ,KITNET,3467.98
+273,Cliente 273,29.0,M,Rio de janeiro,RJ,Casa,5029.66
+274,Cliente 274,79.0,M,Belo Horizonte,MG,Casa,1116.0
+275,Cliente 275,56.0,M,Rio de janeiro,RJ,Casa,4687.48
+276,Cliente 276,19.0,F,São Paulo,SP,Casa,1821.85
+277,Cliente 277,20.0,F,Recife,PE,Casa,6150.54
+278,Cliente 278,66.0,F,Porto Alegre,RS,Apartamento,26583.0
+279,Cliente 279,54.0,F,São Paulo,SP,Casa,2220.86
+280,Cliente 280,66.0,M,Fortaleza,CE,Apartamento,4343.64
+281,Cliente 281,73.0,,São Paulo,SP,Casa,4488.43
+282,Cliente 282,34.0,F,São Paulo,SP,Casa,2830.5
+283,Cliente 283,76.0,M,Recife,PE,Apartamento,4057.11
+284,Cliente 284,66.0,,Curitiba,PR,Apartamento,4243.07
+285,Cliente 285,19.0,F,Porto Alegre,RS,Apartamento,4089.67
+286,Cliente 286,19.0,F,Porto Alegre,RS,Apartamento,2893.17
+287,Cliente 287,45.0,F,Rio de Janeiro,RJ,Casa,4257.82
+288,Cliente 288,71.0,F,São Paulo,SP,Apartamento,5609.56
+289,Cliente 289,40.0,F,Porto Alegre,RS,Casa,1661.77
+290,Cliente 290,54.0,M,Sao Paulo,SP,Casa,2239.91
+291,Cliente 291,49.0,M,Rio de Janeiro,RJ,Casa,3540.88
+292,Cliente 292,50.0,Outro,Sao Paulo,SP,Casa,1915.66
+293,Cliente 293,18.0,M,Recife,PE,Casa,1027.0
+294,Cliente 294,36.0,M,Sao Paulo,SP,,5139.68
+295,Cliente 295,79.0,M,Rio de janeiro,RJ,,1272.0
+296,Cliente 296,19.0,M,Salvador,BA,Casa,2896.43
+297,Cliente 297,70.0,F,Sao Paulo,SP,Casa,4638.42
+298,Cliente 298,61.0,Outro,Recife,PE,Casa,3900.05
+299,Cliente 299,43.0,M,Rio de janeiro,RJ,Casa,2919.13
+300,Cliente 300,49.0,M,Recife,PE,KITNET,1853.84
+301,Cliente 301,23.0,M,Recife,PE,Casa,4015.8
+302,Cliente 302,49.0,F,São Paulo,SP,Apartamento,"2017,41"
+303,Cliente 303,72.0,F,Recife,PE,Casa,19533.0
+304,Cliente 304,21.0,M,Sao Paulo,SP,,3711.38
+305,Cliente 305,72.0,F,Salvador,BA,Casa,3726.55
+306,Cliente 306,28.0,F,Recife,PE,Apartamento,2539.52
+307,Cliente 307,73.0,F,Recife,PE,Casa,6552.51
+308,Cliente 308,76.0,Outro,Porto Alegre,RS,Apartamento,18546.0
+309,Cliente 309,34.0,M,Fortaleza,CE,Casa,3081.94
+310,Cliente 310,55.0,F,Belo Horizonte,MG,Casa,3896.41
+311,Cliente 311,41.0,F,Rio de janeiro,RJ,KITNET,2338.31
+312,Cliente 312,22.0,F,Fortaleza,CE,KITNET,2920.54
+313,Cliente 313,69.0,F,Rio de janeiro,RJ,KITNET,7087.88
+314,Cliente 314,51.0,F,Belo Horizonte,MG,Apartamento,2348.93
+315,Cliente 315,23.0,F,Salvador,BA,Apartamento,3383.34
+316,Cliente 316,39.0,M,Rio de Janeiro,RJ,Casa,2815.84
+317,Cliente 317,28.0,F,Belo Horizonte,MG,Casa,1940.55
+318,Cliente 318,65.0,,Curitiba,PR,Casa,4131.63
+319,Cliente 319,33.0,Outro,Fortaleza,CE,Apartamento,3554.71
+320,Cliente 320,50.0,M,Sao Paulo,SP,Casa,4866.54
+321,Cliente 321,26.0,M,São Paulo,SP,Casa,4715.87
+322,Cliente 322,77.0,M,Curitiba,PR,Apartamento,4851.06
+323,Cliente 323,76.0,F,Recife,PE,Apartamento,2122.69
+324,Cliente 324,23.0,F,Recife,PE,Casa,4461.44
+325,Cliente 325,33.0,M,Sao Paulo,SP,Casa,4497.91
+326,Cliente 326,46.0,F,Sao Paulo,SP,Casa,1968.41
+327,Cliente 327,20.0,F,Porto Alegre,RS,Casa,3022.08
+328,Cliente 328,37.0,F,Rio de janeiro,RJ,Casa,1315.83
+329,Cliente 329,77.0,F,Porto Alegre,RS,Apartamento,4504.43
+330,Cliente 330,76.0,F,Belo Horizonte,MG,Apartamento,4497.53
+331,Cliente 331,53.0,F,Rio de Janeiro,RJ,Apartamento,5645.54
+332,Cliente 332,36.0,M,Fortaleza,CE,Casa,3156.8
+333,Cliente 333,43.0,F,Sao Paulo,SP,Apartamento,4177.2
+334,Cliente 334,20.0,F,Rio de janeiro,RJ,Casa,4981.6
+335,Cliente 335,36.0,F,Fortaleza,CE,Casa,2369.16
+336,Cliente 336,37.0,F,Belo Horizonte,MG,Apartamento,2141.05
+337,Cliente 337,49.0,F,Rio de Janeiro,RJ,Casa,2415.67
+338,Cliente 338,24.0,M,Curitiba,PR,Casa,2976.06
+339,Cliente 339,69.0,F,Porto Alegre,RS,KITNET,2194.17
+340,Cliente 340,58.0,M,Belo Horizonte,MG,Casa,2480.26
+341,Cliente 341,50.0,M,Recife,PE,Apartamento,4821.37
+342,Cliente 342,57.0,F,Porto Alegre,RS,Casa,3355.48
+343,Cliente 343,56.0,,São Paulo,SP,Apartamento,3960.05
+344,Cliente 344,35.0,M,Porto Alegre,RS,Casa,2673.92
+345,Cliente 345,57.0,M,Belo Horizonte,MG,Casa,2575.45
+346,Cliente 346,18.0,F,Sao Paulo,SP,Apartamento,3928.33
+347,Cliente 347,28.0,M,Rio de Janeiro,RJ,Casa,3689.09
+348,Cliente 348,45.0,F,Belo Horizonte,MG,Casa,4666.98
+349,Cliente 349,74.0,F,Sao Paulo,SP,Casa,5452.39
+350,Cliente 350,42.0,F,Sao Paulo,SP,Casa,2462.88
+351,Cliente 351,67.0,M,Porto Alegre,RS,Casa,4791.78
+352,Cliente 352,40.0,M,Rio de Janeiro,RJ,Casa,1880.29
+353,Cliente 353,48.0,F,Belo Horizonte,MG,KITNET,6610.67
+354,Cliente 354,47.0,F,Belo Horizonte,MG,Casa,2320.54
+355,Cliente 355,59.0,M,Recife,PE,Casa,4535.95
+356,Cliente 356,52.0,F,Rio de janeiro,RJ,Casa,1869.14
+357,Cliente 357,24.0,M,Fortaleza,CE,Casa,3271.86
+358,Cliente 358,77.0,F,Rio de janeiro,RJ,KITNET,5818.6
+359,Cliente 359,33.0,M,Belo Horizonte,MG,Casa,2273.44
+360,Cliente 360,43.0,,Porto Alegre,RS,,6806.28
+361,Cliente 361,65.0,M,Curitiba,PR,Casa,3492.09
+362,Cliente 362,74.0,M,Belo Horizonte,MG,Apartamento,4963.57
+363,Cliente 363,69.0,M,São Paulo,SP,Apartamento,4104.42
+364,Cliente 364,77.0,M,Sao Paulo,SP,KITNET,4185.56
+365,Cliente 365,66.0,F,Salvador,BA,Apartamento,1360.83
+366,Cliente 366,19.0,,Belo Horizonte,MG,Apartamento,"2790,72"
+367,Cliente 367,18.0,M,São Paulo,SP,Casa,5293.96
+368,Cliente 368,65.0,M,São Paulo,SP,Casa,2983.52
+369,Cliente 369,79.0,F,Fortaleza,CE,KITNET,3708.25
+370,Cliente 370,29.0,F,Rio de Janeiro,RJ,Casa,1178.87
+371,Cliente 371,22.0,F,Belo Horizonte,MG,Casa,2693.63
+372,Cliente 372,54.0,M,Rio de Janeiro,RJ,Apartamento,5184.56
+373,Cliente 373,49.0,M,Curitiba,PR,Casa,1576.06
+374,Cliente 374,76.0,F,Porto Alegre,RS,,"4575,62"
+375,Cliente 375,72.0,M,Salvador,BA,Apartamento,3766.67
+376,Cliente 376,26.0,F,Porto Alegre,RS,Apartamento,3146.07
+377,Cliente 377,58.0,M,São Paulo,SP,KITNET,3080.11
+378,Cliente 378,,F,Sao Paulo,SP,Casa,2763.46
+379,Cliente 379,36.0,M,Sao Paulo,SP,Casa,2897.04
+380,Cliente 380,65.0,F,Rio de Janeiro,RJ,Casa,4894.61
+381,Cliente 381,33.0,F,Porto Alegre,RS,Casa,2851.93
+382,Cliente 382,20.0,F,São Paulo,SP,Apartamento,6211.39
+383,Cliente 383,37.0,M,Fortaleza,CE,KITNET,3949.3
+384,Cliente 384,41.0,F,Recife,PE,Casa,2635.61
+385,Cliente 385,71.0,F,Porto Alegre,RS,Casa,4960.05
+386,Cliente 386,73.0,F,Rio de Janeiro,RJ,,4435.84
+387,Cliente 387,50.0,F,Salvador,BA,Casa,1018.74
+388,Cliente 388,41.0,F,Rio de Janeiro,RJ,Casa,1948.29
+389,Cliente 389,69.0,F,São Paulo,SP,Casa,3326.87
+390,Cliente 390,28.0,M,Belo Horizonte,MG,KITNET,1124.59
+391,Cliente 391,66.0,F,Fortaleza,CE,Apartamento,6635.79
+392,Cliente 392,25.0,F,São Paulo,SP,Apartamento,4733.35
+393,Cliente 393,53.0,M,Fortaleza,CE,Apartamento,3480.0
+394,Cliente 394,55.0,M,Rio de janeiro,RJ,Casa,2985.94
+395,Cliente 395,57.0,M,Rio de janeiro,RJ,Casa,2600.5
+396,Cliente 396,37.0,F,Sao Paulo,SP,Apartamento,1283.0
+397,Cliente 397,79.0,F,Fortaleza,CE,Casa,900.69
+398,Cliente 398,52.0,F,Porto Alegre,RS,Apartamento,6351.68
+399,Cliente 399,65.0,F,Salvador,BA,KITNET,5860.4
+400,Cliente 400,79.0,M,Recife,PE,Apartamento,2636.33
+401,Cliente 401,42.0,M,Rio de Janeiro,RJ,Apartamento,"4862,0"
+402,Cliente 402,52.0,M,Rio de janeiro,RJ,Apartamento,4259.63
+403,Cliente 403,42.0,M,Rio de Janeiro,RJ,Apartamento,4436.43
+404,Cliente 404,46.0,M,Rio de Janeiro,RJ,Casa,1362.23
+405,Cliente 405,35.0,M,Salvador,BA,Casa,1470.0
+406,Cliente 406,63.0,F,São Paulo,SP,Casa,5273.89
+407,Cliente 407,35.0,F,Rio de Janeiro,RJ,Apartamento,1086.0
+408,Cliente 408,19.0,,Fortaleza,CE,Casa,3277.71
+409,Cliente 409,71.0,Outro,Salvador,BA,Apartamento,2948.45
+410,Cliente 410,52.0,F,Rio de janeiro,RJ,Casa,2809.77
+411,Cliente 411,33.0,M,Belo Horizonte,MG,Apartamento,3971.68
+412,Cliente 412,78.0,F,Rio de Janeiro,RJ,Casa,2483.61
+413,Cliente 413,58.0,F,Sao Paulo,SP,Apartamento,4093.6
+414,Cliente 414,53.0,M,Salvador,BA,Apartamento,3711.73
+415,Cliente 415,50.0,M,São Paulo,SP,Casa,6648.1
+416,Cliente 416,21.0,F,Curitiba,PR,Casa,1421.89
+417,Cliente 417,50.0,M,Rio de janeiro,RJ,Apartamento,3543.9
+418,Cliente 418,31.0,F,Rio de janeiro,RJ,Casa,4147.02
+419,Cliente 419,38.0,F,Curitiba,PR,Casa,3115.4
+420,Cliente 420,65.0,M,Fortaleza,CE,,1494.39
+421,Cliente 421,37.0,M,Belo Horizonte,MG,Apartamento,5385.65
+422,Cliente 422,73.0,M,Rio de janeiro,RJ,,"4005,4"
+423,Cliente 423,25.0,M,Rio de janeiro,RJ,Casa,1599.65
+424,Cliente 424,24.0,M,São Paulo,SP,Casa,4158.0
+425,Cliente 425,20.0,F,Rio de janeiro,RJ,KITNET,6052.35
+426,Cliente 426,34.0,M,Salvador,BA,Apartamento,3445.53
+427,Cliente 427,50.0,F,Fortaleza,CE,Apartamento,3496.68
+428,Cliente 428,65.0,M,Belo Horizonte,MG,Casa,5852.01
+429,Cliente 429,29.0,Outro,Sao Paulo,SP,Casa,2044.42
+430,Cliente 430,76.0,M,Belo Horizonte,MG,Casa,6091.33
+431,Cliente 431,68.0,M,Fortaleza,CE,Casa,4959.37
+432,Cliente 432,39.0,F,Porto Alegre,RS,Casa,2113.67
+433,Cliente 433,72.0,F,Salvador,BA,Casa,2497.6
+434,Cliente 434,39.0,M,Porto Alegre,RS,,2712.78
+435,Cliente 435,63.0,F,Fortaleza,CE,Casa,1310.0
+436,Cliente 436,47.0,F,São Paulo,SP,Apartamento,3890.71
+437,Cliente 437,55.0,F,Sao Paulo,SP,Apartamento,2181.58
+438,Cliente 438,55.0,M,Belo Horizonte,MG,Apartamento,3944.83
+439,Cliente 439,62.0,M,Rio de Janeiro,RJ,Casa,1563.59
+440,Cliente 440,68.0,F,Recife,PE,Apartamento,4884.52
+441,Cliente 441,71.0,F,Belo Horizonte,MG,Apartamento,4606.44
+442,Cliente 442,25.0,M,São Paulo,SP,Apartamento,2441.18
+443,Cliente 443,44.0,F,Sao Paulo,SP,Apartamento,4039.47
+444,Cliente 444,44.0,F,Recife,PE,,3624.38
+445,Cliente 445,51.0,M,Salvador,BA,Apartamento,5723.45
+446,Cliente 446,38.0,F,Fortaleza,CE,Casa,1951.28
+447,Cliente 447,47.0,M,Fortaleza,CE,Apartamento,"3271,55"
+448,Cliente 448,,F,Salvador,BA,Casa,2538.97
+449,Cliente 449,45.0,F,Recife,PE,KITNET,3567.23
+450,Cliente 450,64.0,,Porto Alegre,RS,Casa,4299.91
+451,Cliente 451,50.0,M,Sao Paulo,SP,Casa,2522.29
+452,Cliente 452,22.0,M,Salvador,BA,Apartamento,2953.84
+453,Cliente 453,77.0,M,Recife,PE,Apartamento,4949.06
+454,Cliente 454,78.0,M,Rio de janeiro,RJ,Casa,5535.99
+455,Cliente 455,65.0,M,Belo Horizonte,MG,Casa,4240.27
+456,Cliente 456,36.0,Outro,São Paulo,SP,KITNET,3293.06
+457,Cliente 457,21.0,M,Salvador,BA,Casa,3150.35
+458,Cliente 458,52.0,M,São Paulo,SP,KITNET,4322.19
+459,Cliente 459,66.0,F,Porto Alegre,RS,Casa,3841.65
+460,Cliente 460,34.0,M,Porto Alegre,RS,Apartamento,1026.54
+461,Cliente 461,61.0,F,Rio de janeiro,RJ,Apartamento,4358.58
+462,Cliente 462,45.0,M,Fortaleza,CE,Casa,2209.15
+463,Cliente 463,47.0,F,Salvador,BA,Casa,1374.6
+464,Cliente 464,46.0,M,Sao Paulo,SP,Casa,997.48
+465,Cliente 465,63.0,M,Fortaleza,CE,Apartamento,3175.84
+466,Cliente 466,70.0,Outro,Recife,PE,Apartamento,1975.21
+467,Cliente 467,23.0,M,Fortaleza,CE,Apartamento,1377.0
+468,Cliente 468,52.0,F,Sao Paulo,SP,Casa,2962.32
+469,Cliente 469,77.0,M,Belo Horizonte,MG,Casa,2764.14
+470,Cliente 470,58.0,M,Porto Alegre,RS,Casa,3275.15
+471,Cliente 471,54.0,F,Belo Horizonte,MG,Casa,2556.65
+472,Cliente 472,41.0,M,Salvador,BA,Apartamento,6243.99
+473,Cliente 473,,F,Fortaleza,CE,KITNET,4276.01
+474,Cliente 474,66.0,,Salvador,BA,Apartamento,2750.58
+475,Cliente 475,63.0,F,Belo Horizonte,MG,Casa,3404.56
+476,Cliente 476,70.0,Outro,Porto Alegre,RS,,5621.96
+477,Cliente 477,48.0,M,Rio de Janeiro,RJ,Apartamento,4934.93
+478,Cliente 478,52.0,M,Rio de janeiro,RJ,KITNET,1405.68
+479,Cliente 479,77.0,M,Salvador,BA,Apartamento,2038.56
+480,Cliente 480,50.0,F,Salvador,BA,Casa,2327.23
+481,Cliente 481,69.0,,Rio de Janeiro,RJ,Casa,2840.45
+482,Cliente 482,78.0,M,Recife,PE,Apartamento,2606.87
+483,Cliente 483,38.0,F,Recife,PE,Casa,3551.01
+484,Cliente 484,49.0,M,Belo Horizonte,MG,Casa,4603.58
+485,Cliente 485,,F,Salvador,BA,Apartamento,4853.99
+486,Cliente 486,50.0,F,Porto Alegre,RS,Apartamento,3009.8
+487,Cliente 487,20.0,,São Paulo,SP,Apartamento,1047.96
+488,Cliente 488,35.0,F,Belo Horizonte,MG,Casa,1939.39
+489,Cliente 489,42.0,M,Belo Horizonte,MG,Casa,2720.34
+490,Cliente 490,59.0,M,Rio de janeiro,RJ,Apartamento,1632.45
+491,Cliente 491,48.0,M,Salvador,BA,,5211.29
+492,Cliente 492,71.0,M,Recife,PE,Apartamento,1730.69
+493,Cliente 493,75.0,M,Recife,PE,KITNET,4425.59
+494,Cliente 494,20.0,F,Fortaleza,CE,Apartamento,977.18
+495,Cliente 495,57.0,F,Curitiba,PR,Apartamento,4485.8
+496,Cliente 496,63.0,F,Curitiba,PR,Casa,3291.1
+497,Cliente 497,41.0,M,Curitiba,PR,Apartamento,22530.0
+498,Cliente 498,67.0,F,Rio de janeiro,RJ,Apartamento,1802.66
+499,Cliente 499,49.0,F,Porto Alegre,RS,Apartamento,2653.83
+500,Cliente 500,64.0,M,Curitiba,PR,Casa,2944.35
+501,Cliente 501,39.0,F,Rio de Janeiro,RJ,Apartamento,3271.25
+502,Cliente 502,40.0,F,Sao Paulo,SP,Casa,2981.03
+503,Cliente 503,19.0,M,Belo Horizonte,MG,Apartamento,3009.98
+504,Cliente 504,44.0,F,Porto Alegre,RS,Casa,2985.41
+505,Cliente 505,59.0,F,Recife,PE,Apartamento,1257.0
+506,Cliente 506,19.0,M,Fortaleza,CE,Casa,4990.0
+507,Cliente 507,43.0,Outro,Sao Paulo,SP,Casa,7791.7
+508,Cliente 508,34.0,F,Rio de janeiro,RJ,Casa,3947.41
+509,Cliente 509,57.0,F,Belo Horizonte,MG,Apartamento,1796.37
+510,Cliente 510,50.0,F,Rio de janeiro,RJ,Casa,1948.19
+511,Cliente 511,26.0,M,Rio de janeiro,RJ,Casa,"4419,76"
+512,Cliente 512,60.0,F,Rio de Janeiro,RJ,Apartamento,4078.2
+513,Cliente 513,71.0,F,São Paulo,SP,Casa,3073.56
+514,Cliente 514,65.0,M,São Paulo,SP,KITNET,4630.11
+515,Cliente 515,56.0,F,Rio de janeiro,RJ,KITNET,894.0
+516,Cliente 516,46.0,F,Curitiba,PR,Apartamento,4631.09
+517,Cliente 517,59.0,F,Recife,PE,Casa,3856.64
+518,Cliente 518,72.0,M,Sao Paulo,SP,Apartamento,2006.08
+519,Cliente 519,43.0,F,Curitiba,PR,Casa,1350.01
+520,Cliente 520,52.0,M,Salvador,BA,Casa,3681.99
+521,Cliente 521,67.0,M,Recife,PE,Casa,5610.86
+522,Cliente 522,42.0,M,Rio de janeiro,RJ,KITNET,3157.86
+523,Cliente 523,,M,Salvador,BA,Casa,2220.97
+524,Cliente 524,30.0,F,Curitiba,PR,Apartamento,3786.93
+525,Cliente 525,77.0,F,Salvador,BA,Apartamento,6231.31
+526,Cliente 526,75.0,M,Rio de janeiro,RJ,Casa,4146.95
+527,Cliente 527,24.0,F,Rio de Janeiro,RJ,Casa,4309.1
+528,Cliente 528,74.0,F,São Paulo,SP,,5334.2
+529,Cliente 529,53.0,F,Sao Paulo,SP,Apartamento,4208.84
+530,Cliente 530,62.0,M,Salvador,BA,Apartamento,2328.55
+531,Cliente 531,37.0,F,Rio de janeiro,RJ,Casa,883.15
+532,Cliente 532,18.0,,Rio de Janeiro,RJ,Casa,2117.52
+533,Cliente 533,25.0,F,Porto Alegre,RS,Casa,1842.91
+534,Cliente 534,63.0,M,Curitiba,PR,Casa,4488.96
+535,Cliente 535,33.0,M,São Paulo,SP,Casa,4697.52
+536,Cliente 536,31.0,F,Porto Alegre,RS,Apartamento,3763.36
+537,Cliente 537,29.0,Outro,Rio de janeiro,RJ,Casa,1596.96
+538,Cliente 538,68.0,F,Sao Paulo,SP,Casa,6179.9
+539,Cliente 539,40.0,F,Curitiba,PR,Apartamento,"2875,68"
+540,Cliente 540,,M,Rio de Janeiro,RJ,Apartamento,4405.22
+541,Cliente 541,45.0,F,Curitiba,PR,Casa,3573.99
+542,Cliente 542,51.0,F,Porto Alegre,RS,Apartamento,3813.0
+543,Cliente 543,19.0,M,Porto Alegre,RS,Casa,4352.28
+544,Cliente 544,49.0,F,Recife,PE,Casa,2455.97
+545,Cliente 545,40.0,,Fortaleza,CE,Casa,5458.1
+546,Cliente 546,39.0,M,Curitiba,PR,Apartamento,1130.74
+547,Cliente 547,68.0,F,Recife,PE,Casa,1942.17
+548,Cliente 548,42.0,M,Porto Alegre,RS,Casa,5438.64
+549,Cliente 549,75.0,F,Salvador,BA,Casa,4385.01
+550,Cliente 550,79.0,F,Porto Alegre,RS,Apartamento,7310.59
+551,Cliente 551,78.0,F,Curitiba,PR,Casa,3602.53
+552,Cliente 552,39.0,F,Rio de Janeiro,RJ,Casa,"6050,64"
+553,Cliente 553,75.0,M,Curitiba,PR,Casa,1292.0
+554,Cliente 554,75.0,Outro,Curitiba,PR,Casa,1379.73
+555,Cliente 555,,F,Belo Horizonte,MG,Apartamento,4843.29
+556,Cliente 556,66.0,M,Rio de janeiro,RJ,Apartamento,"889,45"
+557,Cliente 557,69.0,F,Belo Horizonte,MG,Casa,3203.95
+558,Cliente 558,59.0,F,Porto Alegre,RS,Casa,5250.81
+559,Cliente 559,23.0,M,Curitiba,PR,Casa,4251.76
+560,Cliente 560,32.0,F,Rio de janeiro,RJ,Casa,3516.64
+561,Cliente 561,71.0,Outro,Belo Horizonte,MG,Casa,2826.34
+562,Cliente 562,60.0,M,Curitiba,PR,Apartamento,3803.34
+563,Cliente 563,77.0,,Sao Paulo,SP,,4365.87
+564,Cliente 564,54.0,M,Belo Horizonte,MG,,2508.66
+565,Cliente 565,50.0,M,Rio de janeiro,RJ,KITNET,4057.6
+566,Cliente 566,25.0,M,Belo Horizonte,MG,Apartamento,5117.65
+567,Cliente 567,70.0,F,Fortaleza,CE,Apartamento,3166.28
+568,Cliente 568,77.0,F,Fortaleza,CE,Casa,3602.18
+569,Cliente 569,61.0,M,Porto Alegre,RS,Apartamento,4225.67
+570,Cliente 570,61.0,M,Sao Paulo,SP,Casa,4327.0
+571,Cliente 571,22.0,F,Rio de Janeiro,RJ,Casa,4817.68
+572,Cliente 572,56.0,M,Rio de Janeiro,RJ,Apartamento,1978.44
+573,Cliente 573,21.0,F,Rio de janeiro,RJ,Casa,2706.62
+574,Cliente 574,23.0,F,Salvador,BA,Casa,2762.18
+575,Cliente 575,62.0,F,Rio de Janeiro,RJ,KITNET,2144.13
+576,Cliente 576,49.0,,Rio de janeiro,RJ,Casa,802.38
+577,Cliente 577,69.0,M,Sao Paulo,SP,Casa,949.0
+578,Cliente 578,47.0,,Salvador,BA,KITNET,5293.18
+579,Cliente 579,64.0,F,Salvador,BA,Apartamento,1169.16
+580,Cliente 580,52.0,F,Fortaleza,CE,Apartamento,5849.76
+581,Cliente 581,72.0,M,Porto Alegre,RS,Casa,4609.11
+582,Cliente 582,57.0,F,Curitiba,PR,Casa,2891.47
+583,Cliente 583,69.0,M,Salvador,BA,KITNET,4424.63
+584,Cliente 584,33.0,M,São Paulo,SP,Apartamento,4137.7
+585,Cliente 585,30.0,M,Rio de janeiro,RJ,Apartamento,1847.34
+586,Cliente 586,67.0,F,Salvador,BA,Casa,3477.53
+587,Cliente 587,77.0,F,Salvador,BA,Casa,2030.24
+588,Cliente 588,59.0,F,Recife,PE,,4481.19
+589,Cliente 589,47.0,F,São Paulo,SP,Casa,2427.17
+590,Cliente 590,36.0,M,Recife,PE,Apartamento,3355.06
+591,Cliente 591,34.0,F,Salvador,BA,Casa,3290.3
+592,Cliente 592,73.0,M,Curitiba,PR,Apartamento,3682.37
+593,Cliente 593,36.0,F,São Paulo,SP,KITNET,5993.83
+594,Cliente 594,45.0,F,Fortaleza,CE,Apartamento,3138.56
+595,Cliente 595,75.0,F,Belo Horizonte,MG,Casa,5326.89
+596,Cliente 596,72.0,F,Salvador,BA,Apartamento,4220.0
+597,Cliente 597,43.0,M,Salvador,BA,Apartamento,5627.6
+598,Cliente 598,,F,Porto Alegre,RS,Casa,2992.35
+599,Cliente 599,43.0,F,Porto Alegre,RS,KITNET,4544.2
+600,Cliente 600,70.0,F,Recife,PE,Apartamento,3411.1
+601,Cliente 601,79.0,M,Rio de janeiro,RJ,KITNET,822.0
+602,Cliente 602,40.0,F,Curitiba,PR,Apartamento,1865.23
+603,Cliente 603,26.0,F,Rio de janeiro,RJ,Casa,4373.57
+604,Cliente 604,29.0,M,Belo Horizonte,MG,Casa,4274.4
+605,Cliente 605,70.0,M,Salvador,BA,Casa,1557.53
+606,Cliente 606,18.0,F,Curitiba,PR,KITNET,3830.55
+607,Cliente 607,75.0,F,São Paulo,SP,Apartamento,4254.89
+608,Cliente 608,75.0,M,Salvador,BA,Apartamento,3448.0
+609,Cliente 609,18.0,M,Fortaleza,CE,Casa,4593.23
+610,Cliente 610,64.0,M,Salvador,BA,Casa,4388.83
+611,Cliente 611,51.0,M,Rio de Janeiro,RJ,Apartamento,3447.28
+612,Cliente 612,49.0,F,Curitiba,PR,Casa,2733.76
+613,Cliente 613,79.0,F,Rio de Janeiro,RJ,Casa,5063.81
+614,Cliente 614,71.0,F,Recife,PE,Apartamento,4194.74
+615,Cliente 615,65.0,F,Porto Alegre,RS,Casa,1427.85
+616,Cliente 616,42.0,M,São Paulo,SP,Casa,3831.35
+617,Cliente 617,57.0,F,Salvador,BA,Casa,1773.46
+618,Cliente 618,62.0,F,Recife,PE,Casa,2053.15
+619,Cliente 619,70.0,,Recife,PE,,2522.13
+620,Cliente 620,18.0,F,São Paulo,SP,Casa,3567.31
+621,Cliente 621,33.0,M,Sao Paulo,SP,Casa,4061.73
+622,Cliente 622,78.0,F,Salvador,BA,Casa,2886.59
+623,Cliente 623,56.0,M,Rio de Janeiro,RJ,Apartamento,2952.23
+624,Cliente 624,22.0,F,Curitiba,PR,Casa,2745.13
+625,Cliente 625,39.0,M,Rio de Janeiro,RJ,Apartamento,5071.27
+626,Cliente 626,46.0,M,São Paulo,SP,Casa,1014.0
+627,Cliente 627,72.0,F,Belo Horizonte,MG,Casa,3036.98
+628,Cliente 628,20.0,M,Salvador,BA,Casa,5817.48
+629,Cliente 629,29.0,F,Fortaleza,CE,Apartamento,4275.85
+630,Cliente 630,43.0,M,Rio de janeiro,RJ,KITNET,5400.27
+631,Cliente 631,33.0,F,Curitiba,PR,Casa,1198.0
+632,Cliente 632,68.0,F,Fortaleza,CE,Apartamento,1636.63
+633,Cliente 633,54.0,F,Fortaleza,CE,KITNET,4271.07
+634,Cliente 634,39.0,M,Salvador,BA,Casa,5825.95
+635,Cliente 635,74.0,M,Belo Horizonte,MG,Apartamento,1788.15
+636,Cliente 636,46.0,M,Salvador,BA,Casa,2918.36
+637,Cliente 637,31.0,M,Belo Horizonte,MG,KITNET,4102.2
+638,Cliente 638,45.0,F,Sao Paulo,SP,Apartamento,1321.25
+639,Cliente 639,22.0,Outro,Curitiba,PR,KITNET,4282.54
+640,Cliente 640,64.0,F,São Paulo,SP,Apartamento,1209.0
+641,Cliente 641,66.0,F,Porto Alegre,RS,Casa,4238.36
+642,Cliente 642,47.0,F,São Paulo,SP,KITNET,2007.37
+643,Cliente 643,63.0,F,Fortaleza,CE,Casa,"2828,6"
+644,Cliente 644,79.0,M,Rio de janeiro,RJ,Casa,4477.83
+645,Cliente 645,69.0,Outro,Sao Paulo,SP,Apartamento,4170.88
+646,Cliente 646,22.0,F,São Paulo,SP,Apartamento,3488.03
+647,Cliente 647,29.0,F,São Paulo,SP,KITNET,4953.56
+648,Cliente 648,33.0,M,Rio de janeiro,RJ,Casa,949.74
+649,Cliente 649,43.0,M,Rio de janeiro,RJ,Apartamento,3806.62
+650,Cliente 650,43.0,F,São Paulo,SP,Apartamento,2314.74
+651,Cliente 651,65.0,F,Recife,PE,Casa,4877.05
+652,Cliente 652,38.0,F,Rio de Janeiro,RJ,Casa,4530.6
+653,Cliente 653,56.0,M,Rio de janeiro,RJ,Casa,4585.02
+654,Cliente 654,53.0,,Rio de Janeiro,RJ,Casa,5968.07
+655,Cliente 655,50.0,M,Curitiba,PR,,18107.0
+656,Cliente 656,79.0,M,Sao Paulo,SP,Apartamento,3263.87
+657,Cliente 657,47.0,M,Recife,PE,Apartamento,3498.1
+658,Cliente 658,54.0,F,Rio de janeiro,RJ,,4401.41
+659,Cliente 659,40.0,Outro,Curitiba,PR,Casa,3704.26
+660,Cliente 660,75.0,M,Belo Horizonte,MG,Apartamento,4557.76
+661,Cliente 661,27.0,F,Fortaleza,CE,Casa,930.0
+662,Cliente 662,71.0,M,Rio de Janeiro,RJ,KITNET,6321.21
+663,Cliente 663,,Outro,Recife,PE,Casa,3591.54
+664,Cliente 664,53.0,F,Recife,PE,KITNET,1066.3
+665,Cliente 665,51.0,F,Sao Paulo,SP,Casa,2129.31
+666,Cliente 666,69.0,M,Rio de Janeiro,RJ,Casa,947.0
+667,Cliente 667,48.0,,Belo Horizonte,MG,Apartamento,1864.65
+668,Cliente 668,27.0,F,Sao Paulo,SP,Casa,3286.63
+669,Cliente 669,75.0,M,Recife,PE,Apartamento,5772.07
+670,Cliente 670,36.0,F,São Paulo,SP,Casa,4116.01
+671,Cliente 671,75.0,M,Belo Horizonte,MG,Apartamento,3849.29
+672,Cliente 672,49.0,F,Recife,PE,Casa,1797.34
+673,Cliente 673,18.0,M,Salvador,BA,Casa,2263.27
+674,Cliente 674,73.0,F,Salvador,BA,Casa,2379.61
+675,Cliente 675,22.0,F,Rio de janeiro,RJ,Casa,2440.81
+676,Cliente 676,62.0,M,Sao Paulo,SP,Casa,2972.69
+677,Cliente 677,21.0,M,Recife,PE,Casa,3085.98
+678,Cliente 678,33.0,M,Rio de janeiro,RJ,Casa,2991.38
+679,Cliente 679,41.0,F,Sao Paulo,SP,Casa,2493.01
+680,Cliente 680,33.0,M,Belo Horizonte,MG,Apartamento,3702.58
+681,Cliente 681,72.0,F,Recife,PE,KITNET,3028.38
+682,Cliente 682,19.0,M,Sao Paulo,SP,Casa,1106.65
+683,Cliente 683,66.0,M,Recife,PE,Apartamento,16161.0
+684,Cliente 684,45.0,F,São Paulo,SP,Apartamento,3324.85
+685,Cliente 685,49.0,M,Fortaleza,CE,Casa,1130.56
+686,Cliente 686,44.0,Outro,Porto Alegre,RS,Apartamento,2613.05
+687,Cliente 687,37.0,F,Salvador,BA,Casa,4395.61
+688,Cliente 688,41.0,F,Fortaleza,CE,Apartamento,1795.33
+689,Cliente 689,29.0,F,Sao Paulo,SP,Casa,1636.73
+690,Cliente 690,67.0,F,Porto Alegre,RS,Apartamento,3012.67
+691,Cliente 691,52.0,M,Fortaleza,CE,Apartamento,4434.4
+692,Cliente 692,77.0,M,São Paulo,SP,Casa,6215.49
+693,Cliente 693,50.0,M,Salvador,BA,Casa,4488.4
+694,Cliente 694,50.0,F,Curitiba,PR,,5127.24
+695,Cliente 695,78.0,M,Sao Paulo,SP,Casa,4020.05
+696,Cliente 696,68.0,F,Salvador,BA,Apartamento,2472.33
+697,Cliente 697,60.0,,Fortaleza,CE,KITNET,"4477,57"
+698,Cliente 698,54.0,F,Curitiba,PR,Apartamento,"3371,59"
+699,Cliente 699,29.0,F,Rio de Janeiro,RJ,Apartamento,4065.55
+700,Cliente 700,20.0,M,Salvador,BA,Apartamento,2080.96
+701,Cliente 701,18.0,F,Rio de Janeiro,RJ,KITNET,4199.67
+702,Cliente 702,50.0,F,Porto Alegre,RS,Casa,3319.24
+703,Cliente 703,57.0,M,Belo Horizonte,MG,Casa,3846.89
+704,Cliente 704,27.0,M,Recife,PE,Casa,3372.39
+705,Cliente 705,60.0,Outro,Porto Alegre,RS,,3084.2
+706,Cliente 706,61.0,F,Curitiba,PR,Apartamento,4227.04
+707,Cliente 707,46.0,F,Curitiba,PR,Casa,2890.86
+708,Cliente 708,30.0,F,Salvador,BA,KITNET,1116.97
+709,Cliente 709,29.0,F,Recife,PE,Casa,1180.0
+710,Cliente 710,48.0,F,Belo Horizonte,MG,Casa,3776.62
+711,Cliente 711,63.0,M,Fortaleza,CE,Apartamento,2829.17
+712,Cliente 712,19.0,M,Rio de janeiro,RJ,Casa,906.35
+713,Cliente 713,,M,Sao Paulo,SP,KITNET,3659.8
+714,Cliente 714,68.0,F,Belo Horizonte,MG,Casa,3359.19
+715,Cliente 715,67.0,F,Curitiba,PR,Apartamento,2750.58
+716,Cliente 716,52.0,F,Rio de janeiro,RJ,Apartamento,3870.21
+717,Cliente 717,40.0,M,Curitiba,PR,Casa,5472.64
+718,Cliente 718,34.0,F,Recife,PE,,5426.89
+719,Cliente 719,43.0,F,Recife,PE,Apartamento,3715.65
+720,Cliente 720,25.0,F,Salvador,BA,Casa,3372.93
+721,Cliente 721,46.0,F,Fortaleza,CE,Casa,3736.6
+722,Cliente 722,43.0,M,São Paulo,SP,KITNET,3963.51
+723,Cliente 723,27.0,F,Curitiba,PR,Casa,3097.55
+724,Cliente 724,43.0,M,Fortaleza,CE,Casa,"3761,81"
+725,Cliente 725,79.0,M,Rio de Janeiro,RJ,Casa,1139.56
+726,Cliente 726,51.0,F,Curitiba,PR,Casa,3622.02
+727,Cliente 727,68.0,F,Rio de janeiro,RJ,Apartamento,4215.22
+728,Cliente 728,58.0,,Fortaleza,CE,Casa,2765.24
+729,Cliente 729,24.0,F,Belo Horizonte,MG,Casa,3356.79
+730,Cliente 730,21.0,F,Fortaleza,CE,Casa,1832.74
+731,Cliente 731,75.0,F,Belo Horizonte,MG,Casa,1624.53
+732,Cliente 732,70.0,F,Recife,PE,KITNET,3816.22
+733,Cliente 733,67.0,M,Belo Horizonte,MG,Casa,2405.66
+734,Cliente 734,62.0,M,Porto Alegre,RS,,834.76
+735,Cliente 735,28.0,M,São Paulo,SP,Casa,1832.33
+736,Cliente 736,46.0,F,Porto Alegre,RS,Casa,2050.43
+737,Cliente 737,73.0,M,Rio de janeiro,RJ,KITNET,4661.87
+738,Cliente 738,53.0,M,Sao Paulo,SP,Casa,3768.67
+739,Cliente 739,42.0,M,Rio de janeiro,RJ,Apartamento,2192.6
+740,Cliente 740,38.0,,Salvador,BA,,2618.35
+741,Cliente 741,78.0,M,Curitiba,PR,Casa,5468.13
+742,Cliente 742,74.0,F,Porto Alegre,RS,Casa,4904.15
+743,Cliente 743,53.0,M,Rio de janeiro,RJ,Apartamento,1822.91
+744,Cliente 744,27.0,F,Curitiba,PR,Casa,5245.29
+745,Cliente 745,,M,Curitiba,PR,Casa,3379.06
+746,Cliente 746,26.0,M,Curitiba,PR,Casa,4699.42
+747,Cliente 747,41.0,F,São Paulo,SP,Casa,3255.04
+748,Cliente 748,52.0,M,Sao Paulo,SP,Apartamento,5278.74
+749,Cliente 749,66.0,M,Belo Horizonte,MG,Casa,1760.57
+750,Cliente 750,,M,Rio de janeiro,RJ,Casa,3116.82
+751,Cliente 751,65.0,M,Salvador,BA,Apartamento,5324.69
+752,Cliente 752,53.0,M,Rio de janeiro,RJ,Casa,908.0
+753,Cliente 753,35.0,M,Belo Horizonte,MG,Casa,3430.91
+754,Cliente 754,66.0,F,Recife,PE,Apartamento,2909.68
+755,Cliente 755,56.0,F,Fortaleza,CE,Casa,4526.99
+756,Cliente 756,49.0,F,Curitiba,PR,Apartamento,5104.87
+757,Cliente 757,41.0,M,Porto Alegre,RS,KITNET,4595.43
+758,Cliente 758,40.0,Outro,Porto Alegre,RS,Casa,3861.5
+759,Cliente 759,79.0,M,Fortaleza,CE,Apartamento,3560.85
+760,Cliente 760,49.0,M,Salvador,BA,Casa,2985.93
+761,Cliente 761,54.0,F,Porto Alegre,RS,Casa,3814.96
+762,Cliente 762,29.0,M,Fortaleza,CE,KITNET,5689.48
+763,Cliente 763,66.0,M,Fortaleza,CE,KITNET,2254.23
+764,Cliente 764,72.0,F,Curitiba,PR,Casa,2896.88
+765,Cliente 765,30.0,F,Belo Horizonte,MG,Apartamento,3386.74
+766,Cliente 766,40.0,F,Belo Horizonte,MG,KITNET,5001.4
+767,Cliente 767,42.0,F,Belo Horizonte,MG,,3834.95
+768,Cliente 768,52.0,,Rio de janeiro,RJ,Apartamento,4975.22
+769,Cliente 769,58.0,M,Sao Paulo,SP,Casa,5051.16
+770,Cliente 770,47.0,M,Rio de janeiro,RJ,Casa,4388.06
+771,Cliente 771,34.0,M,Fortaleza,CE,,1904.01
+772,Cliente 772,66.0,M,Sao Paulo,SP,Casa,5991.64
+773,Cliente 773,79.0,M,Porto Alegre,RS,Apartamento,5618.57
+774,Cliente 774,37.0,Outro,Rio de Janeiro,RJ,Casa,3595.31
+775,Cliente 775,65.0,F,Rio de janeiro,RJ,Casa,1427.34
+776,Cliente 776,42.0,F,Rio de janeiro,RJ,Casa,1159.25
+777,Cliente 777,39.0,M,Curitiba,PR,,3881.47
+778,Cliente 778,30.0,F,Belo Horizonte,MG,Casa,2447.37
+779,Cliente 779,76.0,,Recife,PE,Apartamento,924.22
+780,Cliente 780,36.0,F,Porto Alegre,RS,Casa,1130.95
+781,Cliente 781,66.0,M,Recife,PE,Casa,2795.03
+782,Cliente 782,53.0,F,Belo Horizonte,MG,Casa,3792.39
+783,Cliente 783,29.0,M,Sao Paulo,SP,Apartamento,28091.0
+784,Cliente 784,78.0,M,Rio de janeiro,RJ,Casa,4226.33
+785,Cliente 785,58.0,M,Belo Horizonte,MG,Casa,2927.89
+786,Cliente 786,36.0,F,Rio de janeiro,RJ,Casa,4069.92
+787,Cliente 787,29.0,F,Fortaleza,CE,Casa,3935.85
+788,Cliente 788,26.0,M,Rio de Janeiro,RJ,,4609.32
+789,Cliente 789,24.0,M,Belo Horizonte,MG,KITNET,3440.09
+790,Cliente 790,45.0,F,São Paulo,SP,Casa,5054.3
+791,Cliente 791,31.0,M,Porto Alegre,RS,Apartamento,4736.68
+792,Cliente 792,48.0,M,Rio de Janeiro,RJ,KITNET,3624.05
+793,Cliente 793,69.0,M,Belo Horizonte,MG,Casa,3321.16
+794,Cliente 794,36.0,F,São Paulo,SP,Apartamento,4879.62
+795,Cliente 795,75.0,M,São Paulo,SP,KITNET,2429.79
+796,Cliente 796,64.0,M,Porto Alegre,RS,Casa,1240.08
+797,Cliente 797,33.0,M,Belo Horizonte,MG,Casa,28817.0
+798,Cliente 798,70.0,Outro,Rio de Janeiro,RJ,,2305.44
+799,Cliente 799,22.0,F,Curitiba,PR,Apartamento,4489.48
+800,Cliente 800,52.0,F,Sao Paulo,SP,Casa,2865.8
+801,Cliente 801,29.0,M,São Paulo,SP,Casa,3806.77
+802,Cliente 802,42.0,F,Recife,PE,Casa,2757.06
+803,Cliente 803,69.0,M,Belo Horizonte,MG,Apartamento,2768.96
+804,Cliente 804,76.0,F,Curitiba,PR,Apartamento,1961.8
+805,Cliente 805,38.0,Outro,Curitiba,PR,,3362.16
+806,Cliente 806,,F,Curitiba,PR,Casa,3237.25
+807,Cliente 807,70.0,F,Fortaleza,CE,Apartamento,4119.0
+808,Cliente 808,40.0,F,Rio de Janeiro,RJ,Apartamento,3931.55
+809,Cliente 809,33.0,M,São Paulo,SP,Casa,3204.28
+810,Cliente 810,74.0,Outro,Belo Horizonte,MG,Casa,1240.87
+811,Cliente 811,56.0,M,Curitiba,PR,,5105.87
+812,Cliente 812,,F,Sao Paulo,SP,KITNET,3372.43
+813,Cliente 813,70.0,M,Sao Paulo,SP,Casa,"3619,46"
+814,Cliente 814,59.0,M,Salvador,BA,Apartamento,5900.74
+815,Cliente 815,75.0,M,Curitiba,PR,Casa,4862.33
+816,Cliente 816,56.0,M,Sao Paulo,SP,Apartamento,4169.67
+817,Cliente 817,31.0,F,Recife,PE,Apartamento,3496.54
+818,Cliente 818,48.0,F,São Paulo,SP,Apartamento,3482.53
+819,Cliente 819,,M,Rio de Janeiro,RJ,,3860.17
+820,Cliente 820,22.0,M,Rio de Janeiro,RJ,Apartamento,4110.36
+821,Cliente 821,52.0,F,Recife,PE,Casa,6067.1
+822,Cliente 822,40.0,M,Belo Horizonte,MG,Apartamento,"7209,9"
+823,Cliente 823,46.0,F,Sao Paulo,SP,Casa,3935.39
+824,Cliente 824,60.0,F,Rio de janeiro,RJ,Casa,1351.0
+825,Cliente 825,28.0,F,Sao Paulo,SP,Casa,2072.38
+826,Cliente 826,35.0,F,Porto Alegre,RS,Casa,6217.25
+827,Cliente 827,64.0,M,Salvador,BA,Apartamento,4577.98
+828,Cliente 828,29.0,F,Recife,PE,Casa,4139.07
+829,Cliente 829,26.0,M,Recife,PE,Apartamento,3249.74
+830,Cliente 830,27.0,M,Recife,PE,Apartamento,1716.47
+831,Cliente 831,75.0,F,Rio de janeiro,RJ,Casa,6016.68
+832,Cliente 832,61.0,M,Porto Alegre,RS,Apartamento,2265.18
+833,Cliente 833,34.0,F,Salvador,BA,Casa,"4593,97"
+834,Cliente 834,78.0,F,Curitiba,PR,Casa,1548.95
+835,Cliente 835,55.0,F,Curitiba,PR,Apartamento,3176.98
+836,Cliente 836,24.0,Outro,Belo Horizonte,MG,Casa,4989.44
+837,Cliente 837,63.0,M,Recife,PE,Casa,3125.46
+838,Cliente 838,30.0,M,Salvador,BA,Apartamento,"2947,33"
+839,Cliente 839,57.0,F,Belo Horizonte,MG,Apartamento,3515.95
+840,Cliente 840,59.0,M,Recife,PE,Casa,1496.0
+841,Cliente 841,26.0,F,Recife,PE,,1213.78
+842,Cliente 842,67.0,F,São Paulo,SP,Apartamento,"4571,35"
+843,Cliente 843,44.0,F,Recife,PE,KITNET,2866.69
+844,Cliente 844,,M,Sao Paulo,SP,Casa,4559.73
+845,Cliente 845,19.0,M,Rio de janeiro,RJ,Apartamento,5177.27
+846,Cliente 846,22.0,M,Rio de janeiro,RJ,KITNET,5297.96
+847,Cliente 847,46.0,M,Belo Horizonte,MG,Apartamento,29651.0
+848,Cliente 848,54.0,F,Sao Paulo,SP,Apartamento,2453.26
+849,Cliente 849,55.0,M,Rio de Janeiro,RJ,Casa,4306.38
+850,Cliente 850,36.0,M,Rio de janeiro,RJ,Casa,4329.5
+851,Cliente 851,25.0,M,Rio de Janeiro,RJ,Casa,6874.16
+852,Cliente 852,65.0,F,Porto Alegre,RS,Casa,2138.58
+853,Cliente 853,62.0,F,Sao Paulo,SP,KITNET,5252.25
+854,Cliente 854,18.0,M,Rio de Janeiro,RJ,Casa,4058.41
+855,Cliente 855,39.0,M,São Paulo,SP,,1039.65
+856,Cliente 856,69.0,M,Salvador,BA,,2678.28
+857,Cliente 857,34.0,M,Curitiba,PR,Casa,3893.79
+858,Cliente 858,24.0,F,Recife,PE,Casa,943.45
+859,Cliente 859,42.0,F,Curitiba,PR,KITNET,920.0
+860,Cliente 860,62.0,M,Belo Horizonte,MG,,858.14
+861,Cliente 861,21.0,M,São Paulo,SP,Casa,3888.7
+862,Cliente 862,53.0,,Rio de janeiro,RJ,Casa,2773.0
+863,Cliente 863,23.0,F,Belo Horizonte,MG,Apartamento,2570.07
+864,Cliente 864,77.0,F,Belo Horizonte,MG,Apartamento,2621.57
+865,Cliente 865,48.0,M,Curitiba,PR,Casa,1363.82
+866,Cliente 866,36.0,F,Sao Paulo,SP,Apartamento,2815.4
+867,Cliente 867,78.0,M,Rio de janeiro,RJ,Casa,1094.0
+868,Cliente 868,61.0,F,Belo Horizonte,MG,Casa,5281.46
+869,Cliente 869,71.0,,Recife,PE,Casa,6038.49
+870,Cliente 870,56.0,M,Rio de janeiro,RJ,Casa,919.0
+871,Cliente 871,44.0,M,Salvador,BA,Casa,2796.31
+872,Cliente 872,27.0,M,Sao Paulo,SP,Casa,2893.98
+873,Cliente 873,43.0,M,Porto Alegre,RS,Casa,3238.27
+874,Cliente 874,36.0,M,Rio de janeiro,RJ,Casa,5002.3
+875,Cliente 875,56.0,M,Rio de Janeiro,RJ,Casa,2800.68
+876,Cliente 876,,F,Belo Horizonte,MG,,3367.62
+877,Cliente 877,20.0,F,Rio de Janeiro,RJ,Casa,7968.58
+878,Cliente 878,62.0,M,Sao Paulo,SP,Casa,3333.06
+879,Cliente 879,30.0,Outro,São Paulo,SP,Apartamento,6149.36
+880,Cliente 880,67.0,M,Rio de Janeiro,RJ,,4252.98
+881,Cliente 881,45.0,,Belo Horizonte,MG,Casa,2669.44
+882,Cliente 882,,M,Recife,PE,Apartamento,2418.9
+883,Cliente 883,75.0,F,Recife,PE,Apartamento,3489.09
+884,Cliente 884,37.0,F,Belo Horizonte,MG,Apartamento,"1810,29"
+885,Cliente 885,45.0,F,Curitiba,PR,Casa,2204.2
+886,Cliente 886,25.0,,Sao Paulo,SP,Apartamento,2865.41
+887,Cliente 887,78.0,M,Curitiba,PR,Casa,3940.02
+888,Cliente 888,58.0,,Belo Horizonte,MG,Apartamento,6239.0
+889,Cliente 889,56.0,M,Salvador,BA,Apartamento,2772.57
+890,Cliente 890,18.0,M,Belo Horizonte,MG,Casa,4192.28
+891,Cliente 891,20.0,M,Porto Alegre,RS,Apartamento,1058.15
+892,Cliente 892,30.0,F,Porto Alegre,RS,Casa,5090.43
+893,Cliente 893,45.0,M,Curitiba,PR,Apartamento,20426.0
+894,Cliente 894,,F,Curitiba,PR,Casa,4697.58
+895,Cliente 895,74.0,F,Sao Paulo,SP,Casa,3378.61
+896,Cliente 896,77.0,F,Recife,PE,Casa,3319.02
+897,Cliente 897,66.0,F,São Paulo,SP,,3049.6
+898,Cliente 898,42.0,M,Salvador,BA,Casa,1548.12
+899,Cliente 899,73.0,M,Fortaleza,CE,Casa,1627.59
+900,Cliente 900,50.0,M,Recife,PE,Casa,4754.78
+901,Cliente 901,55.0,M,Belo Horizonte,MG,Apartamento,3517.91
+902,Cliente 902,70.0,M,São Paulo,SP,Apartamento,3038.66
+903,Cliente 903,23.0,M,Sao Paulo,SP,Casa,4165.1
+904,Cliente 904,75.0,M,Rio de janeiro,RJ,Casa,3651.97
+905,Cliente 905,61.0,,Recife,PE,Casa,2310.6
+906,Cliente 906,62.0,F,Recife,PE,Casa,7191.49
+907,Cliente 907,49.0,M,São Paulo,SP,Casa,4611.13
+908,Cliente 908,62.0,F,Belo Horizonte,MG,Apartamento,3690.6
+909,Cliente 909,78.0,M,Recife,PE,Casa,2729.58
+910,Cliente 910,64.0,M,São Paulo,SP,Casa,"4929,14"
+911,Cliente 911,38.0,F,Rio de Janeiro,RJ,Casa,2318.65
+912,Cliente 912,,F,Curitiba,PR,,2192.34
+913,Cliente 913,71.0,M,Porto Alegre,RS,,6039.99
+914,Cliente 914,38.0,,Curitiba,PR,Apartamento,3546.01
+915,Cliente 915,28.0,F,Belo Horizonte,MG,Casa,2354.98
+916,Cliente 916,77.0,F,Rio de Janeiro,RJ,Casa,3508.53
+917,Cliente 917,54.0,F,Recife,PE,Casa,4775.28
+918,Cliente 918,53.0,F,Salvador,BA,Casa,4431.88
+919,Cliente 919,52.0,M,Curitiba,PR,Apartamento,4961.39
+920,Cliente 920,36.0,M,Sao Paulo,SP,Apartamento,1625.67
+921,Cliente 921,37.0,M,Curitiba,PR,KITNET,4923.72
+922,Cliente 922,74.0,F,Fortaleza,CE,Apartamento,3231.41
+923,Cliente 923,35.0,F,Salvador,BA,Casa,3633.65
+924,Cliente 924,64.0,M,Fortaleza,CE,Apartamento,5314.24
+925,Cliente 925,58.0,,Fortaleza,CE,Casa,4554.09
+926,Cliente 926,66.0,Outro,Sao Paulo,SP,Casa,4026.58
+927,Cliente 927,31.0,F,Rio de Janeiro,RJ,Apartamento,1255.0
+928,Cliente 928,32.0,F,Fortaleza,CE,Casa,3431.75
+929,Cliente 929,48.0,F,Salvador,BA,Casa,2322.99
+930,Cliente 930,,M,Curitiba,PR,Casa,4566.57
+931,Cliente 931,70.0,F,Belo Horizonte,MG,Apartamento,4986.44
+932,Cliente 932,71.0,M,Salvador,BA,Apartamento,3046.95
+933,Cliente 933,71.0,F,Porto Alegre,RS,Casa,2499.44
+934,Cliente 934,20.0,M,São Paulo,SP,Apartamento,5834.45
+935,Cliente 935,33.0,F,Curitiba,PR,Casa,2595.28
+936,Cliente 936,40.0,Outro,Sao Paulo,SP,Casa,1708.19
+937,Cliente 937,74.0,M,Fortaleza,CE,Apartamento,2250.99
+938,Cliente 938,28.0,F,Belo Horizonte,MG,Apartamento,2667.5
+939,Cliente 939,29.0,,Fortaleza,CE,,2207.96
+940,Cliente 940,27.0,F,Sao Paulo,SP,Casa,4768.09
+941,Cliente 941,49.0,F,Salvador,BA,Apartamento,"1329,0"
+942,Cliente 942,33.0,F,Porto Alegre,RS,Apartamento,2176.16
+943,Cliente 943,25.0,M,São Paulo,SP,KITNET,3428.75
+944,Cliente 944,55.0,M,Porto Alegre,RS,Casa,3815.37
+945,Cliente 945,29.0,M,Curitiba,PR,Apartamento,"6037,75"
+946,Cliente 946,41.0,F,Salvador,BA,Apartamento,5817.86
+947,Cliente 947,45.0,M,São Paulo,SP,Casa,1098.89
+948,Cliente 948,70.0,F,Rio de janeiro,RJ,Casa,968.0
+949,Cliente 949,25.0,F,Porto Alegre,RS,Casa,3537.46
+950,Cliente 950,75.0,F,Fortaleza,CE,Apartamento,2490.22
+951,Cliente 951,45.0,F,Recife,PE,KITNET,1711.96
+952,Cliente 952,53.0,,Curitiba,PR,Apartamento,3524.18
+953,Cliente 953,43.0,M,Curitiba,PR,Apartamento,3846.05
+954,Cliente 954,25.0,F,São Paulo,SP,Apartamento,2241.55
+955,Cliente 955,75.0,F,Rio de janeiro,RJ,Casa,2563.87
+956,Cliente 956,77.0,F,Belo Horizonte,MG,Casa,2356.94
+957,Cliente 957,67.0,,Porto Alegre,RS,Casa,2882.76
+958,Cliente 958,45.0,M,Rio de Janeiro,RJ,Casa,4312.17
+959,Cliente 959,45.0,M,Belo Horizonte,MG,Casa,1883.14
+960,Cliente 960,54.0,F,Curitiba,PR,Apartamento,2538.97
+961,Cliente 961,58.0,M,Curitiba,PR,Casa,2901.08
+962,Cliente 962,53.0,F,Sao Paulo,SP,Casa,3489.87
+963,Cliente 963,44.0,F,São Paulo,SP,Casa,3913.98
+964,Cliente 964,71.0,M,Recife,PE,Casa,6563.39
+965,Cliente 965,34.0,F,Rio de janeiro,RJ,KITNET,4358.19
+966,Cliente 966,26.0,M,Rio de Janeiro,RJ,KITNET,4393.9
+967,Cliente 967,50.0,F,Belo Horizonte,MG,Apartamento,3100.08
+968,Cliente 968,70.0,F,Porto Alegre,RS,Casa,2030.2
+969,Cliente 969,37.0,Outro,São Paulo,SP,Apartamento,2707.68
+970,Cliente 970,30.0,M,Porto Alegre,RS,Apartamento,2434.5
+971,Cliente 971,45.0,F,Salvador,BA,Apartamento,4088.35
+972,Cliente 972,65.0,F,Sao Paulo,SP,Casa,1023.08
+973,Cliente 973,46.0,F,Rio de janeiro,RJ,Apartamento,4388.8
+974,Cliente 974,30.0,F,Sao Paulo,SP,Apartamento,3324.14
+975,Cliente 975,63.0,M,Curitiba,PR,Apartamento,4600.02
+976,Cliente 976,52.0,M,Sao Paulo,SP,Apartamento,2414.14
+977,Cliente 977,78.0,M,Rio de Janeiro,RJ,Casa,2147.95
+978,Cliente 978,23.0,F,Curitiba,PR,Apartamento,2890.0
+979,Cliente 979,,M,Belo Horizonte,MG,Casa,2854.03
+980,Cliente 980,68.0,M,Porto Alegre,RS,Apartamento,4709.52
+981,Cliente 981,,,Belo Horizonte,MG,Casa,"4695,21"
+982,Cliente 982,64.0,M,Salvador,BA,Casa,6357.53
+983,Cliente 983,42.0,,Curitiba,PR,Casa,2756.76
+984,Cliente 984,19.0,F,Curitiba,PR,Apartamento,942.0
+985,Cliente 985,27.0,F,Rio de janeiro,RJ,Casa,2885.87
+986,Cliente 986,73.0,M,Curitiba,PR,Apartamento,3845.99
+987,Cliente 987,47.0,M,Porto Alegre,RS,Apartamento,4571.8
+988,Cliente 988,67.0,F,Rio de Janeiro,RJ,Casa,3955.41
+989,Cliente 989,76.0,F,Salvador,BA,Casa,2755.58
+990,Cliente 990,62.0,F,Rio de janeiro,RJ,Casa,6071.25
+991,Cliente 991,22.0,M,Recife,PE,KITNET,1949.4
+992,Cliente 992,72.0,F,Porto Alegre,RS,Apartamento,3088.03
+993,Cliente 993,73.0,F,Rio de Janeiro,RJ,Casa,1880.14
+994,Cliente 994,50.0,F,Sao Paulo,SP,Casa,3529.37
+995,Cliente 995,71.0,F,Belo Horizonte,MG,Apartamento,5883.51
+996,Cliente 996,18.0,F,Salvador,BA,KITNET,3288.61
+997,Cliente 997,35.0,F,Fortaleza,CE,Apartamento,3297.8
+998,Cliente 998,49.0,M,Porto Alegre,RS,Apartamento,956.06
+999,Cliente 999,64.0,F,Belo Horizonte,MG,Casa,3069.51
+1000,Cliente 1000,66.0,M,São Paulo,SP,Casa,5225.73
+1001,Cliente 1001,28.0,M,Belo Horizonte,MG,Casa,3124.65
+1002,Cliente 1002,38.0,M,Belo Horizonte,MG,Casa,3023.31
+1003,Cliente 1003,43.0,M,Recife,PE,Casa,5158.57
+1004,Cliente 1004,42.0,M,Recife,PE,Casa,3029.65
+1005,Cliente 1005,39.0,M,Curitiba,PR,Casa,5438.08
+1006,Cliente 1006,76.0,F,Rio de Janeiro,RJ,KITNET,1573.04
+1007,Cliente 1007,44.0,Outro,Curitiba,PR,Apartamento,4516.78
+1008,Cliente 1008,66.0,M,Porto Alegre,RS,Apartamento,5969.49
+1009,Cliente 1009,30.0,,Curitiba,PR,Apartamento,5011.79
+1010,Cliente 1010,50.0,F,Fortaleza,CE,Casa,"836,0"
+1011,Cliente 1011,51.0,M,Fortaleza,CE,Apartamento,2542.55
+1012,Cliente 1012,58.0,M,Porto Alegre,RS,Casa,3137.07
+1013,Cliente 1013,52.0,F,Porto Alegre,RS,Apartamento,5014.93
+1014,Cliente 1014,18.0,F,Salvador,BA,Casa,1502.57
+1015,Cliente 1015,38.0,F,Curitiba,PR,,1971.59
+1016,Cliente 1016,65.0,M,Fortaleza,CE,Casa,1092.27
+1017,Cliente 1017,72.0,M,Rio de janeiro,RJ,Casa,2261.3
+1018,Cliente 1018,23.0,M,Rio de janeiro,RJ,KITNET,1622.59
+1019,Cliente 1019,45.0,M,Recife,PE,Casa,5896.86
+1020,Cliente 1020,34.0,M,Salvador,BA,Apartamento,2528.93
+1021,Cliente 1021,22.0,M,Rio de janeiro,RJ,Apartamento,4536.39
+1022,Cliente 1022,48.0,F,Salvador,BA,Apartamento,3526.95
+1023,Cliente 1023,22.0,Outro,São Paulo,SP,,3505.94
+1024,Cliente 1024,55.0,M,Fortaleza,CE,,2612.83
+1025,Cliente 1025,20.0,Outro,Curitiba,PR,Casa,4655.03
+1026,Cliente 1026,70.0,M,Salvador,BA,Apartamento,3731.52
+1027,Cliente 1027,40.0,F,Salvador,BA,Apartamento,3645.12
+1028,Cliente 1028,54.0,M,Rio de Janeiro,RJ,Apartamento,2609.87
+1029,Cliente 1029,70.0,F,Curitiba,PR,Casa,2855.34
+1030,Cliente 1030,54.0,,São Paulo,SP,Apartamento,4383.37
+1031,Cliente 1031,27.0,F,Rio de Janeiro,RJ,,3845.08
+1032,Cliente 1032,27.0,M,Porto Alegre,RS,KITNET,3685.21
+1033,Cliente 1033,36.0,F,Recife,PE,Casa,2368.94
+1034,Cliente 1034,34.0,M,Fortaleza,CE,Casa,6416.16
+1035,Cliente 1035,38.0,F,Sao Paulo,SP,Casa,2780.44
+1036,Cliente 1036,31.0,F,Curitiba,PR,Apartamento,3454.62
+1037,Cliente 1037,26.0,M,Sao Paulo,SP,Apartamento,3219.45
+1038,Cliente 1038,63.0,F,Porto Alegre,RS,Casa,6432.07
+1039,Cliente 1039,18.0,F,Curitiba,PR,Casa,3063.78
+1040,Cliente 1040,68.0,M,São Paulo,SP,Casa,2926.49
+1041,Cliente 1041,62.0,F,Rio de Janeiro,RJ,Casa,3677.47
+1042,Cliente 1042,30.0,M,Salvador,BA,KITNET,2459.69
+1043,Cliente 1043,21.0,F,Rio de Janeiro,RJ,Apartamento,3667.4
+1044,Cliente 1044,79.0,F,Sao Paulo,SP,Casa,7057.41
+1045,Cliente 1045,,F,Curitiba,PR,Apartamento,3949.54
+1046,Cliente 1046,66.0,F,Belo Horizonte,MG,Casa,3894.87
+1047,Cliente 1047,57.0,F,Fortaleza,CE,,2423.14
+1048,Cliente 1048,49.0,M,Recife,PE,Casa,6063.81
+1049,Cliente 1049,51.0,F,Salvador,BA,Casa,6408.55
+1050,Cliente 1050,45.0,M,Sao Paulo,SP,Casa,4779.02
+1051,Cliente 1051,48.0,F,Fortaleza,CE,Apartamento,4480.75
+1052,Cliente 1052,25.0,M,Porto Alegre,RS,Apartamento,3147.85
+1053,Cliente 1053,56.0,M,Salvador,BA,Apartamento,4087.01
+1054,Cliente 1054,43.0,F,Fortaleza,CE,Casa,2247.26
+1055,Cliente 1055,75.0,M,Curitiba,PR,Casa,1810.83
+1056,Cliente 1056,51.0,F,Porto Alegre,RS,Casa,1268.96
+1057,Cliente 1057,71.0,M,São Paulo,SP,Apartamento,4116.01
+1058,Cliente 1058,71.0,M,Recife,PE,Casa,1432.44
+1059,Cliente 1059,20.0,F,Sao Paulo,SP,Apartamento,2750.55
+1060,Cliente 1060,76.0,M,Rio de janeiro,RJ,KITNET,3408.16
+1061,Cliente 1061,67.0,M,Belo Horizonte,MG,KITNET,4992.94
+1062,Cliente 1062,29.0,F,Rio de janeiro,RJ,Casa,2632.67
+1063,Cliente 1063,18.0,M,Sao Paulo,SP,Casa,5169.91
+1064,Cliente 1064,71.0,F,Salvador,BA,Casa,4908.74
+1065,Cliente 1065,61.0,M,Sao Paulo,SP,Apartamento,1893.04
+1066,Cliente 1066,22.0,M,Sao Paulo,SP,Apartamento,5184.24
+1067,Cliente 1067,47.0,F,Curitiba,PR,Casa,3074.63
+1068,Cliente 1068,47.0,M,Rio de Janeiro,RJ,Casa,2751.57
+1069,Cliente 1069,76.0,M,Belo Horizonte,MG,Apartamento,3080.97
+1070,Cliente 1070,74.0,M,São Paulo,SP,KITNET,3494.74
+1071,Cliente 1071,34.0,M,São Paulo,SP,Casa,2877.43
+1072,Cliente 1072,65.0,F,Fortaleza,CE,Apartamento,2240.46
+1073,Cliente 1073,64.0,M,São Paulo,SP,Casa,2373.12
+1074,Cliente 1074,40.0,F,Belo Horizonte,MG,Casa,3708.41
+1075,Cliente 1075,32.0,F,Fortaleza,CE,KITNET,3259.3
+1076,Cliente 1076,54.0,M,Fortaleza,CE,Apartamento,4290.96
+1077,Cliente 1077,38.0,Outro,Salvador,BA,Apartamento,3578.54
+1078,Cliente 1078,31.0,M,Rio de Janeiro,RJ,Casa,3615.52
+1079,Cliente 1079,19.0,,Rio de janeiro,RJ,Apartamento,4389.22
+1080,Cliente 1080,28.0,M,Porto Alegre,RS,Casa,5628.38
+1081,Cliente 1081,68.0,F,Salvador,BA,Casa,5688.53
+1082,Cliente 1082,56.0,F,Recife,PE,Apartamento,5510.61
+1083,Cliente 1083,55.0,M,Rio de Janeiro,RJ,Casa,4805.67
+1084,Cliente 1084,77.0,F,Rio de Janeiro,RJ,Apartamento,6628.12
+1085,Cliente 1085,51.0,F,Rio de Janeiro,RJ,Apartamento,"4156,74"
+1086,Cliente 1086,55.0,M,Sao Paulo,SP,Casa,3988.32
+1087,Cliente 1087,67.0,M,Recife,PE,Casa,6865.88
+1088,Cliente 1088,51.0,F,Salvador,BA,Casa,1497.0
+1089,Cliente 1089,35.0,F,Recife,PE,Casa,"3179,16"
+1090,Cliente 1090,47.0,,Rio de janeiro,RJ,Apartamento,5378.74
+1091,Cliente 1091,32.0,F,Curitiba,PR,Apartamento,4970.39
+1092,Cliente 1092,44.0,,Recife,PE,Casa,7348.48
+1093,Cliente 1093,68.0,F,Rio de Janeiro,RJ,Casa,3661.23
+1094,Cliente 1094,51.0,M,Rio de janeiro,RJ,Apartamento,2853.77
+1095,Cliente 1095,69.0,M,Curitiba,PR,Apartamento,3001.87
+1096,Cliente 1096,74.0,F,Belo Horizonte,MG,Casa,3977.1
+1097,Cliente 1097,55.0,F,Curitiba,PR,Casa,5932.47
+1098,Cliente 1098,50.0,M,Belo Horizonte,MG,Apartamento,5951.21
+1099,Cliente 1099,41.0,M,São Paulo,SP,Casa,3415.98
+1100,Cliente 1100,32.0,,Curitiba,PR,Casa,3879.51
+1101,Cliente 1101,77.0,F,Belo Horizonte,MG,Apartamento,2582.6
+1102,Cliente 1102,47.0,M,Porto Alegre,RS,Apartamento,2739.18
+1103,Cliente 1103,72.0,F,Rio de Janeiro,RJ,Apartamento,5069.39
+1104,Cliente 1104,59.0,M,Sao Paulo,SP,Apartamento,5903.32
+1105,Cliente 1105,68.0,M,Curitiba,PR,Apartamento,2454.07
+1106,Cliente 1106,34.0,M,Fortaleza,CE,Casa,3864.43
+1107,Cliente 1107,22.0,M,Recife,PE,Casa,3135.38
+1108,Cliente 1108,46.0,F,Belo Horizonte,MG,Casa,4795.81
+1109,Cliente 1109,21.0,M,Salvador,BA,Casa,2917.23
+1110,Cliente 1110,27.0,F,Belo Horizonte,MG,Apartamento,1060.0
+1111,Cliente 1111,73.0,F,Curitiba,PR,KITNET,5005.54
+1112,Cliente 1112,34.0,M,Belo Horizonte,MG,,3044.77
+1113,Cliente 1113,27.0,F,Rio de janeiro,RJ,Apartamento,3200.83
+1114,Cliente 1114,34.0,F,Salvador,BA,Casa,4153.38
+1115,Cliente 1115,77.0,F,Curitiba,PR,Casa,4029.25
+1116,Cliente 1116,37.0,M,Sao Paulo,SP,Apartamento,4184.18
+1117,Cliente 1117,41.0,F,Rio de janeiro,RJ,Apartamento,1055.4
+1118,Cliente 1118,22.0,F,Salvador,BA,Apartamento,4334.46
+1119,Cliente 1119,51.0,M,Recife,PE,Apartamento,1030.0
+1120,Cliente 1120,23.0,M,Fortaleza,CE,Apartamento,4654.35
+1121,Cliente 1121,70.0,F,Recife,PE,Apartamento,5177.57
+1122,Cliente 1122,19.0,F,Belo Horizonte,MG,Casa,1447.22
+1123,Cliente 1123,30.0,M,Belo Horizonte,MG,Apartamento,3992.65
+1124,Cliente 1124,79.0,F,São Paulo,SP,KITNET,5085.77
+1125,Cliente 1125,60.0,M,Salvador,BA,Casa,2826.49
+1126,Cliente 1126,60.0,F,Belo Horizonte,MG,Apartamento,4510.45
+1127,Cliente 1127,65.0,M,São Paulo,SP,Casa,1053.0
+1128,Cliente 1128,28.0,F,Recife,PE,,5147.29
+1129,Cliente 1129,68.0,M,São Paulo,SP,Casa,3544.99
+1130,Cliente 1130,64.0,M,Recife,PE,Apartamento,3113.26
+1131,Cliente 1131,74.0,M,Curitiba,PR,Casa,4976.06
+1132,Cliente 1132,40.0,M,Belo Horizonte,MG,Apartamento,6093.93
+1133,Cliente 1133,72.0,F,Rio de janeiro,RJ,Casa,4228.57
+1134,Cliente 1134,33.0,M,Recife,PE,Casa,5913.07
+1135,Cliente 1135,48.0,F,Fortaleza,CE,Casa,1170.08
+1136,Cliente 1136,28.0,M,Rio de janeiro,RJ,KITNET,4498.92
+1137,Cliente 1137,71.0,M,Rio de janeiro,RJ,Casa,3301.99
+1138,Cliente 1138,33.0,M,Recife,PE,Casa,2317.67
+1139,Cliente 1139,25.0,M,Belo Horizonte,MG,Apartamento,1128.0
+1140,Cliente 1140,21.0,M,Rio de Janeiro,RJ,Apartamento,4417.68
+1141,Cliente 1141,57.0,M,Sao Paulo,SP,KITNET,4812.94
+1142,Cliente 1142,21.0,F,São Paulo,SP,Casa,5513.03
+1143,Cliente 1143,73.0,M,Belo Horizonte,MG,Apartamento,5264.74
+1144,Cliente 1144,42.0,F,Curitiba,PR,Casa,2342.44
+1145,Cliente 1145,20.0,F,São Paulo,SP,Casa,5436.06
+1146,Cliente 1146,49.0,M,Recife,PE,Apartamento,5594.52
+1147,Cliente 1147,20.0,F,Fortaleza,CE,Apartamento,"3110,02"
+1148,Cliente 1148,44.0,,Rio de Janeiro,RJ,Apartamento,3542.64
+1149,Cliente 1149,46.0,F,Sao Paulo,SP,Casa,2098.77
+1150,Cliente 1150,49.0,F,Belo Horizonte,MG,Casa,5721.33
+1151,Cliente 1151,67.0,M,Fortaleza,CE,Casa,1232.32
+1152,Cliente 1152,78.0,F,Salvador,BA,,4302.46
+1153,Cliente 1153,75.0,F,Rio de Janeiro,RJ,Casa,2604.76
+1154,Cliente 1154,68.0,F,Rio de janeiro,RJ,Casa,1838.22
+1155,Cliente 1155,36.0,,Rio de Janeiro,RJ,Casa,1096.0
+1156,Cliente 1156,38.0,M,Porto Alegre,RS,Apartamento,3176.89
+1157,Cliente 1157,22.0,M,Fortaleza,CE,Casa,1603.12
+1158,Cliente 1158,35.0,F,Porto Alegre,RS,KITNET,3584.63
+1159,Cliente 1159,45.0,F,Porto Alegre,RS,Casa,6154.01
+1160,Cliente 1160,59.0,M,Belo Horizonte,MG,KITNET,3799.26
+1161,Cliente 1161,78.0,M,Rio de Janeiro,RJ,Casa,6495.92
+1162,Cliente 1162,39.0,M,Belo Horizonte,MG,Apartamento,2026.59
+1163,Cliente 1163,38.0,M,Curitiba,PR,KITNET,1578.59
+1164,Cliente 1164,23.0,F,Belo Horizonte,MG,Casa,1959.48
+1165,Cliente 1165,18.0,F,Fortaleza,CE,,3402.35
+1166,Cliente 1166,22.0,M,Sao Paulo,SP,Casa,7584.42
+1167,Cliente 1167,58.0,M,Curitiba,PR,KITNET,1006.83
+1168,Cliente 1168,29.0,M,Sao Paulo,SP,Apartamento,4429.49
+1169,Cliente 1169,43.0,M,Rio de Janeiro,RJ,Casa,2450.05
+1170,Cliente 1170,63.0,F,Rio de janeiro,RJ,Casa,3164.3
+1171,Cliente 1171,51.0,,Salvador,BA,Casa,1612.97
+1172,Cliente 1172,66.0,F,Porto Alegre,RS,Casa,4818.71
+1173,Cliente 1173,31.0,M,Fortaleza,CE,Casa,3434.11
+1174,Cliente 1174,43.0,F,Sao Paulo,SP,Casa,5131.18
+1175,Cliente 1175,62.0,F,Salvador,BA,Casa,3762.87
+1176,Cliente 1176,44.0,F,São Paulo,SP,Apartamento,"809,0"
+1177,Cliente 1177,26.0,F,Belo Horizonte,MG,Casa,5144.81
+1178,Cliente 1178,43.0,M,Porto Alegre,RS,Casa,1245.0
+1179,Cliente 1179,74.0,M,Sao Paulo,SP,Apartamento,1029.0
+1180,Cliente 1180,64.0,M,Curitiba,PR,Casa,2124.2
+1181,Cliente 1181,74.0,M,Fortaleza,CE,Casa,2144.22
+1182,Cliente 1182,39.0,M,Belo Horizonte,MG,Casa,5594.03
+1183,Cliente 1183,64.0,F,Recife,PE,KITNET,3243.27
+1184,Cliente 1184,73.0,F,Salvador,BA,Apartamento,5371.08
+1185,Cliente 1185,47.0,F,Fortaleza,CE,Casa,2648.12
+1186,Cliente 1186,60.0,M,Sao Paulo,SP,Apartamento,3976.47
+1187,Cliente 1187,65.0,,Rio de janeiro,RJ,Apartamento,4211.06
+1188,Cliente 1188,78.0,Outro,Curitiba,PR,Apartamento,4544.1
+1189,Cliente 1189,34.0,F,São Paulo,SP,Apartamento,2802.61
+1190,Cliente 1190,43.0,,Recife,PE,Apartamento,2933.22
+1191,Cliente 1191,53.0,F,Porto Alegre,RS,Casa,3052.8
+1192,Cliente 1192,18.0,,Fortaleza,CE,Casa,1021.38
+1193,Cliente 1193,25.0,M,Recife,PE,Casa,3374.15
+1194,Cliente 1194,66.0,M,Rio de janeiro,RJ,KITNET,2924.47
+1195,Cliente 1195,52.0,M,Sao Paulo,SP,Apartamento,"4370,11"
+1196,Cliente 1196,78.0,M,Curitiba,PR,Apartamento,3636.95
+1197,Cliente 1197,69.0,M,Belo Horizonte,MG,,5504.57
+1198,Cliente 1198,32.0,F,Salvador,BA,Casa,3605.13
+1199,Cliente 1199,64.0,F,Sao Paulo,SP,Apartamento,2656.69
+1200,Cliente 1200,73.0,F,Rio de Janeiro,RJ,Apartamento,3586.55
+1201,Cliente 1201,39.0,M,São Paulo,SP,,4586.25
+1202,Cliente 1202,31.0,F,São Paulo,SP,,840.19
+1203,Cliente 1203,43.0,F,Belo Horizonte,MG,Apartamento,2427.13
+1204,Cliente 1204,45.0,M,Curitiba,PR,Casa,2458.73
+1205,Cliente 1205,40.0,F,Sao Paulo,SP,Apartamento,4116.49
+1206,Cliente 1206,31.0,M,Sao Paulo,SP,Casa,4290.93
+1207,Cliente 1207,41.0,M,Rio de janeiro,RJ,Apartamento,3651.84
+1208,Cliente 1208,19.0,Outro,Porto Alegre,RS,KITNET,"1335,0"
+1209,Cliente 1209,62.0,M,Rio de Janeiro,RJ,Casa,1022.12
+1210,Cliente 1210,43.0,F,Salvador,BA,Apartamento,3141.6
+1211,Cliente 1211,31.0,F,Curitiba,PR,Casa,2747.8
+1212,Cliente 1212,76.0,F,Fortaleza,CE,Casa,"3508,06"
+1213,Cliente 1213,73.0,M,Porto Alegre,RS,Casa,2795.9
+1214,Cliente 1214,68.0,M,Salvador,BA,Apartamento,5797.46
+1215,Cliente 1215,24.0,M,Recife,PE,KITNET,877.0
+1216,Cliente 1216,20.0,F,Rio de Janeiro,RJ,KITNET,3953.94
+1217,Cliente 1217,64.0,M,Salvador,BA,Casa,4742.02
+1218,Cliente 1218,40.0,M,Sao Paulo,SP,KITNET,4552.31
+1219,Cliente 1219,,,Curitiba,PR,Apartamento,4680.91
+1220,Cliente 1220,60.0,F,Recife,PE,Casa,4896.67
+1221,Cliente 1221,64.0,M,Salvador,BA,Casa,2594.03
+1222,Cliente 1222,77.0,F,Belo Horizonte,MG,Casa,1847.77
+1223,Cliente 1223,62.0,F,São Paulo,SP,KITNET,1224.0
+1224,Cliente 1224,35.0,M,Fortaleza,CE,Apartamento,2956.1
+1225,Cliente 1225,75.0,M,Rio de janeiro,RJ,Apartamento,2333.7
+1226,Cliente 1226,55.0,F,Curitiba,PR,Casa,5242.41
+1227,Cliente 1227,52.0,F,Curitiba,PR,Apartamento,3068.66
+1228,Cliente 1228,68.0,F,Rio de janeiro,RJ,Casa,1954.39
+1229,Cliente 1229,32.0,M,Fortaleza,CE,Casa,1717.2
+1230,Cliente 1230,42.0,M,Sao Paulo,SP,Apartamento,6483.23
+1231,Cliente 1231,72.0,M,Fortaleza,CE,Casa,3466.87
+1232,Cliente 1232,54.0,M,Porto Alegre,RS,Apartamento,2327.74
+1233,Cliente 1233,45.0,M,Fortaleza,CE,Casa,"3686,06"
+1234,Cliente 1234,27.0,M,São Paulo,SP,Apartamento,6345.33
+1235,Cliente 1235,56.0,F,Salvador,BA,Casa,2915.48
+1236,Cliente 1236,,,Belo Horizonte,MG,Apartamento,4530.52
+1237,Cliente 1237,,F,Rio de janeiro,RJ,Casa,5279.69
+1238,Cliente 1238,56.0,F,Sao Paulo,SP,Casa,992.0
+1239,Cliente 1239,39.0,M,Curitiba,PR,KITNET,2542.38
+1240,Cliente 1240,43.0,,Sao Paulo,SP,Casa,5091.63
+1241,Cliente 1241,79.0,M,Rio de janeiro,RJ,Apartamento,2451.04
+1242,Cliente 1242,61.0,,Recife,PE,,4121.94
+1243,Cliente 1243,42.0,,São Paulo,SP,Casa,2362.28
+1244,Cliente 1244,34.0,F,São Paulo,SP,Casa,2831.67
+1245,Cliente 1245,,,Fortaleza,CE,Apartamento,2648.95
+1246,Cliente 1246,37.0,F,Rio de janeiro,RJ,,4455.01
+1247,Cliente 1247,42.0,M,Rio de Janeiro,RJ,KITNET,3802.37
+1248,Cliente 1248,21.0,M,Recife,PE,Apartamento,3648.29
+1249,Cliente 1249,27.0,F,Rio de janeiro,RJ,Apartamento,7261.24
+1250,Cliente 1250,20.0,M,Sao Paulo,SP,Casa,6109.55
+1251,Cliente 1251,58.0,F,Porto Alegre,RS,,1200.0
+1252,Cliente 1252,62.0,,Rio de janeiro,RJ,,2834.89
+1253,Cliente 1253,35.0,M,Recife,PE,Casa,7139.7
+1254,Cliente 1254,64.0,F,Rio de janeiro,RJ,Casa,2638.11
+1255,Cliente 1255,53.0,Outro,Rio de janeiro,RJ,Casa,6631.62
+1256,Cliente 1256,64.0,Outro,Fortaleza,CE,Casa,2860.51
+1257,Cliente 1257,39.0,,Rio de Janeiro,RJ,Apartamento,3149.0
+1258,Cliente 1258,51.0,F,Recife,PE,Casa,4795.36
+1259,Cliente 1259,64.0,,São Paulo,SP,Casa,3364.69
+1260,Cliente 1260,25.0,F,Belo Horizonte,MG,Casa,4241.94
+1261,Cliente 1261,57.0,M,Rio de Janeiro,RJ,,5862.42
+1262,Cliente 1262,66.0,F,Rio de Janeiro,RJ,Apartamento,4638.2
+1263,Cliente 1263,61.0,F,Porto Alegre,RS,Casa,3712.3
+1264,Cliente 1264,36.0,M,Belo Horizonte,MG,Casa,6010.29
+1265,Cliente 1265,59.0,F,Rio de Janeiro,RJ,,4815.03
+1266,Cliente 1266,58.0,F,Sao Paulo,SP,Apartamento,2399.69
+1267,Cliente 1267,54.0,M,São Paulo,SP,Casa,6470.11
+1268,Cliente 1268,23.0,F,Rio de Janeiro,RJ,Casa,4463.55
+1269,Cliente 1269,69.0,F,São Paulo,SP,Casa,3179.48
+1270,Cliente 1270,43.0,F,Fortaleza,CE,Casa,908.0
+1271,Cliente 1271,51.0,M,Rio de janeiro,RJ,Apartamento,1433.64
+1272,Cliente 1272,76.0,M,Recife,PE,KITNET,6050.2
+1273,Cliente 1273,73.0,M,Fortaleza,CE,Casa,6109.5
+1274,Cliente 1274,76.0,Outro,São Paulo,SP,Apartamento,3627.93
+1275,Cliente 1275,62.0,M,Rio de Janeiro,RJ,Casa,844.63
+1276,Cliente 1276,23.0,F,Belo Horizonte,MG,Apartamento,1869.54
+1277,Cliente 1277,54.0,M,São Paulo,SP,Apartamento,18240.0
+1278,Cliente 1278,74.0,M,Rio de Janeiro,RJ,Casa,1009.83
+1279,Cliente 1279,,F,Salvador,BA,Casa,6540.2
+1280,Cliente 1280,,F,Porto Alegre,RS,Apartamento,6589.88
+1281,Cliente 1281,39.0,M,Sao Paulo,SP,Casa,1818.73
+1282,Cliente 1282,38.0,M,Sao Paulo,SP,Casa,3486.9
+1283,Cliente 1283,23.0,M,Curitiba,PR,Apartamento,1572.81
+1284,Cliente 1284,23.0,F,Curitiba,PR,,3477.14
+1285,Cliente 1285,72.0,F,Fortaleza,CE,Casa,5958.96
+1286,Cliente 1286,65.0,M,Porto Alegre,RS,Apartamento,5118.08
+1287,Cliente 1287,21.0,M,Recife,PE,Casa,4712.99
+1288,Cliente 1288,47.0,M,Sao Paulo,SP,Apartamento,3208.73
+1289,Cliente 1289,28.0,Outro,Curitiba,PR,Apartamento,5392.95
+1290,Cliente 1290,79.0,,Porto Alegre,RS,KITNET,4470.0
+1291,Cliente 1291,79.0,M,Rio de janeiro,RJ,Casa,4105.87
+1292,Cliente 1292,47.0,F,Recife,PE,Apartamento,3326.89
+1293,Cliente 1293,48.0,M,São Paulo,SP,Apartamento,3977.56
+1294,Cliente 1294,41.0,M,Porto Alegre,RS,Casa,3932.38
+1295,Cliente 1295,72.0,F,Belo Horizonte,MG,Casa,2687.85
+1296,Cliente 1296,26.0,Outro,Curitiba,PR,Casa,2337.63
+1297,Cliente 1297,72.0,,São Paulo,SP,Casa,2004.64
+1298,Cliente 1298,20.0,F,São Paulo,SP,KITNET,2100.71
+1299,Cliente 1299,68.0,M,Curitiba,PR,Casa,3217.85
+1300,Cliente 1300,48.0,F,Salvador,BA,Casa,2970.97
+1301,Cliente 1301,57.0,M,Salvador,BA,Apartamento,"2568,9"
+1302,Cliente 1302,54.0,F,Sao Paulo,SP,Casa,2457.83
+1303,Cliente 1303,53.0,M,Curitiba,PR,Apartamento,3937.82
+1304,Cliente 1304,41.0,F,Curitiba,PR,Casa,5566.41
+1305,Cliente 1305,48.0,M,Sao Paulo,SP,,3483.63
+1306,Cliente 1306,23.0,M,Sao Paulo,SP,KITNET,3385.5
+1307,Cliente 1307,19.0,Outro,Fortaleza,CE,KITNET,2097.67
+1308,Cliente 1308,37.0,M,Recife,PE,Casa,3165.4
+1309,Cliente 1309,45.0,F,Rio de Janeiro,RJ,Apartamento,5285.5
+1310,Cliente 1310,28.0,M,Sao Paulo,SP,Casa,5056.19
+1311,Cliente 1311,21.0,M,Rio de Janeiro,RJ,Casa,4951.96
+1312,Cliente 1312,32.0,M,Belo Horizonte,MG,Casa,4903.8
+1313,Cliente 1313,23.0,M,Recife,PE,Apartamento,4155.1
+1314,Cliente 1314,71.0,F,Recife,PE,Casa,4101.81
+1315,Cliente 1315,66.0,M,Porto Alegre,RS,Apartamento,3867.13
+1316,Cliente 1316,47.0,,Fortaleza,CE,Casa,2874.67
+1317,Cliente 1317,73.0,F,Salvador,BA,Casa,3625.55
+1318,Cliente 1318,55.0,M,Recife,PE,Apartamento,3823.4
+1319,Cliente 1319,68.0,F,Porto Alegre,RS,Casa,4449.75
+1320,Cliente 1320,79.0,F,Belo Horizonte,MG,Apartamento,3650.38
+1321,Cliente 1321,74.0,F,Curitiba,PR,Casa,6657.74
+1322,Cliente 1322,19.0,M,Porto Alegre,RS,Apartamento,1685.28
+1323,Cliente 1323,32.0,M,Recife,PE,Apartamento,4631.71
+1324,Cliente 1324,28.0,F,Salvador,BA,Casa,3438.13
+1325,Cliente 1325,25.0,Outro,Sao Paulo,SP,Casa,3503.22
+1326,Cliente 1326,43.0,F,Sao Paulo,SP,Apartamento,2281.14
+1327,Cliente 1327,68.0,M,Porto Alegre,RS,Apartamento,5029.01
+1328,Cliente 1328,62.0,F,Rio de janeiro,RJ,Casa,4479.26
+1329,Cliente 1329,61.0,F,Salvador,BA,Casa,4750.46
+1330,Cliente 1330,22.0,F,Curitiba,PR,KITNET,3753.87
+1331,Cliente 1331,23.0,M,Rio de janeiro,RJ,Apartamento,3012.66
+1332,Cliente 1332,43.0,F,Salvador,BA,Casa,3400.16
+1333,Cliente 1333,71.0,M,Fortaleza,CE,Casa,4150.2
+1334,Cliente 1334,21.0,M,Curitiba,PR,Casa,1062.0
+1335,Cliente 1335,36.0,F,Salvador,BA,Apartamento,4809.4
+1336,Cliente 1336,37.0,M,Salvador,BA,Casa,7139.29
+1337,Cliente 1337,50.0,M,Sao Paulo,SP,,4220.5
+1338,Cliente 1338,37.0,M,Fortaleza,CE,Casa,3078.61
+1339,Cliente 1339,66.0,Outro,Salvador,BA,Casa,3258.15
+1340,Cliente 1340,29.0,F,Fortaleza,CE,Apartamento,4561.31
+1341,Cliente 1341,64.0,M,Belo Horizonte,MG,KITNET,3112.57
+1342,Cliente 1342,18.0,F,Fortaleza,CE,Apartamento,4803.01
+1343,Cliente 1343,43.0,F,Rio de Janeiro,RJ,Casa,"3238,79"
+1344,Cliente 1344,31.0,M,Curitiba,PR,Apartamento,6071.28
+1345,Cliente 1345,55.0,F,Sao Paulo,SP,Apartamento,6029.89
+1346,Cliente 1346,54.0,F,Sao Paulo,SP,Casa,3004.75
+1347,Cliente 1347,79.0,F,Sao Paulo,SP,Casa,3378.46
+1348,Cliente 1348,28.0,M,Sao Paulo,SP,Casa,3466.45
+1349,Cliente 1349,53.0,F,Salvador,BA,Casa,3486.55
+1350,Cliente 1350,30.0,F,Sao Paulo,SP,KITNET,2078.86
+1351,Cliente 1351,60.0,M,Fortaleza,CE,Casa,1869.11
+1352,Cliente 1352,20.0,M,Rio de Janeiro,RJ,,5374.64
+1353,Cliente 1353,50.0,M,Porto Alegre,RS,Apartamento,5134.68
+1354,Cliente 1354,23.0,M,São Paulo,SP,Apartamento,5108.78
+1355,Cliente 1355,67.0,F,Recife,PE,Apartamento,3395.93
+1356,Cliente 1356,73.0,M,Porto Alegre,RS,Casa,6338.02
+1357,Cliente 1357,27.0,M,Porto Alegre,RS,Casa,3466.3
+1358,Cliente 1358,22.0,F,Fortaleza,CE,Casa,4794.31
+1359,Cliente 1359,40.0,M,Sao Paulo,SP,Apartamento,1417.07
+1360,Cliente 1360,27.0,,Salvador,BA,Casa,3155.4
+1361,Cliente 1361,61.0,M,Fortaleza,CE,Apartamento,3266.27
+1362,Cliente 1362,19.0,M,Salvador,BA,Casa,3401.77
+1363,Cliente 1363,30.0,M,São Paulo,SP,Casa,1511.75
+1364,Cliente 1364,57.0,M,Belo Horizonte,MG,Casa,4555.82
+1365,Cliente 1365,19.0,M,Recife,PE,KITNET,5042.92
+1366,Cliente 1366,37.0,F,Belo Horizonte,MG,Apartamento,2384.21
+1367,Cliente 1367,18.0,,Fortaleza,CE,Casa,1778.99
+1368,Cliente 1368,54.0,M,Sao Paulo,SP,Apartamento,2346.59
+1369,Cliente 1369,26.0,F,Recife,PE,Casa,4243.25
+1370,Cliente 1370,34.0,F,Porto Alegre,RS,,2605.09
+1371,Cliente 1371,26.0,F,Rio de janeiro,RJ,Apartamento,3298.9
+1372,Cliente 1372,28.0,M,Rio de Janeiro,RJ,Casa,1889.81
+1373,Cliente 1373,32.0,M,Curitiba,PR,Apartamento,6468.93
+1374,Cliente 1374,41.0,M,Rio de janeiro,RJ,Casa,3609.8
+1375,Cliente 1375,55.0,F,Sao Paulo,SP,,26395.0
+1376,Cliente 1376,72.0,F,Fortaleza,CE,Casa,4239.75
+1377,Cliente 1377,52.0,M,Porto Alegre,RS,Apartamento,3437.18
+1378,Cliente 1378,47.0,M,Fortaleza,CE,Casa,3359.51
+1379,Cliente 1379,48.0,Outro,Sao Paulo,SP,Apartamento,2412.13
+1380,Cliente 1380,66.0,F,Belo Horizonte,MG,Apartamento,2824.31
+1381,Cliente 1381,22.0,,Recife,PE,Apartamento,1988.3
+1382,Cliente 1382,79.0,F,Rio de janeiro,RJ,Apartamento,1824.7
+1383,Cliente 1383,77.0,M,Salvador,BA,KITNET,6629.56
+1384,Cliente 1384,61.0,F,Porto Alegre,RS,Casa,3918.37
+1385,Cliente 1385,67.0,F,Recife,PE,Casa,5698.58
+1386,Cliente 1386,31.0,M,Recife,PE,Casa,2308.91
+1387,Cliente 1387,70.0,F,Porto Alegre,RS,,1622.59
+1388,Cliente 1388,73.0,F,São Paulo,SP,Casa,2033.33
+1389,Cliente 1389,28.0,M,Recife,PE,Apartamento,2866.89
+1390,Cliente 1390,26.0,F,Belo Horizonte,MG,Apartamento,3554.75
+1391,Cliente 1391,51.0,F,São Paulo,SP,Casa,3273.6
+1392,Cliente 1392,29.0,,Rio de Janeiro,RJ,Casa,2340.21
+1393,Cliente 1393,52.0,M,Belo Horizonte,MG,Casa,3631.57
+1394,Cliente 1394,52.0,M,Belo Horizonte,MG,Casa,3763.08
+1395,Cliente 1395,18.0,F,Fortaleza,CE,Casa,4553.41
+1396,Cliente 1396,57.0,M,Fortaleza,CE,Casa,25107.0
+1397,Cliente 1397,39.0,F,São Paulo,SP,KITNET,2954.16
+1398,Cliente 1398,77.0,F,Rio de Janeiro,RJ,,5323.22
+1399,Cliente 1399,46.0,M,Rio de Janeiro,RJ,Casa,3598.91
+1400,Cliente 1400,25.0,F,Recife,PE,Casa,1209.02
+1401,Cliente 1401,28.0,F,Salvador,BA,Casa,6174.91
+1402,Cliente 1402,58.0,M,Sao Paulo,SP,Apartamento,6908.8
+1403,Cliente 1403,54.0,Outro,Rio de Janeiro,RJ,Apartamento,4428.64
+1404,Cliente 1404,31.0,F,São Paulo,SP,Casa,3634.68
+1405,Cliente 1405,77.0,F,Sao Paulo,SP,Casa,3092.89
+1406,Cliente 1406,47.0,F,Porto Alegre,RS,Apartamento,2804.08
+1407,Cliente 1407,52.0,F,Rio de janeiro,RJ,Apartamento,5316.05
+1408,Cliente 1408,38.0,Outro,Salvador,BA,Casa,"3474,09"
+1409,Cliente 1409,54.0,F,Salvador,BA,Apartamento,6010.91
+1410,Cliente 1410,22.0,F,Curitiba,PR,Casa,3552.29
+1411,Cliente 1411,36.0,F,Fortaleza,CE,Casa,2881.48
+1412,Cliente 1412,76.0,M,Rio de Janeiro,RJ,Apartamento,"2598,05"
+1413,Cliente 1413,31.0,F,Fortaleza,CE,Apartamento,2384.43
+1414,Cliente 1414,43.0,M,Belo Horizonte,MG,Casa,4271.22
+1415,Cliente 1415,79.0,M,Fortaleza,CE,KITNET,1558.26
+1416,Cliente 1416,21.0,M,Recife,PE,Casa,2272.49
+1417,Cliente 1417,42.0,,Recife,PE,Apartamento,"5486,72"
+1418,Cliente 1418,62.0,F,Sao Paulo,SP,Casa,2068.18
+1419,Cliente 1419,59.0,F,São Paulo,SP,KITNET,4794.06
+1420,Cliente 1420,42.0,F,Rio de Janeiro,RJ,KITNET,1128.0
+1421,Cliente 1421,35.0,F,Rio de Janeiro,RJ,Casa,5675.13
+1422,Cliente 1422,57.0,Outro,Recife,PE,KITNET,1594.65
+1423,Cliente 1423,,F,São Paulo,SP,Apartamento,2185.41
+1424,Cliente 1424,56.0,M,Sao Paulo,SP,Apartamento,4520.51
+1425,Cliente 1425,57.0,M,Belo Horizonte,MG,Casa,3905.61
+1426,Cliente 1426,31.0,F,Curitiba,PR,Apartamento,4842.48
+1427,Cliente 1427,49.0,F,Salvador,BA,KITNET,1582.61
+1428,Cliente 1428,68.0,M,Curitiba,PR,Casa,3069.79
+1429,Cliente 1429,78.0,M,Recife,PE,,2574.38
+1430,Cliente 1430,55.0,F,Curitiba,PR,Casa,1834.72
+1431,Cliente 1431,50.0,M,Salvador,BA,Casa,4393.85
+1432,Cliente 1432,40.0,F,Belo Horizonte,MG,Apartamento,4914.58
+1433,Cliente 1433,32.0,,Rio de janeiro,RJ,Apartamento,2994.7
+1434,Cliente 1434,50.0,M,Porto Alegre,RS,Apartamento,5784.07
+1435,Cliente 1435,42.0,M,Sao Paulo,SP,Casa,2321.45
+1436,Cliente 1436,34.0,F,Fortaleza,CE,,5747.7
+1437,Cliente 1437,50.0,F,Salvador,BA,Casa,4343.36
+1438,Cliente 1438,64.0,F,Sao Paulo,SP,Casa,1664.65
+1439,Cliente 1439,72.0,,Belo Horizonte,MG,Casa,6472.29
+1440,Cliente 1440,19.0,M,Recife,PE,Apartamento,2833.28
+1441,Cliente 1441,31.0,F,Curitiba,PR,KITNET,5307.68
+1442,Cliente 1442,70.0,F,Porto Alegre,RS,Apartamento,3718.47
+1443,Cliente 1443,57.0,F,Belo Horizonte,MG,Apartamento,"4061,66"
+1444,Cliente 1444,57.0,M,São Paulo,SP,Casa,4851.81
+1445,Cliente 1445,68.0,F,Rio de janeiro,RJ,Apartamento,4768.78
+1446,Cliente 1446,56.0,F,Salvador,BA,Casa,2986.78
+1447,Cliente 1447,68.0,M,Recife,PE,Casa,4297.5
+1448,Cliente 1448,23.0,M,São Paulo,SP,Casa,4184.9
+1449,Cliente 1449,23.0,F,São Paulo,SP,Apartamento,3820.34
+1450,Cliente 1450,20.0,M,Rio de janeiro,RJ,Apartamento,3195.03
+1451,Cliente 1451,24.0,M,Belo Horizonte,MG,Apartamento,3817.35
+1452,Cliente 1452,68.0,M,Rio de janeiro,RJ,Casa,6451.31
+1453,Cliente 1453,25.0,F,Rio de Janeiro,RJ,Casa,3057.46
+1454,Cliente 1454,59.0,F,Belo Horizonte,MG,Apartamento,5309.88
+1455,Cliente 1455,69.0,F,Belo Horizonte,MG,Casa,2570.55
+1456,Cliente 1456,32.0,M,Fortaleza,CE,KITNET,2178.03
+1457,Cliente 1457,64.0,F,Sao Paulo,SP,Apartamento,8414.6
+1458,Cliente 1458,46.0,F,São Paulo,SP,Casa,4310.04
+1459,Cliente 1459,50.0,F,Curitiba,PR,,4351.27
+1460,Cliente 1460,69.0,Outro,Salvador,BA,Apartamento,4392.84
+1461,Cliente 1461,47.0,M,Rio de Janeiro,RJ,Casa,5610.95
+1462,Cliente 1462,56.0,F,Rio de Janeiro,RJ,Apartamento,4111.72
+1463,Cliente 1463,44.0,M,Salvador,BA,Casa,4724.33
+1464,Cliente 1464,53.0,F,Porto Alegre,RS,Apartamento,1912.15
+1465,Cliente 1465,46.0,M,Rio de janeiro,RJ,Apartamento,4975.89
+1466,Cliente 1466,55.0,M,Porto Alegre,RS,,3144.86
+1467,Cliente 1467,74.0,M,Porto Alegre,RS,Apartamento,4507.61
+1468,Cliente 1468,50.0,F,Fortaleza,CE,Casa,927.32
+1469,Cliente 1469,78.0,M,Sao Paulo,SP,Apartamento,"4445,27"
+1470,Cliente 1470,54.0,F,Salvador,BA,Casa,1162.0
+1471,Cliente 1471,44.0,M,São Paulo,SP,Apartamento,3086.13
+1472,Cliente 1472,72.0,M,Salvador,BA,Apartamento,941.67
+1473,Cliente 1473,50.0,F,São Paulo,SP,Casa,4449.56
+1474,Cliente 1474,79.0,M,Curitiba,PR,Casa,3603.9
+1475,Cliente 1475,21.0,M,Sao Paulo,SP,KITNET,2343.82
+1476,Cliente 1476,39.0,F,Fortaleza,CE,KITNET,5651.61
+1477,Cliente 1477,19.0,M,Recife,PE,Casa,2155.0
+1478,Cliente 1478,27.0,M,Salvador,BA,Casa,1177.0
+1479,Cliente 1479,22.0,M,Recife,PE,Casa,4270.45
+1480,Cliente 1480,76.0,Outro,Salvador,BA,KITNET,850.1
+1481,Cliente 1481,27.0,F,Salvador,BA,Casa,2202.49
+1482,Cliente 1482,50.0,F,Belo Horizonte,MG,Apartamento,2723.98
+1483,Cliente 1483,71.0,F,Sao Paulo,SP,Casa,1364.01
+1484,Cliente 1484,55.0,M,Salvador,BA,Apartamento,2759.41
+1485,Cliente 1485,30.0,M,São Paulo,SP,Casa,1392.08
+1486,Cliente 1486,48.0,F,Fortaleza,CE,Apartamento,3743.57
+1487,Cliente 1487,64.0,M,Rio de Janeiro,RJ,Casa,1656.88
+1488,Cliente 1488,53.0,M,Recife,PE,Apartamento,3545.22
+1489,Cliente 1489,62.0,M,Curitiba,PR,Casa,5243.01
+1490,Cliente 1490,41.0,M,Fortaleza,CE,Apartamento,4673.56
+1491,Cliente 1491,69.0,,Sao Paulo,SP,KITNET,3377.43
+1492,Cliente 1492,73.0,M,Salvador,BA,Casa,2016.89
+1493,Cliente 1493,32.0,F,Sao Paulo,SP,KITNET,3738.77
+1494,Cliente 1494,46.0,M,Rio de janeiro,RJ,Apartamento,2456.42
+1495,Cliente 1495,25.0,,Salvador,BA,Casa,3801.69
+1496,Cliente 1496,22.0,M,Recife,PE,Casa,927.07
+1497,Cliente 1497,46.0,M,Salvador,BA,Casa,4710.89
+1498,Cliente 1498,64.0,F,Porto Alegre,RS,Apartamento,3549.82
+1499,Cliente 1499,21.0,F,Sao Paulo,SP,Apartamento,6812.78
+1500,Cliente 1500,29.0,M,Salvador,BA,Casa,5459.09
+1501,Cliente 1501,62.0,M,Belo Horizonte,MG,Apartamento,4349.28
+1502,Cliente 1502,19.0,M,Fortaleza,CE,Apartamento,3314.01
+1503,Cliente 1503,44.0,M,Rio de janeiro,RJ,KITNET,2405.59
+1504,Cliente 1504,48.0,M,Fortaleza,CE,Apartamento,4913.61
+1505,Cliente 1505,68.0,F,Rio de Janeiro,RJ,,3155.8
+1506,Cliente 1506,68.0,M,Sao Paulo,SP,Apartamento,5252.55
+1507,Cliente 1507,53.0,M,Porto Alegre,RS,Casa,4101.23
+1508,Cliente 1508,53.0,F,Sao Paulo,SP,Apartamento,4112.0
+1509,Cliente 1509,43.0,,Porto Alegre,RS,Casa,4391.79
+1510,Cliente 1510,60.0,F,Porto Alegre,RS,Casa,2120.56
+1511,Cliente 1511,44.0,M,Rio de janeiro,RJ,Casa,1966.8
+1512,Cliente 1512,22.0,M,Fortaleza,CE,Apartamento,1914.94
+1513,Cliente 1513,37.0,,Fortaleza,CE,Apartamento,5071.25
+1514,Cliente 1514,28.0,M,Rio de Janeiro,RJ,Casa,2081.42
+1515,Cliente 1515,79.0,M,Rio de janeiro,RJ,Casa,"2268,26"
+1516,Cliente 1516,27.0,F,Sao Paulo,SP,Casa,4306.28
+1517,Cliente 1517,57.0,F,Rio de Janeiro,RJ,Apartamento,3121.93
+1518,Cliente 1518,55.0,F,Belo Horizonte,MG,Casa,2930.31
+1519,Cliente 1519,23.0,M,Rio de janeiro,RJ,Apartamento,2800.17
+1520,Cliente 1520,25.0,M,Rio de Janeiro,RJ,Casa,"1140,0"
+1521,Cliente 1521,40.0,,Recife,PE,Casa,2049.68
+1522,Cliente 1522,64.0,M,Rio de Janeiro,RJ,Casa,5272.34
+1523,Cliente 1523,43.0,F,Sao Paulo,SP,Casa,2690.9
+1524,Cliente 1524,63.0,F,Rio de Janeiro,RJ,KITNET,1058.0
+1525,Cliente 1525,60.0,F,Curitiba,PR,Casa,1988.01
+1526,Cliente 1526,29.0,M,Curitiba,PR,Casa,4039.78
+1527,Cliente 1527,43.0,M,Recife,PE,Casa,4010.05
+1528,Cliente 1528,30.0,F,Recife,PE,Casa,3058.58
+1529,Cliente 1529,57.0,F,Curitiba,PR,Casa,2466.19
+1530,Cliente 1530,79.0,Outro,Recife,PE,Casa,1396.71
+1531,Cliente 1531,35.0,M,Recife,PE,Apartamento,4052.28
+1532,Cliente 1532,42.0,M,Fortaleza,CE,Apartamento,4756.81
+1533,Cliente 1533,50.0,Outro,Fortaleza,CE,Casa,5433.32
+1534,Cliente 1534,64.0,F,Rio de Janeiro,RJ,Casa,1834.12
+1535,Cliente 1535,57.0,F,Curitiba,PR,,5548.28
+1536,Cliente 1536,77.0,M,Sao Paulo,SP,Casa,"3415,08"
+1537,Cliente 1537,60.0,F,Curitiba,PR,Casa,3539.86
+1538,Cliente 1538,29.0,F,Curitiba,PR,Casa,4840.39
+1539,Cliente 1539,61.0,F,Belo Horizonte,MG,Casa,2688.57
+1540,Cliente 1540,53.0,M,Belo Horizonte,MG,Apartamento,1134.0
+1541,Cliente 1541,65.0,M,Recife,PE,Casa,"4557,29"
+1542,Cliente 1542,21.0,F,São Paulo,SP,Apartamento,4022.86
+1543,Cliente 1543,22.0,M,Fortaleza,CE,Casa,2959.58
+1544,Cliente 1544,73.0,F,Porto Alegre,RS,Casa,4433.8
+1545,Cliente 1545,54.0,,Sao Paulo,SP,Apartamento,4740.42
+1546,Cliente 1546,25.0,M,Belo Horizonte,MG,Casa,1231.99
+1547,Cliente 1547,59.0,F,Curitiba,PR,Apartamento,3533.77
+1548,Cliente 1548,66.0,M,Curitiba,PR,Casa,884.0
+1549,Cliente 1549,45.0,F,São Paulo,SP,Apartamento,3314.46
+1550,Cliente 1550,48.0,,São Paulo,SP,Casa,2940.89
+1551,Cliente 1551,75.0,M,Fortaleza,CE,KITNET,4237.86
+1552,Cliente 1552,26.0,M,Belo Horizonte,MG,Casa,"1890,42"
+1553,Cliente 1553,71.0,M,Sao Paulo,SP,KITNET,2867.77
+1554,Cliente 1554,68.0,M,Sao Paulo,SP,Casa,1321.0
+1555,Cliente 1555,46.0,F,Recife,PE,Apartamento,4336.26
+1556,Cliente 1556,31.0,Outro,Recife,PE,Casa,3367.4
+1557,Cliente 1557,57.0,M,Porto Alegre,RS,KITNET,22040.0
+1558,Cliente 1558,58.0,M,Salvador,BA,Casa,1259.85
+1559,Cliente 1559,39.0,M,Curitiba,PR,Casa,4097.09
+1560,Cliente 1560,28.0,F,Recife,PE,Casa,5979.12
+1561,Cliente 1561,40.0,M,Porto Alegre,RS,Casa,3222.63
+1562,Cliente 1562,18.0,F,São Paulo,SP,Casa,4475.13
+1563,Cliente 1563,63.0,F,Curitiba,PR,KITNET,2194.07
+1564,Cliente 1564,54.0,F,Recife,PE,,3384.72
+1565,Cliente 1565,38.0,M,Rio de janeiro,RJ,Casa,1202.99
+1566,Cliente 1566,43.0,F,Fortaleza,CE,KITNET,4682.18
+1567,Cliente 1567,63.0,M,Recife,PE,Apartamento,3739.76
+1568,Cliente 1568,53.0,M,Curitiba,PR,Casa,1671.07
+1569,Cliente 1569,71.0,F,Porto Alegre,RS,Apartamento,2297.21
+1570,Cliente 1570,40.0,F,Rio de Janeiro,RJ,Apartamento,3591.63
+1571,Cliente 1571,74.0,M,São Paulo,SP,,4885.8
+1572,Cliente 1572,18.0,M,Curitiba,PR,Casa,5719.29
+1573,Cliente 1573,71.0,M,Sao Paulo,SP,Apartamento,3298.81
+1574,Cliente 1574,72.0,M,Fortaleza,CE,Casa,1453.03
+1575,Cliente 1575,68.0,M,Sao Paulo,SP,Casa,3857.7
+1576,Cliente 1576,57.0,M,Porto Alegre,RS,Casa,6177.32
+1577,Cliente 1577,32.0,F,Rio de Janeiro,RJ,,1065.88
+1578,Cliente 1578,38.0,F,São Paulo,SP,Apartamento,2068.11
+1579,Cliente 1579,64.0,F,Rio de janeiro,RJ,Apartamento,4416.45
+1580,Cliente 1580,26.0,F,Curitiba,PR,Apartamento,3730.4
+1581,Cliente 1581,70.0,M,Curitiba,PR,Casa,2682.47
+1582,Cliente 1582,26.0,,Porto Alegre,RS,Casa,3830.17
+1583,Cliente 1583,27.0,F,Porto Alegre,RS,Casa,4966.32
+1584,Cliente 1584,69.0,F,Recife,PE,Casa,3352.5
+1585,Cliente 1585,74.0,F,Rio de Janeiro,RJ,Apartamento,3220.99
+1586,Cliente 1586,70.0,Outro,Fortaleza,CE,Apartamento,4383.54
+1587,Cliente 1587,43.0,F,Fortaleza,CE,Casa,3094.23
+1588,Cliente 1588,58.0,M,Belo Horizonte,MG,Casa,5213.79
+1589,Cliente 1589,52.0,F,Salvador,BA,Casa,6540.11
+1590,Cliente 1590,69.0,F,Salvador,BA,Casa,2160.59
+1591,Cliente 1591,42.0,F,Fortaleza,CE,KITNET,1624.96
+1592,Cliente 1592,43.0,F,Recife,PE,Apartamento,4057.58
+1593,Cliente 1593,28.0,M,São Paulo,SP,Apartamento,1571.74
+1594,Cliente 1594,55.0,M,Fortaleza,CE,Casa,1546.13
+1595,Cliente 1595,19.0,Outro,Sao Paulo,SP,Casa,1370.0
+1596,Cliente 1596,24.0,F,Fortaleza,CE,Casa,2926.62
+1597,Cliente 1597,35.0,F,Sao Paulo,SP,KITNET,3450.51
+1598,Cliente 1598,44.0,M,Porto Alegre,RS,Apartamento,2723.96
+1599,Cliente 1599,51.0,M,Salvador,BA,Casa,5585.5
+1600,Cliente 1600,44.0,F,Belo Horizonte,MG,Apartamento,5473.83
+1601,Cliente 1601,34.0,F,Belo Horizonte,MG,Casa,6393.27
+1602,Cliente 1602,60.0,F,Recife,PE,Apartamento,3569.79
+1603,Cliente 1603,,F,Rio de Janeiro,RJ,KITNET,5275.73
+1604,Cliente 1604,61.0,F,Fortaleza,CE,Apartamento,3963.28
+1605,Cliente 1605,76.0,M,Sao Paulo,SP,Apartamento,3812.57
+1606,Cliente 1606,68.0,F,Recife,PE,Casa,2798.92
+1607,Cliente 1607,71.0,M,Rio de Janeiro,RJ,Casa,23347.0
+1608,Cliente 1608,41.0,M,Fortaleza,CE,Casa,4455.94
+1609,Cliente 1609,42.0,F,Belo Horizonte,MG,Casa,5231.2
+1610,Cliente 1610,24.0,Outro,Salvador,BA,Apartamento,1211.57
+1611,Cliente 1611,69.0,M,Rio de Janeiro,RJ,Apartamento,3485.45
+1612,Cliente 1612,23.0,F,Recife,PE,Casa,4987.47
+1613,Cliente 1613,70.0,M,Sao Paulo,SP,Apartamento,2960.75
+1614,Cliente 1614,41.0,M,Belo Horizonte,MG,Casa,5289.66
+1615,Cliente 1615,50.0,M,Porto Alegre,RS,Casa,3289.58
+1616,Cliente 1616,66.0,M,Salvador,BA,Casa,2712.26
+1617,Cliente 1617,46.0,F,Fortaleza,CE,Casa,5375.43
+1618,Cliente 1618,60.0,M,Rio de Janeiro,RJ,Casa,"2099,37"
+1619,Cliente 1619,39.0,F,Porto Alegre,RS,Casa,2412.64
+1620,Cliente 1620,43.0,Outro,Sao Paulo,SP,Casa,2156.68
+1621,Cliente 1621,45.0,M,Salvador,BA,,1786.11
+1622,Cliente 1622,67.0,F,Porto Alegre,RS,Casa,3729.55
+1623,Cliente 1623,38.0,M,Fortaleza,CE,Casa,2730.6
+1624,Cliente 1624,66.0,F,São Paulo,SP,Casa,4232.92
+1625,Cliente 1625,24.0,M,Fortaleza,CE,Apartamento,898.04
+1626,Cliente 1626,34.0,M,Belo Horizonte,MG,Casa,1816.18
+1627,Cliente 1627,37.0,M,Rio de Janeiro,RJ,Apartamento,3577.37
+1628,Cliente 1628,58.0,M,Rio de janeiro,RJ,Apartamento,5704.52
+1629,Cliente 1629,,M,Fortaleza,CE,Apartamento,4067.75
+1630,Cliente 1630,37.0,F,Curitiba,PR,Apartamento,2615.91
+1631,Cliente 1631,71.0,F,Rio de janeiro,RJ,Casa,1265.7
+1632,Cliente 1632,39.0,F,Rio de janeiro,RJ,Casa,2528.23
+1633,Cliente 1633,45.0,F,Rio de Janeiro,RJ,Casa,3436.27
+1634,Cliente 1634,78.0,M,Rio de Janeiro,RJ,Apartamento,1061.0
+1635,Cliente 1635,57.0,M,Sao Paulo,SP,Casa,1679.94
+1636,Cliente 1636,66.0,M,Belo Horizonte,MG,Casa,2393.67
+1637,Cliente 1637,24.0,M,Sao Paulo,SP,,3113.89
+1638,Cliente 1638,18.0,F,Porto Alegre,RS,Casa,3418.5
+1639,Cliente 1639,49.0,F,Porto Alegre,RS,Apartamento,2583.7
+1640,Cliente 1640,30.0,M,Porto Alegre,RS,Apartamento,"4258,81"
+1641,Cliente 1641,47.0,M,São Paulo,SP,Casa,3687.06
+1642,Cliente 1642,40.0,F,Fortaleza,CE,Casa,2944.91
+1643,Cliente 1643,68.0,F,Recife,PE,Casa,4465.66
+1644,Cliente 1644,76.0,M,Rio de Janeiro,RJ,Apartamento,4342.91
+1645,Cliente 1645,73.0,Outro,Recife,PE,Apartamento,1319.3
+1646,Cliente 1646,36.0,,Salvador,BA,Apartamento,3451.96
+1647,Cliente 1647,79.0,M,Rio de Janeiro,RJ,KITNET,4835.39
+1648,Cliente 1648,49.0,M,Rio de Janeiro,RJ,Apartamento,5086.23
+1649,Cliente 1649,47.0,F,Rio de Janeiro,RJ,Casa,4056.36
+1650,Cliente 1650,46.0,Outro,Recife,PE,Casa,3150.07
+1651,Cliente 1651,66.0,F,Rio de Janeiro,RJ,Apartamento,4131.98
+1652,Cliente 1652,62.0,M,Curitiba,PR,Casa,4711.66
+1653,Cliente 1653,46.0,M,São Paulo,SP,Casa,3673.75
+1654,Cliente 1654,47.0,F,Salvador,BA,Apartamento,3842.91
+1655,Cliente 1655,33.0,F,Fortaleza,CE,Casa,3125.3
+1656,Cliente 1656,57.0,M,Rio de janeiro,RJ,KITNET,1494.82
+1657,Cliente 1657,36.0,F,Curitiba,PR,Apartamento,3238.45
+1658,Cliente 1658,35.0,F,Recife,PE,Casa,2484.33
+1659,Cliente 1659,18.0,F,Belo Horizonte,MG,KITNET,2489.12
+1660,Cliente 1660,31.0,F,Curitiba,PR,Casa,"5650,75"
+1661,Cliente 1661,68.0,F,Rio de janeiro,RJ,Casa,4927.34
+1662,Cliente 1662,64.0,M,Porto Alegre,RS,Casa,959.75
+1663,Cliente 1663,67.0,F,Rio de janeiro,RJ,Casa,1872.68
+1664,Cliente 1664,19.0,M,Belo Horizonte,MG,Casa,2954.66
+1665,Cliente 1665,71.0,F,Curitiba,PR,Casa,2539.05
+1666,Cliente 1666,45.0,M,Rio de janeiro,RJ,Casa,3976.13
+1667,Cliente 1667,66.0,F,Fortaleza,CE,Casa,1634.62
+1668,Cliente 1668,67.0,M,Recife,PE,Apartamento,4937.8
+1669,Cliente 1669,47.0,M,Curitiba,PR,Apartamento,3433.99
+1670,Cliente 1670,55.0,M,Curitiba,PR,Casa,2989.23
+1671,Cliente 1671,68.0,M,Belo Horizonte,MG,Casa,3478.52
+1672,Cliente 1672,21.0,F,Salvador,BA,Casa,2873.74
+1673,Cliente 1673,18.0,F,Porto Alegre,RS,Casa,1430.0
+1674,Cliente 1674,25.0,F,Porto Alegre,RS,Apartamento,3517.89
+1675,Cliente 1675,46.0,M,Salvador,BA,Apartamento,3018.88
+1676,Cliente 1676,72.0,M,Rio de Janeiro,RJ,Casa,2068.31
+1677,Cliente 1677,56.0,M,Rio de janeiro,RJ,Casa,5146.14
+1678,Cliente 1678,20.0,M,Recife,PE,Casa,"4504,16"
+1679,Cliente 1679,49.0,F,Rio de Janeiro,RJ,Apartamento,7158.29
+1680,Cliente 1680,27.0,M,Belo Horizonte,MG,Casa,4752.24
+1681,Cliente 1681,27.0,M,São Paulo,SP,,2534.85
+1682,Cliente 1682,36.0,M,Curitiba,PR,Apartamento,2141.32
+1683,Cliente 1683,63.0,M,Fortaleza,CE,Casa,2758.54
+1684,Cliente 1684,51.0,F,Porto Alegre,RS,Apartamento,2500.06
+1685,Cliente 1685,77.0,F,Sao Paulo,SP,KITNET,3663.18
+1686,Cliente 1686,50.0,M,Porto Alegre,RS,Apartamento,1191.8
+1687,Cliente 1687,40.0,M,Sao Paulo,SP,Casa,"4470,93"
+1688,Cliente 1688,72.0,M,Belo Horizonte,MG,Casa,3636.79
+1689,Cliente 1689,45.0,M,Sao Paulo,SP,Apartamento,4298.7
+1690,Cliente 1690,49.0,M,Rio de Janeiro,RJ,Apartamento,1783.78
+1691,Cliente 1691,67.0,,Belo Horizonte,MG,Apartamento,3870.03
+1692,Cliente 1692,24.0,F,Curitiba,PR,KITNET,5448.76
+1693,Cliente 1693,46.0,F,Porto Alegre,RS,KITNET,2209.24
+1694,Cliente 1694,25.0,M,Rio de Janeiro,RJ,KITNET,2168.22
+1695,Cliente 1695,18.0,M,Salvador,BA,Casa,4567.94
+1696,Cliente 1696,74.0,F,Sao Paulo,SP,Apartamento,2046.42
+1697,Cliente 1697,72.0,F,Rio de janeiro,RJ,Apartamento,3150.07
+1698,Cliente 1698,20.0,F,Curitiba,PR,Apartamento,5713.6
+1699,Cliente 1699,41.0,M,Fortaleza,CE,Apartamento,2189.5
+1700,Cliente 1700,40.0,F,São Paulo,SP,Casa,5816.66
+1701,Cliente 1701,76.0,M,Salvador,BA,Apartamento,2996.33
+1702,Cliente 1702,78.0,F,São Paulo,SP,Apartamento,1818.2
+1703,Cliente 1703,25.0,F,Salvador,BA,Casa,4405.56
+1704,Cliente 1704,71.0,F,Porto Alegre,RS,Casa,3661.62
+1705,Cliente 1705,74.0,M,Fortaleza,CE,Casa,3519.77
+1706,Cliente 1706,64.0,F,Rio de janeiro,RJ,Casa,2346.92
+1707,Cliente 1707,54.0,M,Salvador,BA,Casa,3650.68
+1708,Cliente 1708,20.0,M,Sao Paulo,SP,Casa,1479.0
+1709,Cliente 1709,68.0,M,Fortaleza,CE,Apartamento,3828.15
+1710,Cliente 1710,50.0,F,Rio de janeiro,RJ,Apartamento,5445.87
+1711,Cliente 1711,45.0,M,São Paulo,SP,Apartamento,"851,86"
+1712,Cliente 1712,64.0,M,Fortaleza,CE,Apartamento,2889.84
+1713,Cliente 1713,25.0,F,Sao Paulo,SP,Casa,2188.04
+1714,Cliente 1714,51.0,M,Fortaleza,CE,Casa,1233.42
+1715,Cliente 1715,52.0,F,Rio de Janeiro,RJ,KITNET,1251.0
+1716,Cliente 1716,49.0,M,Rio de Janeiro,RJ,Casa,1728.75
+1717,Cliente 1717,41.0,M,São Paulo,SP,,3136.44
+1718,Cliente 1718,31.0,F,Belo Horizonte,MG,Apartamento,5223.71
+1719,Cliente 1719,49.0,M,Curitiba,PR,Apartamento,1215.93
+1720,Cliente 1720,,F,Rio de Janeiro,RJ,,3941.59
+1721,Cliente 1721,63.0,F,Curitiba,PR,Casa,3829.46
+1722,Cliente 1722,60.0,F,Curitiba,PR,Casa,6007.94
+1723,Cliente 1723,33.0,F,Recife,PE,Apartamento,4356.55
+1724,Cliente 1724,21.0,M,São Paulo,SP,Casa,4442.9
+1725,Cliente 1725,69.0,M,Sao Paulo,SP,KITNET,4548.95
+1726,Cliente 1726,54.0,F,São Paulo,SP,Casa,2113.65
+1727,Cliente 1727,71.0,F,Belo Horizonte,MG,Apartamento,2640.77
+1728,Cliente 1728,38.0,F,Rio de janeiro,RJ,Apartamento,5175.3
+1729,Cliente 1729,31.0,F,Rio de Janeiro,RJ,Apartamento,1050.0
+1730,Cliente 1730,48.0,F,Porto Alegre,RS,Casa,2476.53
+1731,Cliente 1731,72.0,F,Recife,PE,Casa,1503.79
+1732,Cliente 1732,65.0,M,Porto Alegre,RS,Apartamento,3851.37
+1733,Cliente 1733,35.0,F,Salvador,BA,Casa,2867.59
+1734,Cliente 1734,24.0,F,Sao Paulo,SP,Apartamento,4438.96
+1735,Cliente 1735,27.0,M,Belo Horizonte,MG,Apartamento,3336.51
+1736,Cliente 1736,24.0,F,Rio de janeiro,RJ,Apartamento,1180.86
+1737,Cliente 1737,50.0,F,Belo Horizonte,MG,Apartamento,1250.2
+1738,Cliente 1738,,F,Sao Paulo,SP,Casa,3490.93
+1739,Cliente 1739,38.0,M,São Paulo,SP,Apartamento,2343.3
+1740,Cliente 1740,36.0,M,Rio de janeiro,RJ,KITNET,2701.05
+1741,Cliente 1741,65.0,F,Salvador,BA,Casa,4907.62
+1742,Cliente 1742,78.0,Outro,Recife,PE,,4638.55
+1743,Cliente 1743,36.0,M,Curitiba,PR,Casa,6196.6
+1744,Cliente 1744,53.0,M,Sao Paulo,SP,Casa,3025.5
+1745,Cliente 1745,46.0,F,Sao Paulo,SP,Casa,2538.28
+1746,Cliente 1746,77.0,M,Curitiba,PR,,4127.28
+1747,Cliente 1747,35.0,F,Recife,PE,Casa,2658.81
+1748,Cliente 1748,19.0,,Porto Alegre,RS,KITNET,2707.91
+1749,Cliente 1749,18.0,M,São Paulo,SP,KITNET,3196.85
+1750,Cliente 1750,64.0,F,Porto Alegre,RS,Casa,5979.12
+1751,Cliente 1751,22.0,M,Recife,PE,Casa,4555.95
+1752,Cliente 1752,37.0,M,Rio de janeiro,RJ,Apartamento,"4713,23"
+1753,Cliente 1753,28.0,F,Rio de Janeiro,RJ,Casa,5911.78
+1754,Cliente 1754,59.0,M,Belo Horizonte,MG,Apartamento,4853.8
+1755,Cliente 1755,19.0,,Salvador,BA,Casa,1802.89
+1756,Cliente 1756,20.0,F,São Paulo,SP,Casa,4831.07
+1757,Cliente 1757,40.0,M,Recife,PE,Apartamento,5021.38
+1758,Cliente 1758,72.0,M,Fortaleza,CE,Casa,4477.8
+1759,Cliente 1759,29.0,M,Rio de janeiro,RJ,Casa,3206.84
+1760,Cliente 1760,37.0,M,Recife,PE,Casa,4319.5
+1761,Cliente 1761,22.0,M,Salvador,BA,Casa,3469.64
+1762,Cliente 1762,54.0,M,Rio de Janeiro,RJ,Apartamento,2032.87
+1763,Cliente 1763,55.0,F,Sao Paulo,SP,Apartamento,2405.55
+1764,Cliente 1764,47.0,F,Porto Alegre,RS,Casa,4555.58
+1765,Cliente 1765,26.0,F,Fortaleza,CE,Apartamento,2141.27
+1766,Cliente 1766,51.0,F,Sao Paulo,SP,Apartamento,2282.67
+1767,Cliente 1767,70.0,M,Porto Alegre,RS,Casa,4630.08
+1768,Cliente 1768,61.0,M,Porto Alegre,RS,Casa,3700.68
+1769,Cliente 1769,52.0,F,Porto Alegre,RS,KITNET,4365.79
+1770,Cliente 1770,69.0,F,Porto Alegre,RS,Apartamento,1656.47
+1771,Cliente 1771,75.0,M,Porto Alegre,RS,Apartamento,4324.14
+1772,Cliente 1772,39.0,F,São Paulo,SP,Apartamento,2509.96
+1773,Cliente 1773,61.0,F,Salvador,BA,Casa,1974.67
+1774,Cliente 1774,41.0,F,Curitiba,PR,Apartamento,23308.0
+1775,Cliente 1775,34.0,M,São Paulo,SP,Apartamento,5543.1
+1776,Cliente 1776,27.0,F,Salvador,BA,Apartamento,2953.32
+1777,Cliente 1777,47.0,F,Fortaleza,CE,Casa,6802.09
+1778,Cliente 1778,73.0,F,Belo Horizonte,MG,Casa,1123.0
+1779,Cliente 1779,76.0,F,São Paulo,SP,Casa,1180.58
+1780,Cliente 1780,63.0,F,Fortaleza,CE,,5486.28
+1781,Cliente 1781,40.0,F,Sao Paulo,SP,Casa,5863.41
+1782,Cliente 1782,49.0,M,Fortaleza,CE,Casa,2204.81
+1783,Cliente 1783,,F,Rio de janeiro,RJ,Casa,3603.34
+1784,Cliente 1784,67.0,F,Sao Paulo,SP,Casa,4568.28
+1785,Cliente 1785,68.0,F,Recife,PE,Apartamento,3155.94
+1786,Cliente 1786,34.0,M,Fortaleza,CE,Apartamento,3724.8
+1787,Cliente 1787,31.0,M,Rio de Janeiro,RJ,Apartamento,3516.4
+1788,Cliente 1788,26.0,F,São Paulo,SP,Casa,1277.83
+1789,Cliente 1789,57.0,F,Fortaleza,CE,Apartamento,2983.01
+1790,Cliente 1790,19.0,Outro,Porto Alegre,RS,Casa,3518.55
+1791,Cliente 1791,62.0,F,Fortaleza,CE,Casa,3654.68
+1792,Cliente 1792,42.0,F,Rio de Janeiro,RJ,Casa,904.24
+1793,Cliente 1793,56.0,F,Curitiba,PR,Casa,4630.54
+1794,Cliente 1794,26.0,F,Curitiba,PR,Casa,3694.24
+1795,Cliente 1795,71.0,F,Rio de Janeiro,RJ,Apartamento,1916.92
+1796,Cliente 1796,39.0,F,Rio de Janeiro,RJ,Apartamento,6198.6
+1797,Cliente 1797,60.0,M,Sao Paulo,SP,Apartamento,2980.12
+1798,Cliente 1798,63.0,F,Curitiba,PR,Casa,3077.53
+1799,Cliente 1799,21.0,F,São Paulo,SP,Casa,"4462,56"
+1800,Cliente 1800,43.0,M,Belo Horizonte,MG,Casa,6326.0
+1801,Cliente 1801,75.0,M,Rio de janeiro,RJ,,4521.56
+1802,Cliente 1802,46.0,M,São Paulo,SP,Apartamento,4739.16
+1803,Cliente 1803,62.0,M,Rio de janeiro,RJ,Apartamento,1997.57
+1804,Cliente 1804,51.0,M,São Paulo,SP,Casa,3630.44
+1805,Cliente 1805,,M,Fortaleza,CE,Apartamento,2701.61
+1806,Cliente 1806,54.0,Outro,Belo Horizonte,MG,Casa,4556.19
+1807,Cliente 1807,28.0,F,Porto Alegre,RS,Apartamento,4695.45
+1808,Cliente 1808,23.0,M,Salvador,BA,KITNET,5949.84
+1809,Cliente 1809,35.0,M,Porto Alegre,RS,,1028.0
+1810,Cliente 1810,38.0,F,Curitiba,PR,Apartamento,2554.13
+1811,Cliente 1811,59.0,M,Belo Horizonte,MG,Casa,5450.37
+1812,Cliente 1812,53.0,F,São Paulo,SP,KITNET,1397.71
+1813,Cliente 1813,58.0,F,Rio de janeiro,RJ,Apartamento,4708.48
+1814,Cliente 1814,55.0,F,Belo Horizonte,MG,Casa,5201.0
+1815,Cliente 1815,51.0,M,Fortaleza,CE,Casa,"3457,49"
+1816,Cliente 1816,34.0,F,São Paulo,SP,Casa,1367.8
+1817,Cliente 1817,54.0,M,Fortaleza,CE,Casa,3317.72
+1818,Cliente 1818,42.0,Outro,Belo Horizonte,MG,Casa,5688.02
+1819,Cliente 1819,55.0,F,Sao Paulo,SP,Apartamento,5808.53
+1820,Cliente 1820,75.0,M,Fortaleza,CE,Casa,3811.82
+1821,Cliente 1821,29.0,M,Salvador,BA,Casa,2034.14
+1822,Cliente 1822,40.0,M,Salvador,BA,Apartamento,6107.6
+1823,Cliente 1823,70.0,F,Curitiba,PR,Apartamento,4731.38
+1824,Cliente 1824,59.0,M,Salvador,BA,Apartamento,2132.74
+1825,Cliente 1825,39.0,F,Fortaleza,CE,Casa,4013.78
+1826,Cliente 1826,38.0,M,Rio de Janeiro,RJ,KITNET,"3945,12"
+1827,Cliente 1827,44.0,F,Curitiba,PR,KITNET,2544.81
+1828,Cliente 1828,74.0,F,Curitiba,PR,Casa,4022.16
+1829,Cliente 1829,48.0,F,Fortaleza,CE,Casa,5159.28
+1830,Cliente 1830,23.0,F,Porto Alegre,RS,Apartamento,3055.63
+1831,Cliente 1831,44.0,M,Belo Horizonte,MG,Apartamento,5312.4
+1832,Cliente 1832,57.0,M,Sao Paulo,SP,,866.97
+1833,Cliente 1833,51.0,F,Salvador,BA,KITNET,6827.4
+1834,Cliente 1834,29.0,M,Sao Paulo,SP,Apartamento,3586.03
+1835,Cliente 1835,62.0,M,Salvador,BA,Apartamento,5109.53
+1836,Cliente 1836,74.0,M,Recife,PE,Casa,3827.92
+1837,Cliente 1837,70.0,M,Rio de Janeiro,RJ,Casa,"2264,72"
+1838,Cliente 1838,24.0,M,Porto Alegre,RS,Casa,3445.44
+1839,Cliente 1839,27.0,F,Belo Horizonte,MG,Apartamento,1435.0
+1840,Cliente 1840,62.0,M,Fortaleza,CE,Apartamento,4532.58
+1841,Cliente 1841,34.0,F,Sao Paulo,SP,Apartamento,3790.65
+1842,Cliente 1842,43.0,M,Sao Paulo,SP,Casa,3212.66
+1843,Cliente 1843,38.0,F,Fortaleza,CE,Apartamento,4629.05
+1844,Cliente 1844,45.0,M,Belo Horizonte,MG,Casa,3556.28
+1845,Cliente 1845,79.0,F,Belo Horizonte,MG,Casa,"4410,24"
+1846,Cliente 1846,75.0,F,Curitiba,PR,Apartamento,4943.47
+1847,Cliente 1847,63.0,M,Recife,PE,Apartamento,2676.16
+1848,Cliente 1848,19.0,Outro,Salvador,BA,,2246.88
+1849,Cliente 1849,77.0,,Rio de Janeiro,RJ,Casa,916.16
+1850,Cliente 1850,71.0,F,Curitiba,PR,Casa,3683.84
+1851,Cliente 1851,60.0,F,Fortaleza,CE,Casa,4178.15
+1852,Cliente 1852,18.0,M,Curitiba,PR,Casa,1514.58
+1853,Cliente 1853,68.0,F,São Paulo,SP,KITNET,5630.57
+1854,Cliente 1854,70.0,M,Fortaleza,CE,Apartamento,2266.5
+1855,Cliente 1855,53.0,M,Recife,PE,KITNET,1395.0
+1856,Cliente 1856,68.0,,Salvador,BA,Casa,5742.23
+1857,Cliente 1857,43.0,M,Belo Horizonte,MG,KITNET,1096.0
+1858,Cliente 1858,46.0,F,São Paulo,SP,Casa,"4946,27"
+1859,Cliente 1859,38.0,F,Sao Paulo,SP,KITNET,4581.68
+1860,Cliente 1860,28.0,F,Salvador,BA,Casa,3979.33
+1861,Cliente 1861,57.0,,Fortaleza,CE,Casa,2715.84
+1862,Cliente 1862,28.0,M,Porto Alegre,RS,Apartamento,4254.2
+1863,Cliente 1863,53.0,M,Rio de Janeiro,RJ,KITNET,5072.73
+1864,Cliente 1864,,M,São Paulo,SP,Casa,2021.28
+1865,Cliente 1865,76.0,M,Rio de Janeiro,RJ,Casa,4964.56
+1866,Cliente 1866,56.0,M,Recife,PE,KITNET,"4896,31"
+1867,Cliente 1867,57.0,M,Curitiba,PR,Casa,3939.58
+1868,Cliente 1868,52.0,F,São Paulo,SP,Casa,2693.04
+1869,Cliente 1869,71.0,F,Rio de Janeiro,RJ,Casa,4903.19
+1870,Cliente 1870,51.0,M,Sao Paulo,SP,Casa,4262.47
+1871,Cliente 1871,72.0,F,Rio de janeiro,RJ,KITNET,1976.06
+1872,Cliente 1872,64.0,M,Fortaleza,CE,Apartamento,"2948,97"
+1873,Cliente 1873,41.0,M,Fortaleza,CE,Apartamento,4728.58
+1874,Cliente 1874,71.0,F,Salvador,BA,,3671.87
+1875,Cliente 1875,39.0,F,Recife,PE,Casa,5128.97
+1876,Cliente 1876,22.0,F,São Paulo,SP,Casa,2987.53
+1877,Cliente 1877,73.0,M,Recife,PE,Casa,2000.16
+1878,Cliente 1878,50.0,F,Rio de Janeiro,RJ,Casa,6790.4
+1879,Cliente 1879,75.0,F,Curitiba,PR,Casa,978.66
+1880,Cliente 1880,53.0,F,Fortaleza,CE,KITNET,2750.24
+1881,Cliente 1881,64.0,F,Fortaleza,CE,Apartamento,3919.62
+1882,Cliente 1882,37.0,F,Curitiba,PR,Casa,4979.13
+1883,Cliente 1883,36.0,F,Sao Paulo,SP,Apartamento,4469.67
+1884,Cliente 1884,52.0,F,Recife,PE,Apartamento,6966.89
+1885,Cliente 1885,69.0,,Rio de Janeiro,RJ,KITNET,3323.6
+1886,Cliente 1886,60.0,F,Porto Alegre,RS,KITNET,2190.53
+1887,Cliente 1887,34.0,M,Fortaleza,CE,Apartamento,3170.46
+1888,Cliente 1888,79.0,F,Salvador,BA,Apartamento,3020.04
+1889,Cliente 1889,76.0,M,Fortaleza,CE,Apartamento,3397.56
+1890,Cliente 1890,62.0,M,Belo Horizonte,MG,Apartamento,2026.27
+1891,Cliente 1891,60.0,F,Rio de janeiro,RJ,Casa,4676.08
+1892,Cliente 1892,51.0,Outro,Sao Paulo,SP,Casa,4056.25
+1893,Cliente 1893,26.0,Outro,São Paulo,SP,Apartamento,1604.18
+1894,Cliente 1894,43.0,M,Rio de Janeiro,RJ,Casa,4952.04
+1895,Cliente 1895,19.0,F,Curitiba,PR,Casa,2282.78
+1896,Cliente 1896,70.0,M,Porto Alegre,RS,Apartamento,1725.78
+1897,Cliente 1897,26.0,,Salvador,BA,Casa,3630.99
+1898,Cliente 1898,26.0,,Porto Alegre,RS,Apartamento,"863,23"
+1899,Cliente 1899,57.0,F,Sao Paulo,SP,Apartamento,4384.25
+1900,Cliente 1900,34.0,F,Belo Horizonte,MG,,1036.0
+1901,Cliente 1901,18.0,F,Belo Horizonte,MG,Casa,1955.96
+1902,Cliente 1902,42.0,F,Curitiba,PR,Casa,5862.71
+1903,Cliente 1903,78.0,M,Rio de janeiro,RJ,Apartamento,2470.01
+1904,Cliente 1904,60.0,F,Recife,PE,Apartamento,2732.62
+1905,Cliente 1905,57.0,F,Belo Horizonte,MG,,5410.5
+1906,Cliente 1906,59.0,F,Curitiba,PR,Casa,2310.7
+1907,Cliente 1907,42.0,M,Rio de janeiro,RJ,Casa,4645.16
+1908,Cliente 1908,56.0,Outro,Sao Paulo,SP,KITNET,5261.28
+1909,Cliente 1909,52.0,M,Rio de Janeiro,RJ,Casa,4217.8
+1910,Cliente 1910,20.0,F,Sao Paulo,SP,Apartamento,1332.65
+1911,Cliente 1911,67.0,F,Curitiba,PR,Casa,2594.02
+1912,Cliente 1912,54.0,F,Rio de Janeiro,RJ,Casa,7570.43
+1913,Cliente 1913,61.0,F,Curitiba,PR,Casa,2764.21
+1914,Cliente 1914,61.0,M,Sao Paulo,SP,Casa,7979.49
+1915,Cliente 1915,68.0,M,Fortaleza,CE,Apartamento,6063.45
+1916,Cliente 1916,47.0,F,Fortaleza,CE,KITNET,4278.6
+1917,Cliente 1917,55.0,F,Sao Paulo,SP,Casa,3945.85
+1918,Cliente 1918,51.0,M,Porto Alegre,RS,Apartamento,2802.76
+1919,Cliente 1919,29.0,F,Porto Alegre,RS,Casa,3366.63
+1920,Cliente 1920,36.0,F,Belo Horizonte,MG,Apartamento,2466.91
+1921,Cliente 1921,54.0,F,Belo Horizonte,MG,Casa,3404.56
+1922,Cliente 1922,61.0,F,Rio de Janeiro,RJ,KITNET,1456.71
+1923,Cliente 1923,76.0,M,Rio de Janeiro,RJ,Apartamento,1376.34
+1924,Cliente 1924,76.0,M,Fortaleza,CE,Apartamento,5451.52
+1925,Cliente 1925,66.0,F,Porto Alegre,RS,Apartamento,1081.54
+1926,Cliente 1926,78.0,F,Rio de janeiro,RJ,Apartamento,4829.21
+1927,Cliente 1927,34.0,F,Sao Paulo,SP,,1424.0
+1928,Cliente 1928,27.0,F,Rio de janeiro,RJ,Apartamento,4444.46
+1929,Cliente 1929,74.0,F,Rio de Janeiro,RJ,KITNET,3188.62
+1930,Cliente 1930,72.0,,Rio de janeiro,RJ,Apartamento,5481.97
+1931,Cliente 1931,66.0,F,Curitiba,PR,Casa,3002.01
+1932,Cliente 1932,64.0,F,São Paulo,SP,Apartamento,1016.0
+1933,Cliente 1933,29.0,M,Fortaleza,CE,Casa,3217.95
+1934,Cliente 1934,79.0,M,Porto Alegre,RS,Apartamento,3739.49
+1935,Cliente 1935,33.0,F,Recife,PE,Casa,3302.03
+1936,Cliente 1936,41.0,M,Fortaleza,CE,Apartamento,4362.66
+1937,Cliente 1937,36.0,Outro,Curitiba,PR,Casa,2653.42
+1938,Cliente 1938,25.0,F,Porto Alegre,RS,Casa,1604.9
+1939,Cliente 1939,48.0,F,Rio de Janeiro,RJ,Casa,2000.53
+1940,Cliente 1940,,M,Recife,PE,,2726.35
+1941,Cliente 1941,34.0,M,Sao Paulo,SP,Casa,2713.48
+1942,Cliente 1942,40.0,M,Sao Paulo,SP,Casa,7109.18
+1943,Cliente 1943,54.0,M,Belo Horizonte,MG,Apartamento,5382.66
+1944,Cliente 1944,71.0,M,Salvador,BA,Apartamento,4530.06
+1945,Cliente 1945,33.0,F,Curitiba,PR,Casa,4169.02
+1946,Cliente 1946,23.0,F,Porto Alegre,RS,Casa,3949.66
+1947,Cliente 1947,,F,Salvador,BA,Casa,3957.5
+1948,Cliente 1948,42.0,F,Salvador,BA,,3744.93
+1949,Cliente 1949,35.0,M,Recife,PE,Casa,3560.18
+1950,Cliente 1950,42.0,F,Sao Paulo,SP,Casa,1045.0
+1951,Cliente 1951,29.0,F,Rio de Janeiro,RJ,Casa,2946.31
+1952,Cliente 1952,32.0,M,Fortaleza,CE,Casa,3139.55
+1953,Cliente 1953,76.0,F,Sao Paulo,SP,Apartamento,2376.54
+1954,Cliente 1954,43.0,M,Curitiba,PR,Casa,2665.85
+1955,Cliente 1955,58.0,F,Curitiba,PR,Casa,3951.12
+1956,Cliente 1956,62.0,,Porto Alegre,RS,Casa,4651.39
+1957,Cliente 1957,,M,Fortaleza,CE,Casa,3948.85
+1958,Cliente 1958,64.0,F,Rio de Janeiro,RJ,Casa,4613.67
+1959,Cliente 1959,49.0,F,Porto Alegre,RS,Apartamento,4640.16
+1960,Cliente 1960,27.0,,Recife,PE,Apartamento,3050.44
+1961,Cliente 1961,33.0,F,Rio de Janeiro,RJ,KITNET,4287.96
+1962,Cliente 1962,24.0,F,Rio de Janeiro,RJ,KITNET,880.44
+1963,Cliente 1963,34.0,M,Salvador,BA,Apartamento,2923.51
+1964,Cliente 1964,40.0,M,Porto Alegre,RS,Casa,2747.22
+1965,Cliente 1965,43.0,M,São Paulo,SP,Apartamento,5796.99
+1966,Cliente 1966,38.0,,Sao Paulo,SP,Apartamento,4005.63
+1967,Cliente 1967,39.0,F,Porto Alegre,RS,Apartamento,1498.32
+1968,Cliente 1968,75.0,F,Rio de Janeiro,RJ,Apartamento,4391.88
+1969,Cliente 1969,24.0,Outro,Belo Horizonte,MG,Casa,4864.68
+1970,Cliente 1970,31.0,M,Rio de Janeiro,RJ,Apartamento,3365.5
+1971,Cliente 1971,32.0,M,Rio de Janeiro,RJ,Apartamento,"4535,38"
+1972,Cliente 1972,70.0,M,Fortaleza,CE,,1247.0
+1973,Cliente 1973,24.0,M,Rio de janeiro,RJ,Casa,1118.0
+1974,Cliente 1974,26.0,M,Fortaleza,CE,Casa,1732.0
+1975,Cliente 1975,68.0,F,Porto Alegre,RS,Casa,3723.56
+1976,Cliente 1976,65.0,M,Belo Horizonte,MG,Apartamento,5798.25
+1977,Cliente 1977,25.0,M,Sao Paulo,SP,Casa,1810.36
+1978,Cliente 1978,67.0,M,Belo Horizonte,MG,Casa,2219.48
+1979,Cliente 1979,76.0,M,Rio de janeiro,RJ,,3632.91
+1980,Cliente 1980,40.0,,Porto Alegre,RS,Casa,"2761,52"
+1981,Cliente 1981,46.0,F,Belo Horizonte,MG,Apartamento,2676.21
+1982,Cliente 1982,35.0,,Rio de Janeiro,RJ,Casa,2867.79
+1983,Cliente 1983,48.0,M,Belo Horizonte,MG,Apartamento,5472.18
+1984,Cliente 1984,47.0,M,Recife,PE,Apartamento,5174.2
+1985,Cliente 1985,69.0,F,Porto Alegre,RS,KITNET,3535.2
+1986,Cliente 1986,56.0,M,Sao Paulo,SP,KITNET,5981.72
+1987,Cliente 1987,52.0,M,Porto Alegre,RS,Casa,4263.54
+1988,Cliente 1988,35.0,M,Rio de Janeiro,RJ,Casa,5230.84
+1989,Cliente 1989,76.0,M,Recife,PE,Casa,2209.18
+1990,Cliente 1990,59.0,M,Recife,PE,Apartamento,2519.48
+1991,Cliente 1991,56.0,M,Rio de Janeiro,RJ,KITNET,2503.43
+1992,Cliente 1992,34.0,F,Rio de Janeiro,RJ,Casa,3369.92
+1993,Cliente 1993,31.0,M,Recife,PE,Apartamento,3589.87
+1994,Cliente 1994,48.0,M,Recife,PE,Casa,3986.27
+1995,Cliente 1995,41.0,F,Fortaleza,CE,Apartamento,6459.66
+1996,Cliente 1996,52.0,M,Recife,PE,,4581.92
+1997,Cliente 1997,61.0,M,São Paulo,SP,Casa,2727.81
+1998,Cliente 1998,77.0,F,São Paulo,SP,Casa,3495.09
+1999,Cliente 1999,62.0,M,Sao Paulo,SP,Casa,5757.41
+2000,Cliente 2000,51.0,M,São Paulo,SP,Apartamento,4672.82
+2001,Cliente 2001,20.0,F,Recife,PE,Apartamento,5737.67
+2002,Cliente 2002,54.0,M,Belo Horizonte,MG,Casa,2775.98
+2003,Cliente 2003,60.0,F,Rio de janeiro,RJ,Casa,2432.51
+2004,Cliente 2004,57.0,F,Recife,PE,Casa,2454.43
+2005,Cliente 2005,43.0,M,Salvador,BA,Apartamento,2897.02
+2006,Cliente 2006,72.0,F,Recife,PE,Apartamento,1905.08
+2007,Cliente 2007,40.0,F,São Paulo,SP,Casa,3942.79
+2008,Cliente 2008,61.0,M,Curitiba,PR,Apartamento,3968.58
+2009,Cliente 2009,56.0,F,Porto Alegre,RS,Apartamento,5508.17
+2010,Cliente 2010,32.0,M,Belo Horizonte,MG,Casa,859.61
+2011,Cliente 2011,73.0,F,Belo Horizonte,MG,Casa,2083.81
+2012,Cliente 2012,66.0,M,Curitiba,PR,Apartamento,4708.37
+2013,Cliente 2013,21.0,F,Rio de janeiro,RJ,,3775.21
+2014,Cliente 2014,46.0,M,Salvador,BA,Casa,3567.2
+2015,Cliente 2015,39.0,F,Belo Horizonte,MG,Casa,5395.78
+2016,Cliente 2016,42.0,M,Curitiba,PR,Casa,1985.07
+2017,Cliente 2017,30.0,M,Sao Paulo,SP,Apartamento,"2406,91"
+2018,Cliente 2018,35.0,F,São Paulo,SP,Casa,2230.23
+2019,Cliente 2019,50.0,F,Rio de Janeiro,RJ,Casa,22393.0
+2020,Cliente 2020,33.0,F,Curitiba,PR,Apartamento,3699.23
+2021,Cliente 2021,62.0,F,Salvador,BA,Apartamento,2715.72
+2022,Cliente 2022,59.0,F,Curitiba,PR,Casa,2400.65
+2023,Cliente 2023,61.0,F,Curitiba,PR,Casa,2129.86
+2024,Cliente 2024,79.0,M,Rio de janeiro,RJ,Apartamento,3473.38
+2025,Cliente 2025,19.0,F,Fortaleza,CE,Casa,2302.19
+2026,Cliente 2026,72.0,F,Recife,PE,Casa,3832.35
+2027,Cliente 2027,52.0,,Rio de Janeiro,RJ,KITNET,4188.77
+2028,Cliente 2028,59.0,F,Fortaleza,CE,Casa,3058.13
+2029,Cliente 2029,51.0,M,Fortaleza,CE,Apartamento,2956.3
+2030,Cliente 2030,47.0,M,Fortaleza,CE,KITNET,3778.24
+2031,Cliente 2031,76.0,F,Salvador,BA,Casa,3456.73
+2032,Cliente 2032,72.0,F,Rio de Janeiro,RJ,Casa,"5495,24"
+2033,Cliente 2033,30.0,F,Fortaleza,CE,Apartamento,3977.4
+2034,Cliente 2034,30.0,F,Porto Alegre,RS,KITNET,5143.38
+2035,Cliente 2035,35.0,F,Porto Alegre,RS,KITNET,4415.77
+2036,Cliente 2036,49.0,M,Sao Paulo,SP,Apartamento,1522.37
+2037,Cliente 2037,49.0,F,Fortaleza,CE,Casa,2662.6
+2038,Cliente 2038,52.0,M,Rio de janeiro,RJ,Apartamento,3427.85
+2039,Cliente 2039,76.0,M,Curitiba,PR,Casa,4802.67
+2040,Cliente 2040,56.0,F,Sao Paulo,SP,Casa,6391.72
+2041,Cliente 2041,63.0,F,Belo Horizonte,MG,Casa,2773.78
+2042,Cliente 2042,69.0,M,Curitiba,PR,Casa,3582.88
+2043,Cliente 2043,46.0,M,Rio de janeiro,RJ,Apartamento,4699.87
+2044,Cliente 2044,79.0,,Rio de Janeiro,RJ,Casa,3413.26
+2045,Cliente 2045,66.0,M,Sao Paulo,SP,Casa,5966.15
+2046,Cliente 2046,46.0,F,São Paulo,SP,Casa,1478.32
+2047,Cliente 2047,79.0,F,Belo Horizonte,MG,KITNET,4517.03
+2048,Cliente 2048,70.0,F,Salvador,BA,Apartamento,4502.32
+2049,Cliente 2049,61.0,F,Recife,PE,Casa,5228.06
+2050,Cliente 2050,74.0,M,Salvador,BA,Casa,3593.08
+2051,Cliente 2051,33.0,F,Rio de janeiro,RJ,Casa,4837.28
+2052,Cliente 2052,73.0,M,Rio de Janeiro,RJ,KITNET,3126.29
+2053,Cliente 2053,61.0,F,Fortaleza,CE,Apartamento,2297.91
+2054,Cliente 2054,64.0,M,Recife,PE,Apartamento,"2079,2"
+2055,Cliente 2055,74.0,F,Fortaleza,CE,Apartamento,1337.9
+2056,Cliente 2056,27.0,M,Rio de janeiro,RJ,Casa,2837.96
+2057,Cliente 2057,47.0,M,Rio de Janeiro,RJ,Apartamento,3967.23
+2058,Cliente 2058,42.0,M,Curitiba,PR,Apartamento,3187.8
+2059,Cliente 2059,56.0,M,Porto Alegre,RS,Casa,"3796,95"
+2060,Cliente 2060,37.0,F,Curitiba,PR,Casa,5352.32
+2061,Cliente 2061,22.0,M,Curitiba,PR,Apartamento,2723.77
+2062,Cliente 2062,18.0,Outro,Belo Horizonte,MG,KITNET,7010.44
+2063,Cliente 2063,47.0,,Curitiba,PR,Casa,4632.86
+2064,Cliente 2064,66.0,F,São Paulo,SP,KITNET,3204.61
+2065,Cliente 2065,20.0,M,Sao Paulo,SP,Apartamento,3170.6
+2066,Cliente 2066,62.0,M,Salvador,BA,Casa,1987.81
+2067,Cliente 2067,31.0,F,Porto Alegre,RS,Casa,3461.42
+2068,Cliente 2068,73.0,M,Curitiba,PR,Casa,1203.0
+2069,Cliente 2069,47.0,M,Rio de janeiro,RJ,Apartamento,5383.65
+2070,Cliente 2070,67.0,F,Rio de janeiro,RJ,Casa,836.0
+2071,Cliente 2071,21.0,F,Recife,PE,Casa,3562.63
+2072,Cliente 2072,35.0,F,Fortaleza,CE,Apartamento,1784.02
+2073,Cliente 2073,79.0,M,São Paulo,SP,Apartamento,2448.23
+2074,Cliente 2074,54.0,F,São Paulo,SP,Casa,2641.77
+2075,Cliente 2075,42.0,M,Belo Horizonte,MG,Casa,6388.44
+2076,Cliente 2076,65.0,M,Curitiba,PR,Casa,1845.12
+2077,Cliente 2077,18.0,F,Recife,PE,Apartamento,4871.39
+2078,Cliente 2078,70.0,M,Curitiba,PR,Apartamento,"5240,6"
+2079,Cliente 2079,63.0,M,Belo Horizonte,MG,Casa,1375.0
+2080,Cliente 2080,32.0,M,Porto Alegre,RS,Apartamento,2576.97
+2081,Cliente 2081,26.0,F,São Paulo,SP,Apartamento,5726.69
+2082,Cliente 2082,32.0,F,Sao Paulo,SP,Apartamento,1527.84
+2083,Cliente 2083,66.0,F,Salvador,BA,Apartamento,5297.41
+2084,Cliente 2084,74.0,F,Rio de Janeiro,RJ,Casa,3473.2
+2085,Cliente 2085,,M,Belo Horizonte,MG,Casa,3408.35
+2086,Cliente 2086,21.0,F,Fortaleza,CE,Apartamento,3604.24
+2087,Cliente 2087,29.0,M,Salvador,BA,Apartamento,4013.86
+2088,Cliente 2088,76.0,M,Fortaleza,CE,Apartamento,2066.54
+2089,Cliente 2089,75.0,F,São Paulo,SP,Casa,3109.37
+2090,Cliente 2090,54.0,Outro,Salvador,BA,KITNET,4055.9
+2091,Cliente 2091,78.0,M,São Paulo,SP,Apartamento,3765.33
+2092,Cliente 2092,54.0,M,Recife,PE,Casa,4023.84
+2093,Cliente 2093,60.0,M,Porto Alegre,RS,Casa,2421.97
+2094,Cliente 2094,77.0,M,Rio de janeiro,RJ,Apartamento,4448.45
+2095,Cliente 2095,23.0,Outro,Fortaleza,CE,Apartamento,3689.71
+2096,Cliente 2096,56.0,F,Porto Alegre,RS,Casa,1128.95
+2097,Cliente 2097,73.0,F,Belo Horizonte,MG,KITNET,2702.94
+2098,Cliente 2098,63.0,F,Sao Paulo,SP,Casa,2156.74
+2099,Cliente 2099,41.0,M,Salvador,BA,Casa,2137.43
+2100,Cliente 2100,28.0,F,Porto Alegre,RS,KITNET,2785.28
+2101,Cliente 2101,79.0,M,Curitiba,PR,KITNET,4420.21
+2102,Cliente 2102,30.0,F,Porto Alegre,RS,Apartamento,2559.81
+2103,Cliente 2103,51.0,,Belo Horizonte,MG,KITNET,3837.59
+2104,Cliente 2104,42.0,F,Recife,PE,Casa,3591.74
+2105,Cliente 2105,24.0,M,Recife,PE,KITNET,2331.42
+2106,Cliente 2106,69.0,F,Sao Paulo,SP,Casa,2982.78
+2107,Cliente 2107,21.0,M,Rio de Janeiro,RJ,Casa,4797.27
+2108,Cliente 2108,76.0,M,Sao Paulo,SP,Casa,3724.71
+2109,Cliente 2109,25.0,M,Salvador,BA,Casa,4323.24
+2110,Cliente 2110,37.0,M,Fortaleza,CE,Casa,5408.74
+2111,Cliente 2111,46.0,F,Fortaleza,CE,Casa,4152.41
+2112,Cliente 2112,71.0,F,Porto Alegre,RS,Casa,1141.0
+2113,Cliente 2113,70.0,Outro,Fortaleza,CE,Casa,3905.9
+2114,Cliente 2114,68.0,F,Rio de Janeiro,RJ,Apartamento,2572.83
+2115,Cliente 2115,62.0,F,Rio de janeiro,RJ,Casa,6215.45
+2116,Cliente 2116,63.0,M,Recife,PE,Casa,4098.9
+2117,Cliente 2117,27.0,M,Porto Alegre,RS,Apartamento,2603.84
+2118,Cliente 2118,60.0,F,Salvador,BA,KITNET,4349.77
+2119,Cliente 2119,51.0,M,Porto Alegre,RS,Apartamento,3636.19
+2120,Cliente 2120,74.0,F,São Paulo,SP,Casa,923.06
+2121,Cliente 2121,43.0,M,São Paulo,SP,Apartamento,4794.59
+2122,Cliente 2122,58.0,M,São Paulo,SP,Casa,2891.69
+2123,Cliente 2123,66.0,M,Rio de Janeiro,RJ,Casa,5630.93
+2124,Cliente 2124,75.0,M,Fortaleza,CE,Casa,3313.35
+2125,Cliente 2125,20.0,M,Curitiba,PR,Apartamento,5658.94
+2126,Cliente 2126,73.0,F,Porto Alegre,RS,Casa,4137.35
+2127,Cliente 2127,23.0,M,Curitiba,PR,Casa,4961.19
+2128,Cliente 2128,,F,Rio de Janeiro,RJ,Casa,2762.27
+2129,Cliente 2129,22.0,M,Recife,PE,KITNET,"4029,51"
+2130,Cliente 2130,71.0,M,Porto Alegre,RS,Apartamento,910.65
+2131,Cliente 2131,64.0,M,Rio de Janeiro,RJ,Casa,3309.44
+2132,Cliente 2132,40.0,F,Fortaleza,CE,Apartamento,1273.2
+2133,Cliente 2133,66.0,M,Recife,PE,Apartamento,1785.53
+2134,Cliente 2134,26.0,F,Fortaleza,CE,Apartamento,2163.79
+2135,Cliente 2135,52.0,M,Rio de Janeiro,RJ,Casa,4490.63
+2136,Cliente 2136,37.0,F,Salvador,BA,KITNET,3278.96
+2137,Cliente 2137,75.0,M,Recife,PE,Casa,3547.14
+2138,Cliente 2138,66.0,F,Belo Horizonte,MG,Apartamento,3238.12
+2139,Cliente 2139,78.0,F,Recife,PE,Casa,5121.08
+2140,Cliente 2140,76.0,Outro,Fortaleza,CE,Casa,3506.06
+2141,Cliente 2141,59.0,M,Porto Alegre,RS,Casa,3873.26
+2142,Cliente 2142,52.0,M,Porto Alegre,RS,Apartamento,2644.62
+2143,Cliente 2143,67.0,M,Porto Alegre,RS,Casa,5224.11
+2144,Cliente 2144,35.0,F,Curitiba,PR,Apartamento,5336.58
+2145,Cliente 2145,79.0,F,Recife,PE,Casa,3444.67
+2146,Cliente 2146,34.0,F,Belo Horizonte,MG,Apartamento,2623.56
+2147,Cliente 2147,41.0,M,Curitiba,PR,Apartamento,1076.04
+2148,Cliente 2148,20.0,M,São Paulo,SP,Apartamento,2197.11
+2149,Cliente 2149,49.0,M,Fortaleza,CE,Apartamento,1188.0
+2150,Cliente 2150,52.0,,Fortaleza,CE,Apartamento,2134.04
+2151,Cliente 2151,55.0,F,Sao Paulo,SP,Casa,4035.46
+2152,Cliente 2152,30.0,Outro,Salvador,BA,Apartamento,3424.4
+2153,Cliente 2153,73.0,M,Recife,PE,Casa,6984.9
+2154,Cliente 2154,78.0,F,Belo Horizonte,MG,Apartamento,2943.41
+2155,Cliente 2155,64.0,F,São Paulo,SP,Apartamento,2826.3
+2156,Cliente 2156,42.0,M,Recife,PE,Casa,"5094,15"
+2157,Cliente 2157,26.0,F,Curitiba,PR,Casa,833.0
+2158,Cliente 2158,21.0,Outro,Belo Horizonte,MG,Casa,1277.35
+2159,Cliente 2159,,F,Recife,PE,Apartamento,4495.76
+2160,Cliente 2160,54.0,F,Recife,PE,KITNET,3206.86
+2161,Cliente 2161,51.0,M,Rio de janeiro,RJ,Apartamento,3241.26
+2162,Cliente 2162,28.0,M,São Paulo,SP,Apartamento,2094.27
+2163,Cliente 2163,58.0,,Recife,PE,KITNET,3859.66
+2164,Cliente 2164,73.0,M,Curitiba,PR,Casa,20058.0
+2165,Cliente 2165,20.0,F,Rio de Janeiro,RJ,Casa,3609.11
+2166,Cliente 2166,76.0,F,Porto Alegre,RS,Apartamento,1762.27
+2167,Cliente 2167,45.0,F,Recife,PE,Apartamento,3226.4
+2168,Cliente 2168,46.0,,Salvador,BA,KITNET,6537.3
+2169,Cliente 2169,26.0,M,Rio de Janeiro,RJ,Casa,2862.6
+2170,Cliente 2170,20.0,M,Rio de janeiro,RJ,Casa,3302.36
+2171,Cliente 2171,42.0,M,São Paulo,SP,Casa,3196.22
+2172,Cliente 2172,51.0,M,Recife,PE,Casa,3761.8
+2173,Cliente 2173,29.0,M,Sao Paulo,SP,Casa,4202.23
+2174,Cliente 2174,59.0,M,Rio de janeiro,RJ,Apartamento,3885.86
+2175,Cliente 2175,26.0,F,São Paulo,SP,Casa,3918.97
+2176,Cliente 2176,32.0,Outro,Curitiba,PR,Apartamento,3228.75
+2177,Cliente 2177,57.0,M,Fortaleza,CE,Casa,3650.43
+2178,Cliente 2178,42.0,M,Salvador,BA,Apartamento,3179.07
+2179,Cliente 2179,22.0,Outro,Rio de Janeiro,RJ,Casa,838.0
+2180,Cliente 2180,28.0,M,Salvador,BA,Casa,7445.92
+2181,Cliente 2181,76.0,M,Rio de janeiro,RJ,Casa,4592.26
+2182,Cliente 2182,51.0,M,Salvador,BA,,2031.02
+2183,Cliente 2183,,F,Porto Alegre,RS,Apartamento,3845.09
+2184,Cliente 2184,77.0,M,Recife,PE,Casa,1480.79
+2185,Cliente 2185,32.0,,Curitiba,PR,Casa,2758.7
+2186,Cliente 2186,55.0,M,São Paulo,SP,KITNET,1277.02
+2187,Cliente 2187,25.0,F,Rio de Janeiro,RJ,Casa,3423.22
+2188,Cliente 2188,76.0,M,Porto Alegre,RS,Casa,1127.97
+2189,Cliente 2189,22.0,F,Rio de janeiro,RJ,Apartamento,4082.63
+2190,Cliente 2190,65.0,F,Porto Alegre,RS,KITNET,4523.33
+2191,Cliente 2191,43.0,F,Fortaleza,CE,Casa,2259.53
+2192,Cliente 2192,35.0,F,Curitiba,PR,Casa,3741.34
+2193,Cliente 2193,23.0,F,Porto Alegre,RS,KITNET,2180.05
+2194,Cliente 2194,54.0,Outro,Salvador,BA,Casa,4267.6
+2195,Cliente 2195,77.0,F,Fortaleza,CE,Casa,2467.07
+2196,Cliente 2196,65.0,F,Rio de Janeiro,RJ,Apartamento,4683.46
+2197,Cliente 2197,30.0,M,Curitiba,PR,KITNET,1378.0
+2198,Cliente 2198,45.0,M,Porto Alegre,RS,Casa,1992.54
+2199,Cliente 2199,22.0,M,Fortaleza,CE,,1836.78
+2200,Cliente 2200,30.0,F,Porto Alegre,RS,Apartamento,3805.03
+2201,Cliente 2201,34.0,M,Fortaleza,CE,Casa,4332.63
+2202,Cliente 2202,67.0,M,Belo Horizonte,MG,,3920.96
+2203,Cliente 2203,57.0,F,Recife,PE,Casa,2736.54
+2204,Cliente 2204,62.0,F,Curitiba,PR,Casa,1008.0
+2205,Cliente 2205,49.0,Outro,Rio de janeiro,RJ,Apartamento,3558.05
+2206,Cliente 2206,79.0,M,Rio de janeiro,RJ,Casa,4682.07
+2207,Cliente 2207,,F,Belo Horizonte,MG,Casa,7520.76
+2208,Cliente 2208,68.0,M,Porto Alegre,RS,Casa,2863.41
+2209,Cliente 2209,75.0,M,Belo Horizonte,MG,Casa,2502.03
+2210,Cliente 2210,20.0,M,Rio de janeiro,RJ,Apartamento,3980.38
+2211,Cliente 2211,73.0,M,Belo Horizonte,MG,Apartamento,3115.76
+2212,Cliente 2212,57.0,M,Belo Horizonte,MG,,5413.06
+2213,Cliente 2213,51.0,F,Rio de janeiro,RJ,Casa,2287.72
+2214,Cliente 2214,57.0,M,Curitiba,PR,Casa,3126.73
+2215,Cliente 2215,44.0,F,Fortaleza,CE,Casa,4814.32
+2216,Cliente 2216,30.0,F,Curitiba,PR,Casa,3962.55
+2217,Cliente 2217,62.0,M,Fortaleza,CE,Casa,5241.81
+2218,Cliente 2218,50.0,F,Porto Alegre,RS,Apartamento,2845.15
+2219,Cliente 2219,23.0,M,Belo Horizonte,MG,KITNET,5394.93
+2220,Cliente 2220,41.0,F,Belo Horizonte,MG,,1004.24
+2221,Cliente 2221,36.0,M,Sao Paulo,SP,Casa,1064.29
+2222,Cliente 2222,33.0,M,Recife,PE,KITNET,5418.56
+2223,Cliente 2223,57.0,M,Porto Alegre,RS,Casa,3511.02
+2224,Cliente 2224,45.0,F,Salvador,BA,Casa,4881.22
+2225,Cliente 2225,50.0,Outro,Salvador,BA,KITNET,3649.21
+2226,Cliente 2226,76.0,M,Fortaleza,CE,Apartamento,3489.44
+2227,Cliente 2227,76.0,F,Rio de Janeiro,RJ,Casa,1507.97
+2228,Cliente 2228,65.0,F,Belo Horizonte,MG,Casa,3459.74
+2229,Cliente 2229,58.0,Outro,São Paulo,SP,Casa,5542.41
+2230,Cliente 2230,30.0,F,Belo Horizonte,MG,Apartamento,3585.01
+2231,Cliente 2231,60.0,F,Sao Paulo,SP,Casa,4523.12
+2232,Cliente 2232,62.0,F,Fortaleza,CE,,4481.56
+2233,Cliente 2233,42.0,F,Curitiba,PR,Casa,1980.94
+2234,Cliente 2234,70.0,M,Belo Horizonte,MG,Casa,4785.7
+2235,Cliente 2235,59.0,M,Curitiba,PR,Casa,3029.41
+2236,Cliente 2236,53.0,M,Rio de janeiro,RJ,Apartamento,3110.52
+2237,Cliente 2237,44.0,F,Rio de janeiro,RJ,Casa,6646.54
+2238,Cliente 2238,55.0,F,Porto Alegre,RS,Apartamento,4395.96
+2239,Cliente 2239,77.0,M,Belo Horizonte,MG,KITNET,2542.25
+2240,Cliente 2240,24.0,F,Porto Alegre,RS,KITNET,3596.81
+2241,Cliente 2241,22.0,F,Belo Horizonte,MG,Apartamento,3554.93
+2242,Cliente 2242,60.0,M,Rio de Janeiro,RJ,KITNET,6029.14
+2243,Cliente 2243,62.0,,Sao Paulo,SP,Apartamento,"3559,19"
+2244,Cliente 2244,75.0,M,Recife,PE,Apartamento,6812.0
+2245,Cliente 2245,74.0,M,Recife,PE,Casa,1554.9
+2246,Cliente 2246,68.0,F,Rio de janeiro,RJ,Casa,3451.47
+2247,Cliente 2247,48.0,F,Rio de janeiro,RJ,Casa,2355.72
+2248,Cliente 2248,40.0,M,São Paulo,SP,Casa,2757.76
+2249,Cliente 2249,59.0,F,Porto Alegre,RS,Casa,2790.32
+2250,Cliente 2250,27.0,F,Rio de janeiro,RJ,,2433.04
+2251,Cliente 2251,49.0,M,Rio de janeiro,RJ,Casa,6095.26
+2252,Cliente 2252,60.0,M,São Paulo,SP,Casa,5633.84
+2253,Cliente 2253,70.0,F,Sao Paulo,SP,Apartamento,4103.97
+2254,Cliente 2254,47.0,M,Salvador,BA,Casa,2788.47
+2255,Cliente 2255,56.0,Outro,Fortaleza,CE,Casa,2475.15
+2256,Cliente 2256,48.0,F,Curitiba,PR,Casa,4612.71
+2257,Cliente 2257,35.0,,Sao Paulo,SP,Casa,3950.23
+2258,Cliente 2258,53.0,M,Rio de Janeiro,RJ,Casa,3282.76
+2259,Cliente 2259,19.0,,São Paulo,SP,Apartamento,4311.79
+2260,Cliente 2260,31.0,M,Porto Alegre,RS,Apartamento,4836.61
+2261,Cliente 2261,30.0,M,Rio de Janeiro,RJ,Casa,3268.94
+2262,Cliente 2262,46.0,M,Salvador,BA,Casa,2319.01
+2263,Cliente 2263,29.0,M,Curitiba,PR,Casa,1518.33
+2264,Cliente 2264,,F,Curitiba,PR,Apartamento,3875.95
+2265,Cliente 2265,19.0,F,Rio de janeiro,RJ,Casa,6750.87
+2266,Cliente 2266,49.0,M,Belo Horizonte,MG,Casa,1834.01
+2267,Cliente 2267,30.0,F,Fortaleza,CE,Apartamento,5149.2
+2268,Cliente 2268,63.0,M,Belo Horizonte,MG,Casa,2486.67
+2269,Cliente 2269,44.0,F,São Paulo,SP,Casa,2788.95
+2270,Cliente 2270,66.0,M,Sao Paulo,SP,Casa,4872.39
+2271,Cliente 2271,58.0,F,Recife,PE,KITNET,3117.11
+2272,Cliente 2272,34.0,F,Rio de janeiro,RJ,KITNET,3872.39
+2273,Cliente 2273,57.0,F,Porto Alegre,RS,Apartamento,3843.64
+2274,Cliente 2274,48.0,M,São Paulo,SP,Casa,2489.08
+2275,Cliente 2275,51.0,M,Rio de Janeiro,RJ,Apartamento,4842.65
+2276,Cliente 2276,77.0,F,Salvador,BA,,3407.63
+2277,Cliente 2277,41.0,M,Rio de Janeiro,RJ,,1417.23
+2278,Cliente 2278,62.0,M,São Paulo,SP,Casa,2161.27
+2279,Cliente 2279,52.0,M,Salvador,BA,Apartamento,951.0
+2280,Cliente 2280,65.0,F,Curitiba,PR,Casa,3577.99
+2281,Cliente 2281,23.0,F,Rio de Janeiro,RJ,Casa,5456.1
+2282,Cliente 2282,36.0,F,Belo Horizonte,MG,Apartamento,1929.28
+2283,Cliente 2283,47.0,M,São Paulo,SP,Casa,4378.31
+2284,Cliente 2284,24.0,M,São Paulo,SP,KITNET,4145.85
+2285,Cliente 2285,27.0,F,Belo Horizonte,MG,Casa,2372.18
+2286,Cliente 2286,58.0,F,Recife,PE,Apartamento,5804.8
+2287,Cliente 2287,49.0,M,Recife,PE,KITNET,3091.01
+2288,Cliente 2288,51.0,F,Sao Paulo,SP,KITNET,6515.4
+2289,Cliente 2289,45.0,M,Fortaleza,CE,Casa,1046.48
+2290,Cliente 2290,77.0,Outro,Belo Horizonte,MG,Casa,3096.3
+2291,Cliente 2291,32.0,M,Curitiba,PR,Apartamento,3274.62
+2292,Cliente 2292,47.0,Outro,Porto Alegre,RS,Casa,3439.08
+2293,Cliente 2293,54.0,F,Porto Alegre,RS,,4574.5
+2294,Cliente 2294,46.0,F,Curitiba,PR,KITNET,8597.19
+2295,Cliente 2295,39.0,M,Rio de Janeiro,RJ,Casa,4182.6
+2296,Cliente 2296,21.0,F,Porto Alegre,RS,Casa,3536.36
+2297,Cliente 2297,37.0,M,Curitiba,PR,Casa,1855.7
+2298,Cliente 2298,,M,Belo Horizonte,MG,KITNET,1164.0
+2299,Cliente 2299,53.0,F,Rio de janeiro,RJ,Casa,5255.39
+2300,Cliente 2300,67.0,,Sao Paulo,SP,Casa,2679.82
+2301,Cliente 2301,21.0,F,Fortaleza,CE,Casa,7406.24
+2302,Cliente 2302,44.0,F,Rio de Janeiro,RJ,Apartamento,4802.32
+2303,Cliente 2303,34.0,M,Curitiba,PR,Casa,4012.34
+2304,Cliente 2304,29.0,M,Belo Horizonte,MG,Casa,4091.19
+2305,Cliente 2305,39.0,M,Rio de Janeiro,RJ,KITNET,4105.97
+2306,Cliente 2306,34.0,F,São Paulo,SP,KITNET,2458.15
+2307,Cliente 2307,27.0,Outro,Fortaleza,CE,Apartamento,872.75
+2308,Cliente 2308,71.0,F,Belo Horizonte,MG,Casa,2673.97
+2309,Cliente 2309,18.0,M,Recife,PE,Casa,3472.47
+2310,Cliente 2310,39.0,M,Rio de janeiro,RJ,Apartamento,2528.27
+2311,Cliente 2311,43.0,F,Rio de Janeiro,RJ,Casa,1570.87
+2312,Cliente 2312,73.0,M,Recife,PE,KITNET,2377.68
+2313,Cliente 2313,76.0,F,Salvador,BA,Apartamento,5053.6
+2314,Cliente 2314,35.0,F,Salvador,BA,Casa,4622.29
+2315,Cliente 2315,67.0,F,Porto Alegre,RS,KITNET,3757.11
+2316,Cliente 2316,31.0,M,Fortaleza,CE,,4380.65
+2317,Cliente 2317,64.0,M,Sao Paulo,SP,Casa,1802.1
+2318,Cliente 2318,46.0,M,Salvador,BA,Apartamento,2306.86
+2319,Cliente 2319,29.0,M,Sao Paulo,SP,Casa,3966.52
+2320,Cliente 2320,53.0,M,Rio de Janeiro,RJ,Casa,1993.24
+2321,Cliente 2321,76.0,F,Rio de Janeiro,RJ,Casa,3662.6
+2322,Cliente 2322,52.0,F,Curitiba,PR,Apartamento,1606.21
+2323,Cliente 2323,69.0,M,Fortaleza,CE,,1025.58
+2324,Cliente 2324,78.0,M,Rio de janeiro,RJ,Apartamento,4604.12
+2325,Cliente 2325,29.0,M,São Paulo,SP,Casa,5040.57
+2326,Cliente 2326,,M,Belo Horizonte,MG,Apartamento,2553.77
+2327,Cliente 2327,46.0,F,Salvador,BA,Casa,1219.31
+2328,Cliente 2328,28.0,M,Rio de janeiro,RJ,KITNET,998.0
+2329,Cliente 2329,50.0,M,Curitiba,PR,Casa,6263.0
+2330,Cliente 2330,23.0,M,Belo Horizonte,MG,Casa,3667.09
+2331,Cliente 2331,64.0,F,Fortaleza,CE,Casa,2588.01
+2332,Cliente 2332,32.0,F,Belo Horizonte,MG,Apartamento,2954.13
+2333,Cliente 2333,49.0,M,Recife,PE,Casa,1400.0
+2334,Cliente 2334,68.0,F,Recife,PE,Apartamento,4429.85
+2335,Cliente 2335,28.0,F,São Paulo,SP,Casa,6500.16
+2336,Cliente 2336,,,Belo Horizonte,MG,Casa,2325.86
+2337,Cliente 2337,40.0,M,Fortaleza,CE,Casa,"7075,19"
+2338,Cliente 2338,43.0,F,Rio de janeiro,RJ,KITNET,3325.39
+2339,Cliente 2339,51.0,Outro,São Paulo,SP,KITNET,6000.13
+2340,Cliente 2340,,Outro,Sao Paulo,SP,Casa,3960.83
+2341,Cliente 2341,51.0,F,Curitiba,PR,Casa,3959.2
+2342,Cliente 2342,46.0,F,Belo Horizonte,MG,Casa,6265.89
+2343,Cliente 2343,21.0,M,Rio de Janeiro,RJ,Apartamento,4674.06
+2344,Cliente 2344,34.0,F,Salvador,BA,Casa,4062.27
+2345,Cliente 2345,52.0,F,Porto Alegre,RS,KITNET,878.0
+2346,Cliente 2346,30.0,F,Belo Horizonte,MG,KITNET,1239.19
+2347,Cliente 2347,58.0,M,Sao Paulo,SP,Casa,4187.83
+2348,Cliente 2348,56.0,F,Belo Horizonte,MG,Casa,5701.67
+2349,Cliente 2349,32.0,F,Fortaleza,CE,KITNET,3692.68
+2350,Cliente 2350,72.0,M,Recife,PE,Apartamento,2613.04
+2351,Cliente 2351,46.0,F,Rio de janeiro,RJ,Casa,1276.0
+2352,Cliente 2352,46.0,F,Rio de janeiro,RJ,Casa,2324.62
+2353,Cliente 2353,28.0,F,Rio de Janeiro,RJ,Casa,3696.47
+2354,Cliente 2354,69.0,M,Curitiba,PR,Casa,2215.32
+2355,Cliente 2355,49.0,M,Rio de Janeiro,RJ,Casa,2053.33
+2356,Cliente 2356,19.0,Outro,Curitiba,PR,Casa,3423.32
+2357,Cliente 2357,64.0,M,Recife,PE,Apartamento,5672.62
+2358,Cliente 2358,31.0,F,Fortaleza,CE,Casa,4527.08
+2359,Cliente 2359,37.0,F,Salvador,BA,Casa,3928.81
+2360,Cliente 2360,39.0,F,Porto Alegre,RS,Casa,3782.73
+2361,Cliente 2361,28.0,M,Curitiba,PR,Apartamento,4326.77
+2362,Cliente 2362,44.0,F,Porto Alegre,RS,KITNET,3334.8
+2363,Cliente 2363,,M,Rio de janeiro,RJ,Casa,2883.38
+2364,Cliente 2364,34.0,M,Rio de janeiro,RJ,Casa,4607.29
+2365,Cliente 2365,79.0,M,Recife,PE,,3161.91
+2366,Cliente 2366,61.0,M,Sao Paulo,SP,Casa,1717.1
+2367,Cliente 2367,73.0,,Porto Alegre,RS,Casa,5664.95
+2368,Cliente 2368,45.0,,Curitiba,PR,Casa,1233.0
+2369,Cliente 2369,46.0,M,Porto Alegre,RS,Casa,5777.48
+2370,Cliente 2370,38.0,F,Fortaleza,CE,Casa,4259.68
+2371,Cliente 2371,64.0,M,Sao Paulo,SP,KITNET,2046.27
+2372,Cliente 2372,33.0,F,Recife,PE,Apartamento,3536.38
+2373,Cliente 2373,54.0,F,Sao Paulo,SP,Casa,2856.7
+2374,Cliente 2374,76.0,Outro,São Paulo,SP,KITNET,4711.59
+2375,Cliente 2375,37.0,M,Porto Alegre,RS,Casa,4681.9
+2376,Cliente 2376,23.0,F,Porto Alegre,RS,Casa,4192.05
+2377,Cliente 2377,36.0,M,Rio de janeiro,RJ,Apartamento,4619.57
+2378,Cliente 2378,74.0,,Recife,PE,Apartamento,3327.75
+2379,Cliente 2379,22.0,M,Porto Alegre,RS,Casa,25295.0
+2380,Cliente 2380,20.0,F,Rio de Janeiro,RJ,Casa,28853.0
+2381,Cliente 2381,76.0,F,Rio de Janeiro,RJ,Apartamento,2784.49
+2382,Cliente 2382,18.0,F,Fortaleza,CE,Apartamento,4716.29
+2383,Cliente 2383,75.0,M,Porto Alegre,RS,Apartamento,4585.37
+2384,Cliente 2384,77.0,Outro,Curitiba,PR,Casa,3110.36
+2385,Cliente 2385,,M,Sao Paulo,SP,Casa,2992.62
+2386,Cliente 2386,32.0,F,Rio de janeiro,RJ,Casa,5321.76
+2387,Cliente 2387,51.0,M,Recife,PE,Casa,3477.96
+2388,Cliente 2388,78.0,M,Curitiba,PR,KITNET,3890.26
+2389,Cliente 2389,52.0,F,Sao Paulo,SP,Casa,5601.66
+2390,Cliente 2390,66.0,M,Porto Alegre,RS,Casa,7300.01
+2391,Cliente 2391,42.0,M,Curitiba,PR,Apartamento,2710.06
+2392,Cliente 2392,41.0,M,São Paulo,SP,Casa,3168.65
+2393,Cliente 2393,29.0,M,Curitiba,PR,Casa,3611.01
+2394,Cliente 2394,35.0,F,Rio de Janeiro,RJ,Apartamento,3645.1
+2395,Cliente 2395,32.0,F,Porto Alegre,RS,KITNET,4064.53
+2396,Cliente 2396,61.0,M,Salvador,BA,Apartamento,2764.73
+2397,Cliente 2397,33.0,M,Curitiba,PR,Casa,1600.71
+2398,Cliente 2398,44.0,M,Recife,PE,Apartamento,6130.74
+2399,Cliente 2399,25.0,M,São Paulo,SP,Apartamento,4418.12
+2400,Cliente 2400,77.0,F,Porto Alegre,RS,Casa,2872.2
+2401,Cliente 2401,63.0,F,Curitiba,PR,Casa,4155.67
+2402,Cliente 2402,42.0,M,Belo Horizonte,MG,KITNET,6249.43
+2403,Cliente 2403,34.0,M,São Paulo,SP,Casa,2317.97
+2404,Cliente 2404,46.0,M,Salvador,BA,Apartamento,3816.71
+2405,Cliente 2405,70.0,F,Belo Horizonte,MG,Casa,1415.2
+2406,Cliente 2406,25.0,,São Paulo,SP,Casa,3322.49
+2407,Cliente 2407,32.0,M,Rio de janeiro,RJ,Casa,"4424,89"
+2408,Cliente 2408,44.0,M,Recife,PE,Apartamento,1827.92
+2409,Cliente 2409,63.0,F,Sao Paulo,SP,Casa,"3219,2"
+2410,Cliente 2410,67.0,Outro,São Paulo,SP,Apartamento,4699.89
+2411,Cliente 2411,69.0,M,Salvador,BA,Apartamento,4383.8
+2412,Cliente 2412,24.0,M,Fortaleza,CE,Apartamento,1763.55
+2413,Cliente 2413,20.0,M,Sao Paulo,SP,,4060.66
+2414,Cliente 2414,46.0,F,Porto Alegre,RS,Apartamento,4338.08
+2415,Cliente 2415,61.0,M,São Paulo,SP,Casa,3661.98
+2416,Cliente 2416,70.0,M,Sao Paulo,SP,,5134.01
+2417,Cliente 2417,41.0,F,Curitiba,PR,Apartamento,2615.83
+2418,Cliente 2418,77.0,M,São Paulo,SP,Casa,4118.73
+2419,Cliente 2419,75.0,F,Belo Horizonte,MG,Casa,1752.2
+2420,Cliente 2420,20.0,M,Salvador,BA,Apartamento,1099.06
+2421,Cliente 2421,37.0,M,Rio de Janeiro,RJ,Casa,4671.62
+2422,Cliente 2422,63.0,F,Rio de Janeiro,RJ,Apartamento,3530.84
+2423,Cliente 2423,32.0,M,Salvador,BA,Casa,2804.87
+2424,Cliente 2424,42.0,,Fortaleza,CE,Casa,1902.27
+2425,Cliente 2425,47.0,F,Salvador,BA,Apartamento,4740.65
+2426,Cliente 2426,,M,Curitiba,PR,Casa,1237.98
+2427,Cliente 2427,24.0,F,Salvador,BA,Casa,4989.32
+2428,Cliente 2428,34.0,M,Salvador,BA,Apartamento,4176.5
+2429,Cliente 2429,79.0,Outro,Sao Paulo,SP,Casa,1313.31
+2430,Cliente 2430,61.0,M,Porto Alegre,RS,Apartamento,3688.94
+2431,Cliente 2431,37.0,F,Rio de Janeiro,RJ,Apartamento,7480.59
+2432,Cliente 2432,53.0,M,Fortaleza,CE,Apartamento,5284.13
+2433,Cliente 2433,26.0,M,Sao Paulo,SP,Casa,2257.96
+2434,Cliente 2434,55.0,F,Rio de Janeiro,RJ,Casa,4575.06
+2435,Cliente 2435,65.0,F,Porto Alegre,RS,Apartamento,1376.13
+2436,Cliente 2436,74.0,M,Salvador,BA,KITNET,1443.03
+2437,Cliente 2437,77.0,M,Porto Alegre,RS,Apartamento,3399.04
+2438,Cliente 2438,39.0,F,Rio de Janeiro,RJ,Apartamento,4327.48
+2439,Cliente 2439,71.0,Outro,Rio de janeiro,RJ,Casa,4717.0
+2440,Cliente 2440,70.0,M,São Paulo,SP,Casa,4737.78
+2441,Cliente 2441,70.0,F,São Paulo,SP,Casa,4242.13
+2442,Cliente 2442,,M,Belo Horizonte,MG,Casa,1079.01
+2443,Cliente 2443,41.0,F,Curitiba,PR,Casa,3408.6
+2444,Cliente 2444,25.0,M,Porto Alegre,RS,KITNET,4953.02
+2445,Cliente 2445,28.0,M,Salvador,BA,Casa,4164.94
+2446,Cliente 2446,30.0,F,Porto Alegre,RS,Casa,3773.16
+2447,Cliente 2447,34.0,M,Salvador,BA,Casa,3993.84
+2448,Cliente 2448,25.0,F,Rio de janeiro,RJ,KITNET,3968.78
+2449,Cliente 2449,38.0,M,Rio de janeiro,RJ,Apartamento,831.0
+2450,Cliente 2450,35.0,M,Curitiba,PR,Apartamento,5232.34
+2451,Cliente 2451,47.0,M,Fortaleza,CE,KITNET,3334.2
+2452,Cliente 2452,35.0,F,Rio de Janeiro,RJ,Casa,4561.38
+2453,Cliente 2453,63.0,M,Belo Horizonte,MG,Apartamento,886.0
+2454,Cliente 2454,64.0,F,Rio de janeiro,RJ,Casa,5991.49
+2455,Cliente 2455,48.0,F,Sao Paulo,SP,Casa,1765.38
+2456,Cliente 2456,55.0,F,São Paulo,SP,Apartamento,7312.01
+2457,Cliente 2457,49.0,M,Salvador,BA,Apartamento,6678.86
+2458,Cliente 2458,28.0,M,Recife,PE,Casa,1512.63
+2459,Cliente 2459,62.0,M,São Paulo,SP,Casa,4725.56
+2460,Cliente 2460,42.0,M,Rio de janeiro,RJ,Apartamento,1974.18
+2461,Cliente 2461,50.0,M,Rio de janeiro,RJ,Casa,2540.89
+2462,Cliente 2462,77.0,F,Sao Paulo,SP,Casa,2574.75
+2463,Cliente 2463,55.0,M,Sao Paulo,SP,Casa,4171.9
+2464,Cliente 2464,58.0,M,Recife,PE,Casa,3986.96
+2465,Cliente 2465,25.0,M,São Paulo,SP,Apartamento,1697.61
+2466,Cliente 2466,,F,Curitiba,PR,Casa,4159.93
+2467,Cliente 2467,39.0,M,Recife,PE,Casa,3193.84
+2468,Cliente 2468,68.0,F,São Paulo,SP,Apartamento,1350.0
+2469,Cliente 2469,41.0,M,Rio de janeiro,RJ,KITNET,2848.95
+2470,Cliente 2470,58.0,F,São Paulo,SP,Casa,5990.64
+2471,Cliente 2471,34.0,F,Salvador,BA,Casa,"2899,58"
+2472,Cliente 2472,29.0,M,Curitiba,PR,Casa,1192.0
+2473,Cliente 2473,74.0,M,Rio de janeiro,RJ,Apartamento,4721.7
+2474,Cliente 2474,63.0,M,Porto Alegre,RS,Apartamento,2108.73
+2475,Cliente 2475,49.0,M,Rio de janeiro,RJ,Apartamento,3821.64
+2476,Cliente 2476,32.0,F,São Paulo,SP,,3242.02
+2477,Cliente 2477,33.0,F,Rio de Janeiro,RJ,Apartamento,6142.51
+2478,Cliente 2478,71.0,F,Porto Alegre,RS,Apartamento,3243.08
+2479,Cliente 2479,39.0,F,Belo Horizonte,MG,Casa,1783.12
+2480,Cliente 2480,45.0,M,Rio de janeiro,RJ,Casa,2796.73
+2481,Cliente 2481,37.0,M,Recife,PE,,1656.84
+2482,Cliente 2482,50.0,F,Fortaleza,CE,Casa,3186.1
+2483,Cliente 2483,27.0,M,Recife,PE,Casa,6154.69
+2484,Cliente 2484,57.0,F,Recife,PE,Apartamento,5372.7
+2485,Cliente 2485,49.0,M,Fortaleza,CE,Casa,6561.79
+2486,Cliente 2486,67.0,M,Rio de janeiro,RJ,Apartamento,4218.88
+2487,Cliente 2487,77.0,,Belo Horizonte,MG,Apartamento,3714.65
+2488,Cliente 2488,50.0,M,Rio de Janeiro,RJ,Casa,2002.56
+2489,Cliente 2489,19.0,,Porto Alegre,RS,Apartamento,"3904,5"
+2490,Cliente 2490,50.0,,Rio de janeiro,RJ,Casa,3304.46
+2491,Cliente 2491,50.0,F,Salvador,BA,Casa,4667.94
+2492,Cliente 2492,,F,Belo Horizonte,MG,Apartamento,1816.62
+2493,Cliente 2493,30.0,F,Belo Horizonte,MG,Apartamento,3579.02
+2494,Cliente 2494,47.0,F,São Paulo,SP,Apartamento,1139.75
+2495,Cliente 2495,50.0,M,Porto Alegre,RS,Casa,4006.42
+2496,Cliente 2496,30.0,F,Recife,PE,Apartamento,4513.63
+2497,Cliente 2497,69.0,F,Rio de Janeiro,RJ,Casa,1067.73
+2498,Cliente 2498,43.0,M,Salvador,BA,KITNET,1490.37
+2499,Cliente 2499,39.0,M,Porto Alegre,RS,Casa,1556.03
+2500,Cliente 2500,56.0,M,Curitiba,PR,Apartamento,"3233,56"
+2501,Cliente 2501,19.0,F,São Paulo,SP,Casa,"1403,77"
+2502,Cliente 2502,,F,Fortaleza,CE,Casa,5567.74
+2503,Cliente 2503,56.0,M,Salvador,BA,Casa,4154.23
+2504,Cliente 2504,43.0,Outro,Porto Alegre,RS,KITNET,4398.56
+2505,Cliente 2505,63.0,F,Fortaleza,CE,Apartamento,1116.43
+2506,Cliente 2506,75.0,F,Salvador,BA,KITNET,5439.77
+2507,Cliente 2507,67.0,F,Salvador,BA,Casa,4474.41
+2508,Cliente 2508,32.0,F,Rio de Janeiro,RJ,Casa,2476.48
+2509,Cliente 2509,51.0,M,Belo Horizonte,MG,Casa,1187.35
+2510,Cliente 2510,59.0,F,Salvador,BA,Apartamento,3385.81
+2511,Cliente 2511,72.0,M,Rio de Janeiro,RJ,Casa,2800.35
+2512,Cliente 2512,61.0,F,Porto Alegre,RS,KITNET,2862.61
+2513,Cliente 2513,66.0,,Curitiba,PR,KITNET,2441.85
+2514,Cliente 2514,57.0,M,Rio de janeiro,RJ,KITNET,4582.15
+2515,Cliente 2515,28.0,M,Rio de janeiro,RJ,Apartamento,1412.0
+2516,Cliente 2516,78.0,F,Belo Horizonte,MG,Apartamento,5644.89
+2517,Cliente 2517,20.0,M,Rio de Janeiro,RJ,Apartamento,4997.17
+2518,Cliente 2518,76.0,F,Curitiba,PR,Casa,3816.03
+2519,Cliente 2519,23.0,M,São Paulo,SP,Apartamento,3283.87
+2520,Cliente 2520,26.0,M,Porto Alegre,RS,Casa,5124.58
+2521,Cliente 2521,23.0,,Salvador,BA,Casa,3436.61
+2522,Cliente 2522,26.0,F,Salvador,BA,Casa,3082.36
+2523,Cliente 2523,56.0,F,Porto Alegre,RS,Casa,5208.08
+2524,Cliente 2524,48.0,M,Porto Alegre,RS,Casa,6640.09
+2525,Cliente 2525,49.0,F,Rio de Janeiro,RJ,Casa,2043.49
+2526,Cliente 2526,58.0,F,Salvador,BA,Apartamento,4137.2
+2527,Cliente 2527,67.0,F,Rio de janeiro,RJ,Casa,1870.41
+2528,Cliente 2528,29.0,F,Belo Horizonte,MG,Apartamento,4252.46
+2529,Cliente 2529,25.0,F,Rio de janeiro,RJ,Casa,2332.73
+2530,Cliente 2530,25.0,M,Fortaleza,CE,Apartamento,5317.32
+2531,Cliente 2531,67.0,M,Sao Paulo,SP,Apartamento,"3349,82"
+2532,Cliente 2532,45.0,F,Curitiba,PR,Apartamento,3569.72
+2533,Cliente 2533,79.0,M,Fortaleza,CE,Apartamento,5946.67
+2534,Cliente 2534,37.0,F,Sao Paulo,SP,Casa,2400.5
+2535,Cliente 2535,,M,Porto Alegre,RS,Apartamento,4527.26
+2536,Cliente 2536,64.0,F,Rio de janeiro,RJ,Casa,2549.82
+2537,Cliente 2537,76.0,F,São Paulo,SP,Casa,5294.45
+2538,Cliente 2538,24.0,M,Belo Horizonte,MG,Apartamento,6180.13
+2539,Cliente 2539,28.0,M,Salvador,BA,Casa,3105.64
+2540,Cliente 2540,37.0,M,Recife,PE,Apartamento,1043.0
+2541,Cliente 2541,33.0,F,Recife,PE,Apartamento,2467.79
+2542,Cliente 2542,21.0,F,São Paulo,SP,Casa,7148.95
+2543,Cliente 2543,23.0,M,Sao Paulo,SP,Casa,2611.83
+2544,Cliente 2544,75.0,F,Rio de janeiro,RJ,Casa,6156.53
+2545,Cliente 2545,39.0,M,Recife,PE,KITNET,2590.57
+2546,Cliente 2546,43.0,F,Porto Alegre,RS,Apartamento,2553.5
+2547,Cliente 2547,20.0,Outro,Rio de janeiro,RJ,Casa,4668.78
+2548,Cliente 2548,58.0,M,Curitiba,PR,Casa,4489.01
+2549,Cliente 2549,77.0,F,Rio de janeiro,RJ,Apartamento,4778.26
+2550,Cliente 2550,59.0,M,Fortaleza,CE,Apartamento,3507.37
+2551,Cliente 2551,,M,Belo Horizonte,MG,Casa,5051.54
+2552,Cliente 2552,28.0,M,São Paulo,SP,Casa,4942.25
+2553,Cliente 2553,35.0,M,Rio de janeiro,RJ,KITNET,"5223,54"
+2554,Cliente 2554,71.0,F,Rio de janeiro,RJ,Casa,2564.66
+2555,Cliente 2555,29.0,M,Sao Paulo,SP,Casa,5050.44
+2556,Cliente 2556,40.0,F,Curitiba,PR,,"23656,0"
+2557,Cliente 2557,29.0,M,Rio de janeiro,RJ,Apartamento,3264.35
+2558,Cliente 2558,30.0,M,Recife,PE,Casa,3233.56
+2559,Cliente 2559,42.0,F,Rio de janeiro,RJ,Casa,"2002,84"
+2560,Cliente 2560,62.0,,Salvador,BA,Casa,896.72
+2561,Cliente 2561,68.0,M,Rio de janeiro,RJ,Casa,"5335,59"
+2562,Cliente 2562,75.0,F,Porto Alegre,RS,KITNET,2446.63
+2563,Cliente 2563,36.0,F,Fortaleza,CE,Casa,3095.39
+2564,Cliente 2564,72.0,F,Belo Horizonte,MG,Apartamento,2403.92
+2565,Cliente 2565,63.0,F,Salvador,BA,KITNET,3115.02
+2566,Cliente 2566,53.0,M,Curitiba,PR,Casa,"2741,15"
+2567,Cliente 2567,62.0,M,Porto Alegre,RS,Casa,5418.63
+2568,Cliente 2568,25.0,F,Fortaleza,CE,Apartamento,2614.24
+2569,Cliente 2569,46.0,M,Belo Horizonte,MG,KITNET,6071.83
+2570,Cliente 2570,,Outro,Belo Horizonte,MG,Apartamento,5208.91
+2571,Cliente 2571,70.0,M,Fortaleza,CE,Casa,2788.33
+2572,Cliente 2572,72.0,M,Porto Alegre,RS,Apartamento,3979.72
+2573,Cliente 2573,49.0,F,Curitiba,PR,Apartamento,4279.02
+2574,Cliente 2574,68.0,M,Curitiba,PR,KITNET,4762.41
+2575,Cliente 2575,61.0,F,Sao Paulo,SP,Casa,4910.7
+2576,Cliente 2576,35.0,F,Curitiba,PR,Apartamento,3779.95
+2577,Cliente 2577,23.0,Outro,Fortaleza,CE,KITNET,2068.37
+2578,Cliente 2578,35.0,F,Rio de janeiro,RJ,Casa,4461.33
+2579,Cliente 2579,36.0,F,Fortaleza,CE,Casa,3145.24
+2580,Cliente 2580,39.0,F,Fortaleza,CE,Casa,1031.0
+2581,Cliente 2581,54.0,Outro,Salvador,BA,Casa,4085.42
+2582,Cliente 2582,49.0,M,São Paulo,SP,Casa,2398.83
+2583,Cliente 2583,73.0,M,Recife,PE,KITNET,"2812,42"
+2584,Cliente 2584,58.0,M,Rio de janeiro,RJ,Casa,3509.03
+2585,Cliente 2585,76.0,M,Rio de Janeiro,RJ,Casa,1169.53
+2586,Cliente 2586,20.0,F,São Paulo,SP,Apartamento,3708.56
+2587,Cliente 2587,45.0,F,Belo Horizonte,MG,Casa,3024.94
+2588,Cliente 2588,27.0,F,Porto Alegre,RS,Casa,2184.17
+2589,Cliente 2589,68.0,M,Recife,PE,Apartamento,3569.36
+2590,Cliente 2590,52.0,F,Recife,PE,KITNET,964.71
+2591,Cliente 2591,78.0,M,Salvador,BA,Apartamento,3613.44
+2592,Cliente 2592,46.0,F,Belo Horizonte,MG,Apartamento,4205.9
+2593,Cliente 2593,71.0,F,Rio de Janeiro,RJ,Casa,3957.87
+2594,Cliente 2594,32.0,M,Rio de janeiro,RJ,KITNET,4683.33
+2595,Cliente 2595,50.0,M,Fortaleza,CE,Casa,5248.03
+2596,Cliente 2596,24.0,M,Rio de janeiro,RJ,Apartamento,3377.98
+2597,Cliente 2597,29.0,F,Salvador,BA,Casa,"5143,17"
+2598,Cliente 2598,66.0,Outro,Recife,PE,KITNET,3372.37
+2599,Cliente 2599,47.0,F,Rio de janeiro,RJ,Apartamento,2450.81
+2600,Cliente 2600,38.0,M,Curitiba,PR,Apartamento,2910.87
+2601,Cliente 2601,48.0,M,Porto Alegre,RS,Casa,3900.47
+2602,Cliente 2602,,F,Fortaleza,CE,Casa,5127.77
+2603,Cliente 2603,78.0,F,Belo Horizonte,MG,Apartamento,"3502,19"
+2604,Cliente 2604,41.0,M,Curitiba,PR,Apartamento,"2489,51"
+2605,Cliente 2605,37.0,M,Curitiba,PR,Casa,5666.39
+2606,Cliente 2606,54.0,F,Curitiba,PR,,1347.78
+2607,Cliente 2607,21.0,M,Rio de Janeiro,RJ,KITNET,"2499,19"
+2608,Cliente 2608,45.0,M,Fortaleza,CE,Casa,4839.18
+2609,Cliente 2609,61.0,M,Rio de Janeiro,RJ,Apartamento,6149.69
+2610,Cliente 2610,79.0,F,Rio de Janeiro,RJ,Apartamento,4221.02
+2611,Cliente 2611,37.0,F,Porto Alegre,RS,Casa,3874.83
+2612,Cliente 2612,77.0,,Curitiba,PR,Casa,3063.7
+2613,Cliente 2613,41.0,F,Rio de Janeiro,RJ,Apartamento,4322.11
+2614,Cliente 2614,67.0,F,Porto Alegre,RS,Apartamento,3694.05
+2615,Cliente 2615,66.0,M,São Paulo,SP,Casa,"2368,2"
+2616,Cliente 2616,68.0,F,Porto Alegre,RS,Apartamento,3036.51
+2617,Cliente 2617,49.0,M,São Paulo,SP,Apartamento,2198.83
+2618,Cliente 2618,58.0,F,Sao Paulo,SP,Apartamento,3520.42
+2619,Cliente 2619,53.0,M,São Paulo,SP,Casa,3742.76
+2620,Cliente 2620,75.0,M,São Paulo,SP,KITNET,5951.57
+2621,Cliente 2621,70.0,M,Salvador,BA,Casa,2603.9
+2622,Cliente 2622,51.0,M,Rio de Janeiro,RJ,Casa,3228.83
+2623,Cliente 2623,53.0,M,Rio de janeiro,RJ,Casa,5388.77
+2624,Cliente 2624,19.0,M,Sao Paulo,SP,Casa,6207.63
+2625,Cliente 2625,32.0,,Rio de Janeiro,RJ,KITNET,4212.07
+2626,Cliente 2626,51.0,M,São Paulo,SP,Casa,3119.66
+2627,Cliente 2627,53.0,F,Rio de janeiro,RJ,Apartamento,2790.47
+2628,Cliente 2628,23.0,F,Porto Alegre,RS,Casa,1379.0
+2629,Cliente 2629,56.0,,Curitiba,PR,Casa,2108.35
+2630,Cliente 2630,59.0,F,Fortaleza,CE,,3652.34
+2631,Cliente 2631,68.0,F,São Paulo,SP,Apartamento,3228.52
+2632,Cliente 2632,68.0,M,Recife,PE,Casa,4435.11
+2633,Cliente 2633,75.0,M,Recife,PE,Apartamento,3207.2
+2634,Cliente 2634,71.0,M,Curitiba,PR,Casa,2410.91
+2635,Cliente 2635,78.0,F,Curitiba,PR,Casa,4012.02
+2636,Cliente 2636,29.0,F,São Paulo,SP,Apartamento,7257.9
+2637,Cliente 2637,20.0,M,São Paulo,SP,Apartamento,3023.98
+2638,Cliente 2638,62.0,M,Porto Alegre,RS,Casa,3708.33
+2639,Cliente 2639,35.0,F,Porto Alegre,RS,KITNET,4770.39
+2640,Cliente 2640,57.0,M,Salvador,BA,Apartamento,2642.57
+2641,Cliente 2641,38.0,F,São Paulo,SP,Casa,5409.14
+2642,Cliente 2642,32.0,F,São Paulo,SP,Apartamento,1131.44
+2643,Cliente 2643,50.0,F,Porto Alegre,RS,Apartamento,2888.41
+2644,Cliente 2644,52.0,F,Belo Horizonte,MG,Apartamento,"3033,17"
+2645,Cliente 2645,43.0,F,Porto Alegre,RS,Casa,"3726,74"
+2646,Cliente 2646,25.0,F,Belo Horizonte,MG,Apartamento,991.0
+2647,Cliente 2647,,F,São Paulo,SP,Casa,5529.11
+2648,Cliente 2648,65.0,F,Porto Alegre,RS,Apartamento,4121.33
+2649,Cliente 2649,47.0,M,Salvador,BA,Apartamento,5184.25
+2650,Cliente 2650,40.0,M,Rio de Janeiro,RJ,Casa,5919.55
+2651,Cliente 2651,59.0,M,Sao Paulo,SP,Apartamento,2389.15
+2652,Cliente 2652,61.0,M,Sao Paulo,SP,KITNET,1339.0
+2653,Cliente 2653,31.0,F,Porto Alegre,RS,KITNET,5219.55
+2654,Cliente 2654,31.0,F,Rio de Janeiro,RJ,Casa,3070.43
+2655,Cliente 2655,19.0,M,Rio de janeiro,RJ,Casa,1800.25
+2656,Cliente 2656,72.0,M,Rio de janeiro,RJ,Apartamento,4364.45
+2657,Cliente 2657,54.0,,Recife,PE,Casa,7195.34
+2658,Cliente 2658,22.0,M,Porto Alegre,RS,KITNET,"3336,64"
+2659,Cliente 2659,55.0,F,Belo Horizonte,MG,Casa,4926.67
+2660,Cliente 2660,62.0,F,Fortaleza,CE,Casa,2018.75
+2661,Cliente 2661,58.0,F,Belo Horizonte,MG,Casa,969.86
+2662,Cliente 2662,79.0,M,Salvador,BA,Casa,22180.0
+2663,Cliente 2663,,M,Sao Paulo,SP,Apartamento,4319.11
+2664,Cliente 2664,77.0,M,Fortaleza,CE,Casa,2801.45
+2665,Cliente 2665,78.0,F,Salvador,BA,Casa,6059.33
+2666,Cliente 2666,64.0,F,Curitiba,PR,Casa,853.27
+2667,Cliente 2667,31.0,M,Recife,PE,Apartamento,1654.95
+2668,Cliente 2668,73.0,F,Rio de janeiro,RJ,Casa,2685.7
+2669,Cliente 2669,56.0,F,Rio de janeiro,RJ,Apartamento,2965.4
+2670,Cliente 2670,42.0,M,Belo Horizonte,MG,Apartamento,5698.03
+2671,Cliente 2671,37.0,F,Sao Paulo,SP,Apartamento,3573.8
+2672,Cliente 2672,19.0,F,São Paulo,SP,KITNET,3210.57
+2673,Cliente 2673,56.0,M,Sao Paulo,SP,KITNET,1594.99
+2674,Cliente 2674,23.0,M,Salvador,BA,KITNET,5129.95
+2675,Cliente 2675,34.0,F,Salvador,BA,Casa,1795.04
+2676,Cliente 2676,76.0,F,Salvador,BA,Casa,1588.08
+2677,Cliente 2677,42.0,F,Porto Alegre,RS,Casa,2899.61
+2678,Cliente 2678,74.0,F,Curitiba,PR,KITNET,3744.79
+2679,Cliente 2679,45.0,F,São Paulo,SP,,2419.79
+2680,Cliente 2680,19.0,M,São Paulo,SP,KITNET,"4560,53"
+2681,Cliente 2681,52.0,F,Rio de Janeiro,RJ,Casa,3075.54
+2682,Cliente 2682,54.0,F,Sao Paulo,SP,KITNET,5079.15
+2683,Cliente 2683,22.0,M,Curitiba,PR,Casa,4257.67
+2684,Cliente 2684,18.0,F,Salvador,BA,Casa,6187.22
+2685,Cliente 2685,57.0,F,Fortaleza,CE,Casa,2836.66
+2686,Cliente 2686,,M,Recife,PE,Casa,4765.96
+2687,Cliente 2687,73.0,Outro,Sao Paulo,SP,Apartamento,819.78
+2688,Cliente 2688,53.0,M,Porto Alegre,RS,Casa,7837.49
+2689,Cliente 2689,62.0,M,São Paulo,SP,Casa,4690.92
+2690,Cliente 2690,40.0,M,Rio de janeiro,RJ,Apartamento,3055.54
+2691,Cliente 2691,64.0,F,Rio de janeiro,RJ,KITNET,3111.31
+2692,Cliente 2692,48.0,F,Recife,PE,Apartamento,3129.47
+2693,Cliente 2693,28.0,M,Curitiba,PR,Casa,6260.05
+2694,Cliente 2694,27.0,F,Belo Horizonte,MG,Apartamento,"22599,0"
+2695,Cliente 2695,20.0,M,São Paulo,SP,KITNET,2835.02
+2696,Cliente 2696,71.0,F,Sao Paulo,SP,Casa,1641.78
+2697,Cliente 2697,31.0,F,Belo Horizonte,MG,Apartamento,5294.16
+2698,Cliente 2698,33.0,M,Porto Alegre,RS,Casa,4757.82
+2699,Cliente 2699,27.0,Outro,Recife,PE,Casa,4559.56
+2700,Cliente 2700,46.0,M,São Paulo,SP,Apartamento,3374.38
+2701,Cliente 2701,27.0,M,Rio de Janeiro,RJ,KITNET,3050.57
+2702,Cliente 2702,29.0,F,Fortaleza,CE,Casa,6027.84
+2703,Cliente 2703,47.0,,São Paulo,SP,Apartamento,6167.4
+2704,Cliente 2704,58.0,M,Rio de janeiro,RJ,KITNET,4460.19
+2705,Cliente 2705,18.0,M,Recife,PE,KITNET,4954.76
+2706,Cliente 2706,22.0,M,Rio de Janeiro,RJ,Casa,3854.15
+2707,Cliente 2707,37.0,F,Salvador,BA,KITNET,1445.02
+2708,Cliente 2708,25.0,M,Sao Paulo,SP,Casa,2030.39
+2709,Cliente 2709,60.0,F,Belo Horizonte,MG,Apartamento,"5219,27"
+2710,Cliente 2710,29.0,,Rio de Janeiro,RJ,Casa,5410.56
+2711,Cliente 2711,18.0,F,Recife,PE,Casa,5081.19
+2712,Cliente 2712,74.0,M,Rio de janeiro,RJ,Apartamento,"4019,08"
+2713,Cliente 2713,71.0,M,Recife,PE,Casa,5136.95
+2714,Cliente 2714,37.0,M,Salvador,BA,Casa,3412.79
+2715,Cliente 2715,45.0,F,Porto Alegre,RS,Casa,4432.09
+2716,Cliente 2716,74.0,M,Fortaleza,CE,Apartamento,3192.98
+2717,Cliente 2717,60.0,M,Salvador,BA,Casa,1914.82
+2718,Cliente 2718,54.0,F,Rio de Janeiro,RJ,Apartamento,4796.86
+2719,Cliente 2719,64.0,M,Sao Paulo,SP,Casa,5412.69
+2720,Cliente 2720,54.0,F,Porto Alegre,RS,Casa,7210.94
+2721,Cliente 2721,29.0,M,Fortaleza,CE,Casa,3896.04
+2722,Cliente 2722,54.0,F,São Paulo,SP,Casa,1928.29
+2723,Cliente 2723,66.0,Outro,Sao Paulo,SP,Casa,3007.34
+2724,Cliente 2724,66.0,F,Salvador,BA,Casa,3296.16
+2725,Cliente 2725,73.0,,Rio de janeiro,RJ,,3722.75
+2726,Cliente 2726,61.0,M,Sao Paulo,SP,Apartamento,4206.31
+2727,Cliente 2727,73.0,F,Fortaleza,CE,Casa,4044.45
+2728,Cliente 2728,45.0,F,Recife,PE,Casa,4665.62
+2729,Cliente 2729,64.0,F,Recife,PE,KITNET,3796.13
+2730,Cliente 2730,32.0,M,Recife,PE,Casa,1069.0
+2731,Cliente 2731,23.0,M,Salvador,BA,Casa,"3840,7"
+2732,Cliente 2732,61.0,M,Fortaleza,CE,Apartamento,3630.1
+2733,Cliente 2733,76.0,M,São Paulo,SP,Apartamento,4325.4
+2734,Cliente 2734,78.0,M,Belo Horizonte,MG,Apartamento,2957.78
+2735,Cliente 2735,37.0,F,Curitiba,PR,Casa,3835.29
+2736,Cliente 2736,67.0,M,Curitiba,PR,Casa,4334.36
+2737,Cliente 2737,31.0,M,Rio de janeiro,RJ,Apartamento,3259.94
+2738,Cliente 2738,19.0,F,Fortaleza,CE,Casa,4513.81
+2739,Cliente 2739,26.0,F,Porto Alegre,RS,Apartamento,3605.19
+2740,Cliente 2740,54.0,F,Salvador,BA,Apartamento,3734.99
+2741,Cliente 2741,37.0,F,Salvador,BA,Casa,876.0
+2742,Cliente 2742,43.0,M,Rio de Janeiro,RJ,KITNET,1784.17
+2743,Cliente 2743,46.0,F,Recife,PE,Apartamento,1788.25
+2744,Cliente 2744,18.0,F,Salvador,BA,Apartamento,3824.5
+2745,Cliente 2745,72.0,M,Sao Paulo,SP,Casa,5407.5
+2746,Cliente 2746,52.0,F,Recife,PE,Casa,3322.38
+2747,Cliente 2747,23.0,Outro,Belo Horizonte,MG,Casa,4772.45
+2748,Cliente 2748,54.0,M,Rio de janeiro,RJ,Casa,4472.38
+2749,Cliente 2749,70.0,M,Sao Paulo,SP,,3709.84
+2750,Cliente 2750,76.0,M,Sao Paulo,SP,Casa,4360.97
+2751,Cliente 2751,22.0,M,Belo Horizonte,MG,Casa,3868.92
+2752,Cliente 2752,50.0,M,Rio de Janeiro,RJ,Casa,3286.58
+2753,Cliente 2753,66.0,F,Salvador,BA,Apartamento,4086.62
+2754,Cliente 2754,68.0,M,Rio de Janeiro,RJ,Casa,5669.95
+2755,Cliente 2755,31.0,Outro,Salvador,BA,Casa,4209.12
+2756,Cliente 2756,29.0,F,Fortaleza,CE,Casa,3826.96
+2757,Cliente 2757,59.0,F,Fortaleza,CE,KITNET,2183.82
+2758,Cliente 2758,37.0,F,Sao Paulo,SP,Casa,5623.81
+2759,Cliente 2759,70.0,M,Sao Paulo,SP,KITNET,1389.43
+2760,Cliente 2760,67.0,F,São Paulo,SP,Apartamento,940.91
+2761,Cliente 2761,41.0,F,Belo Horizonte,MG,Casa,4057.19
+2762,Cliente 2762,76.0,F,Curitiba,PR,Apartamento,2178.86
+2763,Cliente 2763,60.0,F,Fortaleza,CE,Casa,5133.65
+2764,Cliente 2764,79.0,M,Belo Horizonte,MG,,974.44
+2765,Cliente 2765,51.0,Outro,Sao Paulo,SP,Apartamento,4942.71
+2766,Cliente 2766,,M,Rio de Janeiro,RJ,Casa,4731.47
+2767,Cliente 2767,67.0,F,Sao Paulo,SP,Casa,3677.02
+2768,Cliente 2768,46.0,,Rio de Janeiro,RJ,Casa,966.0
+2769,Cliente 2769,74.0,M,Salvador,BA,,915.05
+2770,Cliente 2770,56.0,F,Curitiba,PR,Casa,3859.9
+2771,Cliente 2771,48.0,M,Porto Alegre,RS,Apartamento,3150.81
+2772,Cliente 2772,73.0,M,Porto Alegre,RS,Casa,4591.0
+2773,Cliente 2773,64.0,F,Porto Alegre,RS,KITNET,3397.68
+2774,Cliente 2774,60.0,F,Salvador,BA,Casa,3267.23
+2775,Cliente 2775,67.0,Outro,Sao Paulo,SP,Apartamento,1083.0
+2776,Cliente 2776,40.0,F,São Paulo,SP,Casa,4733.65
+2777,Cliente 2777,61.0,F,Sao Paulo,SP,Apartamento,2526.28
+2778,Cliente 2778,,F,Fortaleza,CE,Casa,2902.69
+2779,Cliente 2779,37.0,,Porto Alegre,RS,Casa,1895.33
+2780,Cliente 2780,40.0,M,Sao Paulo,SP,Casa,1189.38
+2781,Cliente 2781,79.0,,Recife,PE,Apartamento,5708.21
+2782,Cliente 2782,62.0,M,Recife,PE,Casa,4693.23
+2783,Cliente 2783,69.0,F,Fortaleza,CE,Apartamento,4717.99
+2784,Cliente 2784,33.0,M,Salvador,BA,Casa,3175.23
+2785,Cliente 2785,67.0,M,São Paulo,SP,KITNET,893.12
+2786,Cliente 2786,59.0,M,Belo Horizonte,MG,KITNET,6653.07
+2787,Cliente 2787,77.0,F,Salvador,BA,Apartamento,4133.44
+2788,Cliente 2788,72.0,M,Salvador,BA,Casa,3705.18
+2789,Cliente 2789,25.0,M,Sao Paulo,SP,Casa,2961.3
+2790,Cliente 2790,67.0,F,Porto Alegre,RS,Casa,888.0
+2791,Cliente 2791,38.0,Outro,Rio de janeiro,RJ,Casa,5212.34
+2792,Cliente 2792,18.0,M,Recife,PE,Apartamento,1913.44
+2793,Cliente 2793,72.0,M,Porto Alegre,RS,Apartamento,"4319,85"
+2794,Cliente 2794,25.0,M,Rio de Janeiro,RJ,KITNET,4656.25
+2795,Cliente 2795,46.0,M,Salvador,BA,Casa,4001.24
+2796,Cliente 2796,49.0,F,Rio de Janeiro,RJ,Apartamento,4204.96
+2797,Cliente 2797,55.0,F,Rio de Janeiro,RJ,Casa,5519.18
+2798,Cliente 2798,22.0,F,Belo Horizonte,MG,Apartamento,2311.38
+2799,Cliente 2799,64.0,M,Belo Horizonte,MG,Casa,3746.75
+2800,Cliente 2800,39.0,F,Belo Horizonte,MG,Casa,3162.34
+2801,Cliente 2801,64.0,F,Curitiba,PR,Casa,1343.0
+2802,Cliente 2802,51.0,F,Rio de Janeiro,RJ,Apartamento,3929.5
+2803,Cliente 2803,18.0,F,Sao Paulo,SP,KITNET,5376.88
+2804,Cliente 2804,72.0,F,Rio de Janeiro,RJ,Casa,5564.5
+2805,Cliente 2805,72.0,F,Salvador,BA,Casa,6286.22
+2806,Cliente 2806,43.0,M,Belo Horizonte,MG,Casa,839.42
+2807,Cliente 2807,60.0,,Salvador,BA,Apartamento,5942.94
+2808,Cliente 2808,27.0,F,Belo Horizonte,MG,Casa,22020.0
+2809,Cliente 2809,47.0,F,Curitiba,PR,Apartamento,5900.84
+2810,Cliente 2810,67.0,M,Sao Paulo,SP,,2907.83
+2811,Cliente 2811,,F,Fortaleza,CE,KITNET,2703.8
+2812,Cliente 2812,34.0,F,Belo Horizonte,MG,Casa,1677.09
+2813,Cliente 2813,43.0,M,Rio de janeiro,RJ,KITNET,4663.97
+2814,Cliente 2814,25.0,M,Curitiba,PR,Apartamento,4271.71
+2815,Cliente 2815,64.0,F,Recife,PE,Casa,1824.49
+2816,Cliente 2816,57.0,F,Recife,PE,Apartamento,1448.0
+2817,Cliente 2817,66.0,F,Rio de janeiro,RJ,Apartamento,"4122,87"
+2818,Cliente 2818,29.0,M,Curitiba,PR,Casa,4293.76
+2819,Cliente 2819,44.0,F,Sao Paulo,SP,Casa,2019.57
+2820,Cliente 2820,25.0,M,Rio de Janeiro,RJ,Casa,1718.26
+2821,Cliente 2821,42.0,M,Belo Horizonte,MG,Apartamento,4483.8
+2822,Cliente 2822,63.0,M,São Paulo,SP,Casa,6284.59
+2823,Cliente 2823,21.0,M,Salvador,BA,KITNET,2757.51
+2824,Cliente 2824,50.0,M,Fortaleza,CE,Apartamento,2180.54
+2825,Cliente 2825,18.0,M,Recife,PE,Apartamento,3948.29
+2826,Cliente 2826,36.0,M,Salvador,BA,Casa,4452.88
+2827,Cliente 2827,48.0,M,Fortaleza,CE,Apartamento,2953.56
+2828,Cliente 2828,33.0,F,Curitiba,PR,Casa,6537.64
+2829,Cliente 2829,31.0,F,Fortaleza,CE,Casa,4852.53
+2830,Cliente 2830,70.0,M,Salvador,BA,Apartamento,2928.09
+2831,Cliente 2831,65.0,F,Recife,PE,Casa,1111.28
+2832,Cliente 2832,22.0,M,Rio de Janeiro,RJ,Apartamento,5479.13
+2833,Cliente 2833,58.0,F,Belo Horizonte,MG,Casa,5287.9
+2834,Cliente 2834,43.0,M,Fortaleza,CE,Casa,3045.87
+2835,Cliente 2835,79.0,M,Recife,PE,Casa,"4025,86"
+2836,Cliente 2836,45.0,F,Rio de janeiro,RJ,,3274.3
+2837,Cliente 2837,19.0,F,Curitiba,PR,Apartamento,4280.9
+2838,Cliente 2838,67.0,F,Fortaleza,CE,Apartamento,1962.58
+2839,Cliente 2839,23.0,F,Rio de Janeiro,RJ,Casa,1748.72
+2840,Cliente 2840,26.0,,Salvador,BA,Casa,4716.3
+2841,Cliente 2841,50.0,M,Fortaleza,CE,,4906.42
+2842,Cliente 2842,58.0,M,Belo Horizonte,MG,Casa,2763.81
+2843,Cliente 2843,42.0,M,Curitiba,PR,Casa,2376.32
+2844,Cliente 2844,65.0,M,Recife,PE,Apartamento,5221.35
+2845,Cliente 2845,30.0,F,Rio de janeiro,RJ,Casa,2427.11
+2846,Cliente 2846,26.0,F,Fortaleza,CE,Apartamento,3583.12
+2847,Cliente 2847,70.0,M,Salvador,BA,Apartamento,3392.88
+2848,Cliente 2848,30.0,Outro,Belo Horizonte,MG,Casa,1299.64
+2849,Cliente 2849,48.0,F,Salvador,BA,Casa,3788.17
+2850,Cliente 2850,58.0,M,Fortaleza,CE,Casa,3641.61
+2851,Cliente 2851,28.0,M,Sao Paulo,SP,KITNET,4040.29
+2852,Cliente 2852,21.0,M,Recife,PE,Apartamento,3737.35
+2853,Cliente 2853,51.0,M,Rio de janeiro,RJ,Casa,6703.53
+2854,Cliente 2854,78.0,M,Recife,PE,Casa,5242.52
+2855,Cliente 2855,,F,Porto Alegre,RS,Apartamento,3558.21
+2856,Cliente 2856,63.0,M,Rio de Janeiro,RJ,Apartamento,3695.36
+2857,Cliente 2857,21.0,M,Porto Alegre,RS,Casa,6145.43
+2858,Cliente 2858,55.0,,São Paulo,SP,Casa,15371.0
+2859,Cliente 2859,36.0,F,Curitiba,PR,Casa,1656.5
+2860,Cliente 2860,23.0,Outro,Rio de janeiro,RJ,Apartamento,4923.42
+2861,Cliente 2861,51.0,M,Curitiba,PR,,5364.2
+2862,Cliente 2862,35.0,M,Belo Horizonte,MG,Casa,5926.58
+2863,Cliente 2863,30.0,F,Sao Paulo,SP,Apartamento,2897.76
+2864,Cliente 2864,58.0,M,Salvador,BA,Casa,"2788,32"
+2865,Cliente 2865,40.0,M,Curitiba,PR,Casa,2087.28
+2866,Cliente 2866,36.0,F,Rio de Janeiro,RJ,Casa,3962.19
+2867,Cliente 2867,62.0,F,Belo Horizonte,MG,Apartamento,4599.3
+2868,Cliente 2868,,M,Rio de janeiro,RJ,Casa,2730.01
+2869,Cliente 2869,18.0,F,Belo Horizonte,MG,Apartamento,3287.28
+2870,Cliente 2870,41.0,M,Rio de Janeiro,RJ,Casa,955.0
+2871,Cliente 2871,79.0,M,Salvador,BA,Casa,5764.17
+2872,Cliente 2872,71.0,M,Salvador,BA,Casa,1152.54
+2873,Cliente 2873,24.0,M,Sao Paulo,SP,Apartamento,4062.17
+2874,Cliente 2874,42.0,M,Curitiba,PR,Casa,3857.38
+2875,Cliente 2875,38.0,,Recife,PE,Apartamento,3568.71
+2876,Cliente 2876,32.0,F,Curitiba,PR,Casa,3603.2
+2877,Cliente 2877,18.0,F,Recife,PE,Casa,1982.33
+2878,Cliente 2878,29.0,M,Salvador,BA,Casa,3007.9
+2879,Cliente 2879,75.0,M,Porto Alegre,RS,Casa,4953.43
+2880,Cliente 2880,24.0,M,Porto Alegre,RS,Casa,5397.73
+2881,Cliente 2881,32.0,M,Salvador,BA,Casa,2868.65
+2882,Cliente 2882,38.0,M,Porto Alegre,RS,Apartamento,1159.37
+2883,Cliente 2883,36.0,F,São Paulo,SP,Apartamento,2331.99
+2884,Cliente 2884,77.0,F,Fortaleza,CE,Casa,6279.05
+2885,Cliente 2885,46.0,F,Porto Alegre,RS,Casa,2421.28
+2886,Cliente 2886,42.0,F,Recife,PE,Casa,3354.19
+2887,Cliente 2887,50.0,Outro,Sao Paulo,SP,Casa,5623.87
+2888,Cliente 2888,66.0,M,Sao Paulo,SP,Casa,"2709,66"
+2889,Cliente 2889,,M,Rio de janeiro,RJ,KITNET,3251.7
+2890,Cliente 2890,66.0,M,Fortaleza,CE,Casa,4691.75
+2891,Cliente 2891,52.0,F,Rio de Janeiro,RJ,Casa,6067.71
+2892,Cliente 2892,61.0,,Recife,PE,Casa,2531.67
+2893,Cliente 2893,55.0,M,São Paulo,SP,Casa,5588.14
+2894,Cliente 2894,43.0,F,Recife,PE,Apartamento,3077.71
+2895,Cliente 2895,28.0,F,Salvador,BA,Casa,2171.11
+2896,Cliente 2896,52.0,M,Fortaleza,CE,Casa,3874.33
+2897,Cliente 2897,25.0,M,Salvador,BA,Apartamento,1763.65
+2898,Cliente 2898,63.0,M,Sao Paulo,SP,Casa,4208.02
+2899,Cliente 2899,31.0,,São Paulo,SP,Apartamento,8224.47
+2900,Cliente 2900,27.0,M,Sao Paulo,SP,Apartamento,5158.4
+2901,Cliente 2901,19.0,F,Belo Horizonte,MG,Casa,3342.65
+2902,Cliente 2902,63.0,M,Rio de janeiro,RJ,Apartamento,5078.3
+2903,Cliente 2903,26.0,F,Porto Alegre,RS,Casa,2102.72
+2904,Cliente 2904,20.0,M,Porto Alegre,RS,Apartamento,2354.49
+2905,Cliente 2905,38.0,F,Porto Alegre,RS,Casa,3384.25
+2906,Cliente 2906,43.0,F,Recife,PE,Casa,3631.67
+2907,Cliente 2907,25.0,F,Recife,PE,Apartamento,1560.05
+2908,Cliente 2908,65.0,F,Rio de janeiro,RJ,KITNET,3040.28
+2909,Cliente 2909,19.0,M,Curitiba,PR,,3283.12
+2910,Cliente 2910,23.0,F,Fortaleza,CE,Apartamento,5812.96
+2911,Cliente 2911,45.0,M,Salvador,BA,Casa,1559.98
+2912,Cliente 2912,70.0,M,Curitiba,PR,Casa,1420.93
+2913,Cliente 2913,46.0,F,Recife,PE,Casa,3763.56
+2914,Cliente 2914,43.0,M,Porto Alegre,RS,Casa,5226.31
+2915,Cliente 2915,42.0,F,Rio de Janeiro,RJ,Casa,4327.39
+2916,Cliente 2916,29.0,,Fortaleza,CE,KITNET,3954.02
+2917,Cliente 2917,22.0,M,São Paulo,SP,Casa,3067.09
+2918,Cliente 2918,51.0,F,Curitiba,PR,Casa,4514.16
+2919,Cliente 2919,65.0,M,Sao Paulo,SP,Casa,4740.33
+2920,Cliente 2920,54.0,M,Belo Horizonte,MG,Apartamento,3114.03
+2921,Cliente 2921,32.0,M,Salvador,BA,Apartamento,2077.06
+2922,Cliente 2922,,Outro,Sao Paulo,SP,Apartamento,2086.82
+2923,Cliente 2923,53.0,F,Sao Paulo,SP,Casa,4818.1
+2924,Cliente 2924,32.0,Outro,Rio de Janeiro,RJ,Apartamento,1183.59
+2925,Cliente 2925,60.0,,Fortaleza,CE,Casa,6015.59
+2926,Cliente 2926,65.0,M,Belo Horizonte,MG,KITNET,2815.81
+2927,Cliente 2927,40.0,M,Fortaleza,CE,Apartamento,3964.3
+2928,Cliente 2928,23.0,F,Curitiba,PR,Casa,4552.57
+2929,Cliente 2929,63.0,F,Rio de janeiro,RJ,Casa,2474.47
+2930,Cliente 2930,67.0,M,Porto Alegre,RS,Apartamento,2810.15
+2931,Cliente 2931,61.0,M,Curitiba,PR,Casa,3697.96
+2932,Cliente 2932,76.0,F,Fortaleza,CE,KITNET,2219.42
+2933,Cliente 2933,60.0,F,Curitiba,PR,Casa,1898.54
+2934,Cliente 2934,62.0,M,Sao Paulo,SP,Casa,2033.33
+2935,Cliente 2935,38.0,F,Curitiba,PR,Casa,5313.72
+2936,Cliente 2936,40.0,F,Curitiba,PR,Casa,4096.89
+2937,Cliente 2937,60.0,F,Fortaleza,CE,Casa,2310.25
+2938,Cliente 2938,72.0,M,Sao Paulo,SP,Casa,4809.14
+2939,Cliente 2939,33.0,F,Belo Horizonte,MG,Apartamento,2393.37
+2940,Cliente 2940,64.0,M,São Paulo,SP,Casa,1049.0
+2941,Cliente 2941,70.0,M,Sao Paulo,SP,,4545.21
+2942,Cliente 2942,77.0,F,São Paulo,SP,Apartamento,5969.35
+2943,Cliente 2943,32.0,F,Fortaleza,CE,Apartamento,4337.06
+2944,Cliente 2944,42.0,M,Sao Paulo,SP,Casa,894.0
+2945,Cliente 2945,53.0,F,Rio de Janeiro,RJ,Casa,3464.67
+2946,Cliente 2946,28.0,F,Rio de janeiro,RJ,Casa,3088.13
+2947,Cliente 2947,68.0,F,Porto Alegre,RS,Apartamento,"4067,32"
+2948,Cliente 2948,32.0,F,Rio de Janeiro,RJ,KITNET,2229.1
+2949,Cliente 2949,21.0,F,Porto Alegre,RS,Casa,2999.78
+2950,Cliente 2950,38.0,F,Rio de Janeiro,RJ,Casa,1369.88
+2951,Cliente 2951,30.0,M,Fortaleza,CE,KITNET,3832.66
+2952,Cliente 2952,39.0,M,Porto Alegre,RS,Casa,1425.66
+2953,Cliente 2953,36.0,M,Salvador,BA,Apartamento,4156.14
+2954,Cliente 2954,51.0,F,Curitiba,PR,Apartamento,2374.18
+2955,Cliente 2955,31.0,F,Rio de janeiro,RJ,Apartamento,816.0
+2956,Cliente 2956,78.0,M,Salvador,BA,Casa,4690.64
+2957,Cliente 2957,21.0,M,Rio de Janeiro,RJ,Casa,4241.06
+2958,Cliente 2958,65.0,F,Rio de Janeiro,RJ,Apartamento,5529.41
+2959,Cliente 2959,70.0,M,Salvador,BA,KITNET,916.0
+2960,Cliente 2960,69.0,F,Salvador,BA,Casa,2518.18
+2961,Cliente 2961,63.0,M,São Paulo,SP,Casa,3697.39
+2962,Cliente 2962,44.0,F,Recife,PE,Apartamento,4357.56
+2963,Cliente 2963,46.0,Outro,Rio de janeiro,RJ,KITNET,1305.67
+2964,Cliente 2964,64.0,M,Curitiba,PR,Apartamento,4147.19
+2965,Cliente 2965,45.0,F,Recife,PE,,2642.33
+2966,Cliente 2966,52.0,M,Salvador,BA,Casa,1132.0
+2967,Cliente 2967,25.0,F,Salvador,BA,Casa,2373.98
+2968,Cliente 2968,33.0,F,São Paulo,SP,Apartamento,4271.57
+2969,Cliente 2969,59.0,M,Rio de janeiro,RJ,Apartamento,1321.0
+2970,Cliente 2970,53.0,F,Rio de janeiro,RJ,Casa,4455.58
+2971,Cliente 2971,47.0,F,Belo Horizonte,MG,Casa,3925.07
+2972,Cliente 2972,35.0,M,Sao Paulo,SP,Apartamento,3119.21
+2973,Cliente 2973,19.0,M,Recife,PE,Casa,1047.2
+2974,Cliente 2974,66.0,F,Sao Paulo,SP,Casa,1167.58
+2975,Cliente 2975,30.0,F,Porto Alegre,RS,Apartamento,2902.28
+2976,Cliente 2976,21.0,F,Rio de Janeiro,RJ,Apartamento,1812.59
+2977,Cliente 2977,43.0,F,Fortaleza,CE,Apartamento,2999.36
+2978,Cliente 2978,42.0,F,Fortaleza,CE,Casa,4859.27
+2979,Cliente 2979,47.0,M,Rio de janeiro,RJ,Apartamento,3090.47
+2980,Cliente 2980,28.0,F,Curitiba,PR,Apartamento,3049.33
+2981,Cliente 2981,24.0,Outro,Sao Paulo,SP,Apartamento,3050.52
+2982,Cliente 2982,48.0,F,Belo Horizonte,MG,Apartamento,5020.1
+2983,Cliente 2983,61.0,M,Curitiba,PR,Casa,5440.05
+2984,Cliente 2984,27.0,M,Porto Alegre,RS,Casa,4132.9
+2985,Cliente 2985,56.0,M,Fortaleza,CE,Casa,3704.89
+2986,Cliente 2986,30.0,M,Recife,PE,Casa,3844.34
+2987,Cliente 2987,48.0,M,Salvador,BA,Apartamento,5641.93
+2988,Cliente 2988,24.0,F,Recife,PE,Apartamento,4214.38
+2989,Cliente 2989,73.0,F,Salvador,BA,Apartamento,"5783,66"
+2990,Cliente 2990,66.0,M,Recife,PE,Apartamento,"2871,37"
+2991,Cliente 2991,59.0,F,Sao Paulo,SP,Casa,1496.65
+2992,Cliente 2992,78.0,M,Fortaleza,CE,Casa,2496.41
+2993,Cliente 2993,59.0,M,Fortaleza,CE,Casa,2655.8
+2994,Cliente 2994,73.0,M,Curitiba,PR,Casa,5906.79
+2995,Cliente 2995,53.0,F,Recife,PE,Casa,4604.62
+2996,Cliente 2996,37.0,M,Rio de Janeiro,RJ,Apartamento,2543.82
+2997,Cliente 2997,21.0,M,Belo Horizonte,MG,,4712.62
+2998,Cliente 2998,,M,Recife,PE,Casa,3305.63
+2999,Cliente 2999,24.0,F,Recife,PE,Casa,5951.83
+3000,Cliente 3000,71.0,M,Sao Paulo,SP,Apartamento,2999.45

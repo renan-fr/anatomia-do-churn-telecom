@@ -1,0 +1,5 @@
+plano_id,nome_plano,franquia_dados_gb,minutos_inclusos,preco_mensal
+1,Bronze,5,100,"49,90"
+2,Prata,15,500,"79,90"
+3,Ouro,30,1500,"109,90"
+4,Premium ,70,-1,"159,90"
