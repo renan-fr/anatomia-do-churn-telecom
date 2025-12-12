@@ -1,0 +1,4 @@
+- Primeiro passo foi desenhar a modelagem para tentar compreender os relacionamentos e quais tabelas serão úteis para alcançar as respostas que eu busco.
+- Vou começar a explorar as tabelas e como entender quais dados preciso usar para fazer a primeira análise, a mais simples, churn mensal.
+- Após criação do documento de churn mensal, usando o script calculo_churn.py, conseguimos ter uma boa visão do comportamento do churn por meses e anos.
+- Agora vou seguir para segmentar o churn por planos, e depois segmentar por meses e planos juntos.
