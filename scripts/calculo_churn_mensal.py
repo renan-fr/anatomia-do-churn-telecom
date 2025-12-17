@@ -46,21 +46,21 @@ churn_mensal = (
     tmp.groupby("mes_inicio", as_index=False)
        .agg(
            base_ativos_inicio=("ativo_inicio_mes", "sum"),
-           cancelados_no_mes=("cancelado_no_mes", "sum"),
-           novas_ativacoes_no_mes=("novas_ativacoes_no_mes", "sum"),
+           cancelamentos=("cancelado_no_mes", "sum"),
+           novas_ativacoes=("novas_ativacoes_no_mes", "sum"),
        )
 )
 
 churn_mensal["taxa_churn"] = (
-    churn_mensal["cancelados_no_mes"] / churn_mensal["base_ativos_inicio"]
+    churn_mensal["cancelamentos"] / churn_mensal["base_ativos_inicio"]
 ).where(churn_mensal["base_ativos_inicio"] > 0, 0.0)
 
-churn_mensal["saldo_liquido"] = (
-    churn_mensal["novas_ativacoes_no_mes"] - churn_mensal["cancelados_no_mes"]
+churn_mensal["net_adds"] = (
+    churn_mensal["novas_ativacoes"] - churn_mensal["cancelamentos"]
 )
 
-churn_mensal["base_ativos_fim_estim"] = (
-    churn_mensal["base_ativos_inicio"] + churn_mensal["saldo_liquido"]
-)
+churn_mensal = churn_mensal[
+    ["mes_inicio", "base_ativos_inicio", "cancelamentos", "novas_ativacoes", "taxa_churn", "net_adds"]
+]
 
 churn_mensal.to_csv("data/processed/churn_mensal.csv", index=False)
