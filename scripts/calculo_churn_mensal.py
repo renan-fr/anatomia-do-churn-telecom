@@ -9,9 +9,11 @@ df["status"] = df["status"].astype(str).str.strip().str.lower()
 df["is_cancelado"] = (df["status"] == "cancelado") | df["data_cancelamento"].notna()
 
 min_inicio = df["data_inicio"].min()
-max_fim = (df["data_cancelamento"].max()
-           if df["data_cancelamento"].notna().any()
-           else pd.Timestamp.today())
+max_fim = (
+    df["data_cancelamento"].max()
+    if df["data_cancelamento"].notna().any()
+    else pd.Timestamp.today()
+)
 
 meses = pd.date_range(
     min_inicio.to_period("M").to_timestamp(),
@@ -22,12 +24,18 @@ meses = pd.date_range(
 cal = pd.DataFrame({"mes_inicio": meses})
 cal["mes_fim"] = cal["mes_inicio"] + pd.offsets.MonthEnd(0)
 
-tmp = cal.merge(df[["contrato_id", "data_inicio", "data_cancelamento"]], how="cross")
+tmp = cal.merge(
+    df[["contrato_id", "data_inicio", "data_cancelamento"]],
+    how="cross"
+)
 
 tmp["ativo_inicio_mes"] = (
     tmp["data_inicio"].notna()
     & (tmp["data_inicio"] <= tmp["mes_inicio"])
-    & (tmp["data_cancelamento"].isna() | (tmp["data_cancelamento"] >= tmp["mes_inicio"]))
+    & (
+        tmp["data_cancelamento"].isna()
+        | (tmp["data_cancelamento"] >= tmp["mes_inicio"])
+    )
 )
 
 tmp["cancelado_no_mes"] = (
@@ -51,16 +59,24 @@ churn_mensal = (
        )
 )
 
-churn_mensal["taxa_churn"] = (
-    churn_mensal["cancelamentos"] / churn_mensal["base_ativos_inicio"]
-).where(churn_mensal["base_ativos_inicio"] > 0, 0.0)
-
 churn_mensal["net_adds"] = (
     churn_mensal["novas_ativacoes"] - churn_mensal["cancelamentos"]
 )
 
+churn_mensal["taxa_churn"] = (
+    churn_mensal["cancelamentos"] / churn_mensal["base_ativos_inicio"]
+).where(churn_mensal["base_ativos_inicio"] > 0, 0.0)
+
+# ORDEM FINAL DO CABEÇALHO
 churn_mensal = churn_mensal[
-    ["mes_inicio", "base_ativos_inicio", "cancelamentos", "novas_ativacoes", "taxa_churn", "net_adds"]
+    [
+        "mes_inicio",
+        "base_ativos_inicio",
+        "cancelamentos",
+        "novas_ativacoes",
+        "net_adds",
+        "taxa_churn",
+    ]
 ]
 
 churn_mensal.to_csv("data/processed/churn_mensal.csv", index=False)

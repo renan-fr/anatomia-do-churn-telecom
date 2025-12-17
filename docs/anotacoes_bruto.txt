@@ -5,3 +5,5 @@
 - Agora vou seguir para segmentar o churn por planos, e depois segmentar por meses e planos juntos.
 - Antes de seguir para os planos, tive que corrigir os nomes das colunas na segmentação padrão por meses.
 - Pronto, script calculo_churn_plano.py funcionando.
+- Novamente algumas correções nas colunas foram necessárias, tanto em churn_mensal.csv quanto em churn_mensal_por_plano.csv.
+- Com as correções feitas, fiz o script calculo_churn_uf.py, que segmenta a taxa de churn por estado brasileiro.

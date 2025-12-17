@@ -59,27 +59,25 @@ churn_plano_mensal = (
        )
 )
 
-churn_plano_mensal["taxa_churn"] = (
-    churn_plano_mensal["cancelamentos"]
-    / churn_plano_mensal["base_ativos_inicio"]
-).where(churn_plano_mensal["base_ativos_inicio"] > 0, 0.0)
-
+# net_adds antes da taxa_churn (padrão)
 churn_plano_mensal["net_adds"] = (
-    churn_plano_mensal["novas_ativacoes"]
-    - churn_plano_mensal["cancelamentos"]
+    churn_plano_mensal["novas_ativacoes"] - churn_plano_mensal["cancelamentos"]
 )
 
-churn_plano_mensal["mes"] = churn_plano_mensal["mes_inicio"].dt.strftime("%Y-%m")
+churn_plano_mensal["taxa_churn"] = (
+    churn_plano_mensal["cancelamentos"] / churn_plano_mensal["base_ativos_inicio"]
+).where(churn_plano_mensal["base_ativos_inicio"] > 0, 0.0)
 
+# Se você quer manter "mes_inicio" como date (igual ao cabeçalho que você mandou)
 churn_plano_mensal = churn_plano_mensal[
     [
-        "mes",
+        "mes_inicio",
         "plano_id",
         "base_ativos_inicio",
         "cancelamentos",
         "novas_ativacoes",
-        "taxa_churn",
         "net_adds",
+        "taxa_churn",
     ]
 ]
 
