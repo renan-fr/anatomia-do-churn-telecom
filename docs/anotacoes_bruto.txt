@@ -13,3 +13,7 @@
 - Com as correções feitas, fiz o script calculo_churn_uf.py, que segmenta a taxa de churn por estado brasileiro.
 - Segui para o último ponto a ser resolvido para concluir a primeira etapa (DECISÃO 1 no documento do STAKEHOLDER). Esse ponto é criar a análise de churn por tempo de casa.
 - Script de calculo_churn_tempo_de_casa.py concluído. Gera o arquivo churn_mensal_por_tempo_de_casa.csv, auxiliando na análise do tempo de vida do cliente na empresa.
+
+- Iniciando a decisão 2, vou pensar em como estruturar as métricas necessárias para entender os motivos por trás do churn. (atraso no pagamento, muitos suportes etc)
+- Determinei uma janela de 90 dias para analisar os acontecimentos pré-cancelamentos.
+- Script de base_analise_motivos.py concluído. Seu objetivo é gerar o csv esqueleto (base_contratos_stauts_churn.csv) para calcular os indicadores e entender o que mais parece causar churn.

@@ -72,7 +72,7 @@ Como quero enxergar:
   - uso de dados/minutos e suas variações.
 
 
-[DECISÃO 3] QUEM DEVEMOS PRIORITAR (RETENÇÃO COM FOCO)
+[DECISÃO 3] QUEM DEVEMOS PRIORIZAR (RETENÇÃO COM FOCO)
 Perguntas que preciso responder:
 - Quais perfis têm maior risco (tenure baixo, muitos tickets, atraso, plano específico)?
 - Quem tem alto valor (receita) e alto risco ao mesmo tempo?
