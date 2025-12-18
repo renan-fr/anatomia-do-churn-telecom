@@ -67,7 +67,6 @@ churn_mensal["taxa_churn"] = (
     churn_mensal["cancelamentos"] / churn_mensal["base_ativos_inicio"]
 ).where(churn_mensal["base_ativos_inicio"] > 0, 0.0)
 
-# ORDEM FINAL DO CABEÇALHO
 churn_mensal = churn_mensal[
     [
         "mes_inicio",

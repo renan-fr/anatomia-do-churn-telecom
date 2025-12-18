@@ -1,3 +1,7 @@
+- O objetivo do projeto é analisar o churn de uma empresa de telecomunicações. Extrair, tratar, modelar e organizar a base. Calcular métricas e entregar um produto que auxilie na tomada de decisão.
+- Para isso, pedi para uma IA agir como o Stakeholder (gerou o arquivo Stakeholder_anatomia_churn), explicando os seus objetivos, os números que deseja enxergar e as decisões que planeja tomar com base nos dados que serão entregues.
+- Dessa forma, é possível simular um cenário de um projeto real de dados no mercado de trabalho.
+
 - Primeiro passo foi desenhar a modelagem para tentar compreender os relacionamentos e quais tabelas serão úteis para alcançar as respostas que eu busco.
 - Após estudar as bases, montei todo o esquema e modelo do banco, construindo relacionamentos e ajustando campos.
 - Vou começar a explorar as tabelas e como entender quais dados preciso usar para fazer a primeira análise, a mais simples, churn mensal.
@@ -7,3 +11,5 @@
 - Pronto, script calculo_churn_plano.py funcionando.
 - Novamente algumas correções nas colunas foram necessárias, tanto em churn_mensal.csv quanto em churn_mensal_por_plano.csv.
 - Com as correções feitas, fiz o script calculo_churn_uf.py, que segmenta a taxa de churn por estado brasileiro.
+- Segui para o último ponto a ser resolvido para concluir a primeira etapa (DECISÃO 1 no documento do STAKEHOLDER). Esse ponto é criar a análise de churn por tempo de casa.
+- Script de calculo_churn_tempo_de_casa.py concluído. Gera o arquivo churn_mensal_por_tempo_de_casa.csv, auxiliando na análise do tempo de vida do cliente na empresa.
