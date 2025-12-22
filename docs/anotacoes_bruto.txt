@@ -19,3 +19,4 @@
 - Script de base_analise_motivos.py concluído. Seu objetivo é gerar o csv esqueleto (base_contratos_stauts_churn.csv) para calcular os indicadores e entender o que mais parece causar churn.
 - Agora vamos começar a analisar e entender os possíveis geradores de churn.
 - A primeira relação que iremos analisar é de Inadimplência / Atraso. Quanto mais inadimplência mais chance de cancelamento? Quanto mais faturas atrasadas mais chance de cancelamento? Responderemos essas perguntas.
+- Subi os CSVs em um modelo no Power BI (salvo na pasta bi/). Começarei os testes e a exploração dos dados com gráficos.
