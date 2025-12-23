@@ -23,3 +23,5 @@
 - Antes, percebi que tem mais alguns detalhes que devo acertar. Adicionei um requirements.txt para facilitar a instalação das bibliotecas necessárias. Além disso, preciso adicionar o cálculo do churn líquido nas análises.
 - Também refatorei levemente a estrutura dos dados de saída, vou dividir em "etapas", assim como está a pasta de scripts.
 - Scripts refatorados, padronizados com estrutura melhor. Agora também calculamos o churn líquido (taxa de crescimento de base).
+- Tive alguns problemas com a formatação e localidade dos números de churn. Problemas na identificação de casas decimais e etc. Vou resolver isso diretamente no script python para evitar etapas desnecessárias no Power Query.
+- Com isso corrigido e os novos CSVs gerados, vou subir no Power BI novamente e começar a explorar os dados no Power Query para garantir que tudo está 100% para as análises por enquanto.

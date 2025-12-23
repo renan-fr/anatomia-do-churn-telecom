@@ -75,5 +75,12 @@ base = df.rename(columns={"estado": "uf"})[
     ]
 ]
 
-base.to_csv(OUTPUT_PATH, index=False)
+base.to_csv(
+    OUTPUT_PATH,
+    index=False,
+    sep=";",
+    decimal=",",
+    encoding="utf-8-sig"
+)
+
 print(base.head(20))

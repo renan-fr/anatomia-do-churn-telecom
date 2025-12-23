@@ -99,5 +99,12 @@ churn_uf_mensal = churn_uf_mensal[
     ]
 ]
 
-churn_uf_mensal.to_csv(OUTPUT_PATH, index=False)
+churn_uf_mensal.to_csv(
+    OUTPUT_PATH,
+    index=False,
+    sep=";",
+    decimal=",",
+    encoding="utf-8-sig"
+)
+
 print(churn_uf_mensal.head())

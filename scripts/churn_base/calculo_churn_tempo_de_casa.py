@@ -90,6 +90,7 @@ churn_tempo_de_casa_mensal["taxa_crescimento_liquido"] = (
 ).where(churn_tempo_de_casa_mensal["base_ativos_inicio"] > 0, 0.0).round(ROUND_DECIMALS)
 
 churn_tempo_de_casa_mensal["mes"] = churn_tempo_de_casa_mensal["mes_inicio"].dt.strftime("%Y-%m")
+churn_tempo_de_casa_mensal = churn_tempo_de_casa_mensal.drop(columns=["mes_inicio"])
 
 churn_tempo_de_casa_mensal = churn_tempo_de_casa_mensal[
     [
@@ -104,5 +105,12 @@ churn_tempo_de_casa_mensal = churn_tempo_de_casa_mensal[
     ]
 ].sort_values(["mes", "faixa_tempo_de_casa"])
 
-churn_tempo_de_casa_mensal.to_csv(OUTPUT_PATH, index=False)
+churn_tempo_de_casa_mensal.to_csv(
+    OUTPUT_PATH,
+    index=False,
+    sep=";",
+    decimal=",",
+    encoding="utf-8-sig"
+)
+
 print(churn_tempo_de_casa_mensal.head(20))
