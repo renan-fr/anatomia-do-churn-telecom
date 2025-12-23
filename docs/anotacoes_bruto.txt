@@ -20,3 +20,6 @@
 - Agora vamos começar a analisar e entender os possíveis geradores de churn.
 - A primeira relação que iremos analisar é de Inadimplência / Atraso. Quanto mais inadimplência mais chance de cancelamento? Quanto mais faturas atrasadas mais chance de cancelamento? Responderemos essas perguntas.
 - Subi os CSVs em um modelo no Power BI (salvo na pasta bi/). Começarei os testes e a exploração dos dados com gráficos.
+- Antes, percebi que tem mais alguns detalhes que devo acertar. Adicionei um requirements.txt para facilitar a instalação das bibliotecas necessárias. Além disso, preciso adicionar o cálculo do churn líquido nas análises.
+- Também refatorei levemente a estrutura dos dados de saída, vou dividir em "etapas", assim como está a pasta de scripts.
+- Scripts refatorados, padronizados com estrutura melhor. Agora também calculamos o churn líquido (taxa de crescimento de base).

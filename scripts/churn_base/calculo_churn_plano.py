@@ -1,19 +1,18 @@
 import pandas as pd
 
-df = pd.read_csv("data/raw/fato_contratos.csv")
+CONTRATOS_PATH = "data/raw/fato_contratos.csv"
+OUTPUT_PATH = "data/processed/base/churn_mensal_por_plano.csv"
+
+ROUND_DECIMALS = 4
+
+df = pd.read_csv(CONTRATOS_PATH)
 
 df["data_inicio"] = pd.to_datetime(df["data_inicio"], errors="coerce")
 df["data_cancelamento"] = pd.to_datetime(df["data_cancelamento"], errors="coerce")
 df["status"] = df["status"].astype(str).str.strip().str.lower()
 
-df["is_cancelado"] = (df["status"] == "cancelado") | df["data_cancelamento"].notna()
-
 min_inicio = df["data_inicio"].min()
-max_fim = (
-    df["data_cancelamento"].max()
-    if df["data_cancelamento"].notna().any()
-    else pd.Timestamp.today()
-)
+max_fim = df["data_cancelamento"].max() if df["data_cancelamento"].notna().any() else pd.Timestamp.today()
 
 meses = pd.date_range(
     min_inicio.to_period("M").to_timestamp(),
@@ -32,10 +31,7 @@ tmp = cal.merge(
 tmp["ativo_inicio_mes"] = (
     tmp["data_inicio"].notna()
     & (tmp["data_inicio"] <= tmp["mes_inicio"])
-    & (
-        tmp["data_cancelamento"].isna()
-        | (tmp["data_cancelamento"] >= tmp["mes_inicio"])
-    )
+    & (tmp["data_cancelamento"].isna() | (tmp["data_cancelamento"] >= tmp["mes_inicio"]))
 )
 
 tmp["cancelado_no_mes"] = (
@@ -59,31 +55,31 @@ churn_plano_mensal = (
        )
 )
 
-# net_adds antes da taxa_churn (padrão)
-churn_plano_mensal["net_adds"] = (
-    churn_plano_mensal["novas_ativacoes"] - churn_plano_mensal["cancelamentos"]
-)
+churn_plano_mensal["net_adds"] = churn_plano_mensal["novas_ativacoes"] - churn_plano_mensal["cancelamentos"]
 
 churn_plano_mensal["taxa_churn"] = (
     churn_plano_mensal["cancelamentos"] / churn_plano_mensal["base_ativos_inicio"]
-).where(churn_plano_mensal["base_ativos_inicio"] > 0, 0.0)
+).where(churn_plano_mensal["base_ativos_inicio"] > 0, 0.0).round(ROUND_DECIMALS)
 
-# Se você quer manter "mes_inicio" como date (igual ao cabeçalho que você mandou)
+churn_plano_mensal["taxa_crescimento_liquido"] = (
+    churn_plano_mensal["net_adds"] / churn_plano_mensal["base_ativos_inicio"]
+).where(churn_plano_mensal["base_ativos_inicio"] > 0, 0.0).round(ROUND_DECIMALS)
+
+churn_plano_mensal["mes"] = churn_plano_mensal["mes_inicio"].dt.strftime("%Y-%m")
+churn_plano_mensal = churn_plano_mensal.drop(columns=["mes_inicio"])
+
 churn_plano_mensal = churn_plano_mensal[
     [
-        "mes_inicio",
+        "mes",
         "plano_id",
         "base_ativos_inicio",
         "cancelamentos",
         "novas_ativacoes",
         "net_adds",
         "taxa_churn",
+        "taxa_crescimento_liquido",
     ]
 ]
 
-churn_plano_mensal.to_csv(
-    "data/processed/churn_mensal_por_plano.csv",
-    index=False
-)
-
+churn_plano_mensal.to_csv(OUTPUT_PATH, index=False)
 print(churn_plano_mensal.head())

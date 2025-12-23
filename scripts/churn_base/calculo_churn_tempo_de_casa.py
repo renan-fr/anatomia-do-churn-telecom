@@ -1,7 +1,9 @@
 import pandas as pd
 
 CONTRATOS_PATH = "data/raw/fato_contratos.csv"
-OUTPUT_PATH = "data/processed/churn_mensal_por_tempo_de_casa.csv"
+OUTPUT_PATH = "data/processed/base/churn_mensal_por_tempo_de_casa.csv"
+
+ROUND_DECIMALS = 4
 
 FAIXAS_TEMPO_DE_CASA = [-1, 30, 90, 180, 10**9]
 ROTULOS_FAIXAS = ["0-30 dias", "31-90 dias", "91-180 dias", "180+ dias"]
@@ -47,9 +49,7 @@ tmp["nova_ativacao_no_mes"] = (
     & (tmp["data_inicio"] <= tmp["mes_fim"])
 )
 
-tmp["cancelado_no_mes_e_ativo_inicio"] = (
-    tmp["cancelado_no_mes"] & tmp["ativo_inicio_mes"]
-)
+tmp["cancelado_no_mes_e_ativo_inicio"] = tmp["cancelado_no_mes"] & tmp["ativo_inicio_mes"]
 
 tmp["tempo_de_casa_dias"] = (tmp["mes_inicio"] - tmp["data_inicio"]).dt.days
 
@@ -78,14 +78,16 @@ churn_tempo_de_casa_mensal = (
 )
 
 churn_tempo_de_casa_mensal["net_adds"] = (
-    churn_tempo_de_casa_mensal["novas_ativacoes"]
-    - churn_tempo_de_casa_mensal["cancelamentos"]
+    churn_tempo_de_casa_mensal["novas_ativacoes"] - churn_tempo_de_casa_mensal["cancelamentos"]
 )
 
 churn_tempo_de_casa_mensal["taxa_churn"] = (
-    churn_tempo_de_casa_mensal["cancelamentos"]
-    / churn_tempo_de_casa_mensal["base_ativos_inicio"]
-).where(churn_tempo_de_casa_mensal["base_ativos_inicio"] > 0, 0.0)
+    churn_tempo_de_casa_mensal["cancelamentos"] / churn_tempo_de_casa_mensal["base_ativos_inicio"]
+).where(churn_tempo_de_casa_mensal["base_ativos_inicio"] > 0, 0.0).round(ROUND_DECIMALS)
+
+churn_tempo_de_casa_mensal["taxa_crescimento_liquido"] = (
+    churn_tempo_de_casa_mensal["net_adds"] / churn_tempo_de_casa_mensal["base_ativos_inicio"]
+).where(churn_tempo_de_casa_mensal["base_ativos_inicio"] > 0, 0.0).round(ROUND_DECIMALS)
 
 churn_tempo_de_casa_mensal["mes"] = churn_tempo_de_casa_mensal["mes_inicio"].dt.strftime("%Y-%m")
 
@@ -98,9 +100,9 @@ churn_tempo_de_casa_mensal = churn_tempo_de_casa_mensal[
         "novas_ativacoes",
         "net_adds",
         "taxa_churn",
+        "taxa_crescimento_liquido",
     ]
 ].sort_values(["mes", "faixa_tempo_de_casa"])
 
 churn_tempo_de_casa_mensal.to_csv(OUTPUT_PATH, index=False)
-
 print(churn_tempo_de_casa_mensal.head(20))

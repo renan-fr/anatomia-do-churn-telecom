@@ -2,7 +2,7 @@ import pandas as pd
 
 CONTRATOS_PATH = "data/raw/fato_contratos.csv"
 CLIENTES_PATH = "data/raw/dim_clientes.csv"
-OUTPUT_PATH = "data/processed/base_contratos_status_churn.csv"
+OUTPUT_PATH = "data/processed/analise/base_contratos_status_churn.csv"
 
 JANELA_DIAS = 90
 
@@ -31,7 +31,12 @@ df["estado"] = df["estado"].fillna("Não informado")
 
 df["status_churn"] = pd.NA
 df.loc[df["data_cancelamento"].notna() | (df["status"] == "cancelado"), "status_churn"] = "cancelou"
-df.loc[df["data_cancelamento"].isna() & (df["status"] != "cancelado") & df["data_inicio"].notna(), "status_churn"] = "ativo"
+df.loc[
+    df["data_cancelamento"].isna()
+    & (df["status"] != "cancelado")
+    & df["data_inicio"].notna(),
+    "status_churn"
+] = "ativo"
 
 faltando_status = df["status_churn"].isna().sum()
 if faltando_status > 0:

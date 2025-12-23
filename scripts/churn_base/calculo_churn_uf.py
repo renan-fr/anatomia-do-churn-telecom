@@ -2,7 +2,9 @@ import pandas as pd
 
 CONTRATOS_PATH = "data/raw/fato_contratos.csv"
 CLIENTES_PATH = "data/raw/dim_clientes.csv"
-OUTPUT_PATH = "data/processed/churn_mensal_por_uf.csv"
+OUTPUT_PATH = "data/processed/base/churn_mensal_por_uf.csv"
+
+ROUND_DECIMALS = 4
 
 contratos = pd.read_csv(CONTRATOS_PATH)
 clientes = pd.read_csv(CLIENTES_PATH)
@@ -71,22 +73,31 @@ churn_uf_mensal = (
        )
 )
 
-churn_uf_mensal["net_adds"] = (
-    churn_uf_mensal["novas_ativacoes"] - churn_uf_mensal["cancelamentos"]
-)
+churn_uf_mensal["net_adds"] = churn_uf_mensal["novas_ativacoes"] - churn_uf_mensal["cancelamentos"]
 
 churn_uf_mensal["taxa_churn"] = (
     churn_uf_mensal["cancelamentos"] / churn_uf_mensal["base_ativos_inicio"]
-).where(churn_uf_mensal["base_ativos_inicio"] > 0, 0.0)
+).where(churn_uf_mensal["base_ativos_inicio"] > 0, 0.0).round(ROUND_DECIMALS)
+
+churn_uf_mensal["taxa_crescimento_liquido"] = (
+    churn_uf_mensal["net_adds"] / churn_uf_mensal["base_ativos_inicio"]
+).where(churn_uf_mensal["base_ativos_inicio"] > 0, 0.0).round(ROUND_DECIMALS)
 
 churn_uf_mensal["mes"] = churn_uf_mensal["mes_inicio"].dt.strftime("%Y-%m")
-churn_uf_mensal = churn_uf_mensal.drop(columns=["mes_inicio"])
-churn_uf_mensal = churn_uf_mensal.rename(columns={"estado": "uf"})
+churn_uf_mensal = churn_uf_mensal.drop(columns=["mes_inicio"]).rename(columns={"estado": "uf"})
 
 churn_uf_mensal = churn_uf_mensal[
-    ["mes", "uf", "base_ativos_inicio", "cancelamentos", "novas_ativacoes", "net_adds", "taxa_churn"]
+    [
+        "mes",
+        "uf",
+        "base_ativos_inicio",
+        "cancelamentos",
+        "novas_ativacoes",
+        "net_adds",
+        "taxa_churn",
+        "taxa_crescimento_liquido",
+    ]
 ]
 
 churn_uf_mensal.to_csv(OUTPUT_PATH, index=False)
-
 print(churn_uf_mensal.head())
