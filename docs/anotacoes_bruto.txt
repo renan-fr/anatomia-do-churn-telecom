@@ -29,3 +29,4 @@
 - Esboço do painel da primeira página feito no Canva. Salvo na nova pasta "paginas_visual".
 - Primeiros gráficos da página "Visão geral" criados. Determinei uma meta de 1.3% de churn ao mês.
 - Adicionei os gráficos de taxa de churn por mês e o de ativações, cancelamentos e net adds por mês. Adicionei também os cards referentes a esses valores no mês selecionado no filtro.
+- Finalizei os esboços de todas as páginas. Sujeitas a alterações no futuro.
