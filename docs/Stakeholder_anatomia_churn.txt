@@ -1,34 +1,27 @@
-PROJETO: ANATOMIA DO CHURN — SISTEMA COMPLETO DE MÉTRICAS EM TELECOM
-PAPEL: STAKEHOLDER / PO (VISÃO DE NEGÓCIO + DEMANDAS)
+PROJETO: ANATOMIA DO CHURN — SISTEMA DE MÉTRICAS EM TELECOM
+PAPEL: STAKEHOLDER / PO (VISÃO DE NEGÓCIO)
 
 ============================================================
-1) CONTEXTO (POR QUE ESSE PROJETO EXISTE)
+1) CONTEXTO
 ============================================================
-Somos uma operadora de telecom. O churn (cancelamento) está pressionando receita, estabilidade da base e eficiência comercial.
-O objetivo do projeto é transformar dados operacionais (uso, pagamentos, tickets, plano e perfil) em informação decisória:
-- entender onde o churn é mais forte,
-- entender por que acontece,
-- quantificar impacto financeiro,
-- priorizar ações de retenção.
+Somos uma operadora de telecom. O churn (cancelamento) impacta diretamente receita, estabilidade da base e eficiência operacional.
 
-O projeto NÃO é para “explorar dados por curiosidade”. É para embasar decisões com clareza e indicadores replicáveis.
+Este projeto existe para transformar dados operacionais em informação decisória clara e replicável, permitindo entender:
+- onde o churn é mais crítico,
+- por que ele acontece.
+
+O foco não é exploração de dados por curiosidade, e sim suporte direto à tomada de decisão.
 
 
 ============================================================
-2) OBJETIVO PRINCIPAL (O QUE EU QUERO NO FINAL)
+2) OBJETIVO
 ============================================================
-Quero um sistema analítico que me permita:
+Construir um sistema analítico que permita:
 - monitorar churn mensal e sua tendência,
-- enxergar segmentos/planos/perfis mais críticos,
-- identificar drivers prováveis (inadimplência, tickets, rede, preço),
-- estimar impacto financeiro e simular cenários,
-- priorizar ações e públicos para retenção.
+- identificar planos, regiões e segmentos mais críticos,
+- entender os principais drivers do cancelamento.
 
-O resultado final deve ser um dashboard executivo + métricas consistentes (tabelas analíticas), com documentação que explique:
-- como os dados foram tratados,
-- quais regras de negócio foram aplicadas,
-- como calcular cada KPI,
-- quais insights se transformam em ação.
+O resultado esperado é um dashboard executivo apoiado por métricas consistentes, com regras de cálculo bem definidas e leitura orientada à decisão.
 
 
 ============================================================
@@ -36,15 +29,16 @@ O resultado final deve ser um dashboard executivo + métricas consistentes (tabe
 ============================================================
 
 [DECISÃO 1] ONDE O CHURN É MAIS PROBLEMÁTICO
+
 Perguntas que preciso responder:
 - Em quais meses o churn aumenta?
-- Qual é a taxa de churn mensal e a tendência (subindo/descendo)?
+- Qual é a taxa de churn mensal e sua tendência?
 - Quais planos concentram mais churn?
-- Quais regiões/cidades/estados são mais críticos?
-- Existe churn “precoce” (clientes cancelando com pouco tempo)?
+- Quais regiões/UFs são mais críticas?
+- Existe churn precoce (clientes com pouco tempo de casa)?
 
 Decisão prática:
-- Priorizar quais produtos/planos e quais regiões entram em plano de retenção e correção.
+- Priorizar produtos, planos e regiões que devem entrar primeiro em ações de retenção e correção.
 
 Como quero enxergar:
 - churn mensal (linha temporal),
@@ -54,141 +48,32 @@ Como quero enxergar:
 
 
 [DECISÃO 2] POR QUE O CHURN ACONTECE (DRIVERS)
+
 Perguntas que preciso responder:
-- A inadimplência/atraso aumenta a chance de churn?
-- Tickets de suporte (quantidade e tipo) estão ligados a churn?
-- Problemas de rede (congestão, tickets “Rede”) influenciam churn?
-- Existe padrão de comportamento antes do cancelamento (ex.: aumento de tickets, queda de uso, atraso recorrente)?
+- A inadimplência ou atraso aumentam a chance de churn?
+- Tickets de suporte (quantidade e tipo) estão associados ao churn?
+- Problemas de rede influenciam o cancelamento?
+- Existe um padrão de comportamento antes do churn
+  (ex.: aumento de tickets, atraso recorrente, queda de uso)?
 
 Decisão prática:
-- Direcionar orçamento/energia para a causa mais impactante:
-  (rede vs atendimento vs cobrança vs preço/plano).
+- Direcionar orçamento e esforço para o driver mais impactante
+  (rede, atendimento, cobrança ou plano/preço).
 
 Como quero enxergar:
-- comparação entre “clientes que churnaram” vs “clientes ativos”:
-  - atraso médio / atraso recorrente,
+- comparação entre clientes churnados vs clientes ativos:
+  - atraso médio e recorrência de atraso,
   - quantidade de tickets e tempo de resolução,
-  - congestão média e eventos de rede,
-  - uso de dados/minutos e suas variações.
-
-
-[DECISÃO 3] QUEM DEVEMOS PRIORIZAR (RETENÇÃO COM FOCO)
-Perguntas que preciso responder:
-- Quais perfis têm maior risco (tenure baixo, muitos tickets, atraso, plano específico)?
-- Quem tem alto valor (receita) e alto risco ao mesmo tempo?
-- Há segmentos que geram mais custo do que retorno (muito ticket, pouca receita)?
-- Existe perfil que cancela rapidamente (churn precoce)?
-
-Decisão prática:
-- Definir público alvo de retenção e ações específicas por perfil:
-  (ex.: campanha, desconto, upgrade, atendimento proativo, correção de rede, renegociação).
-
-Como quero enxergar:
-- segmentação simples com quadrantes:
-  - alto valor / alto risco
-  - alto valor / baixo risco
-  - baixo valor / alto risco
-  - baixo valor / baixo risco
-- ranking de risco por segmento (e.g., por plano, por faixa de renda, por perfil de uso),
-- tempo médio até churn por perfil.
-
-
-[DECISÃO 4] QUANTO O CHURN CUSTA (IMPACTO FINANCEIRO)
-Perguntas que preciso responder:
-- Quanto de receita estamos perdendo por churn por mês?
-- Qual plano/região representa maior perda financeira?
-- Quanto “vale” reduzir churn em 5% / 10% (cenários)?
-- Ticket médio de churnados vs ativos (diferença de valor)?
-
-Decisão prática:
-- Justificar investimento em retenção / rede / atendimento e priorizar onde há maior retorno.
-
-Como quero enxergar:
-- receita estimada perdida por churn (mensal),
-- receita média de churnados vs ativos,
-- simulações simples de economia com redução de churn (what-if).
-
-
-[DECISÃO 5] O QUE FAZER AGORA (AÇÕES)
-Perguntas que preciso responder:
-- Quais 3–5 ações trazem maior efeito esperado e em quais segmentos?
-- Qual causa parece mais “atacável” no curto prazo?
-- Que indicadores precisam ser monitorados daqui em diante?
-
-Decisão prática:
-- Aprovar plano de ação do trimestre (prioridade 1, 2, 3) com base nos achados.
-
-Como quero enxergar:
-- lista objetiva de insights acionáveis:
-  - “Clientes com X tickets/mês têm Y% mais churn”
-  - “Atraso acima de N dias aumenta churn em Z%”
-  - “Plano A tem churn precoce e maior perda de receita”
-  - “Região/UF crítica sugere problema operacional/rede”
-- recomendações mapeadas por causa (rede / cobrança / suporte / produto).
+  - indicadores de problemas de rede,
+  - variação de uso antes do cancelamento.
 
 
 ============================================================
-4) COMO EU QUERO VER OS DADOS (VISÃO DE PRODUTO)
+4) OBSERVAÇÕES DE ESCOPO
 ============================================================
-O dashboard e as análises devem seguir este fluxo mental:
-
-1) ONDE está o problema?
-   - churn mensal, tendência, ranking por plano/região, churn precoce
-
-2) POR QUE está acontecendo?
-   - drivers: atraso, tickets, rede, uso
-
-3) QUANTO custa?
-   - impacto financeiro e cenários
-
-4) O QUE faremos?
-   - recomendações e segmentações para ação
-
-Regras de clareza:
-- poucos gráficos, mas cirúrgicos
-- cada visual responde uma pergunta concreta
-- sem “painel de curiosidade”: tudo precisa conectar com decisão
-
-
-============================================================
-5) ENTREGÁVEIS QUE EU ESPERO (COMO PO)
-============================================================
-Entregável 1: Tabelas analíticas (base do BI)
-- Uma dimensão refinada de cliente (perfil + segmento + status).
-- Uma fato mensal (cliente x mês) contendo churn flag e métricas-chave do mês.
-
-Entregável 2: Dashboard executivo no Power BI
-- Página executiva (churn, tendência, impacto)
-- Página de segmentação/perfil (quem churnou)
-- Página de drivers (por que churnou)
-- Página de detalhes/drill-down (se necessário)
-
-Entregável 3: Documentação (GitHub)
-- README com:
-  - objetivo e contexto
-  - pipeline (raw → tratamento → analítico → BI)
-  - definição de KPIs (como calcular)
-  - resumo dos insights e ações recomendadas
-  - prints do dashboard
-- Diagrama simples do fluxo de dados e modelo analítico
-
-
-============================================================
-6) CRITÉRIOS DE SUCESSO (COMO EU JULGO SE VOCÊ ENTREGOU)
-============================================================
-- Consigo explicar o churn e seus principais focos em 1 minuto.
-- Consigo dizer 2–3 causas prováveis com evidência (comparações/indicadores).
-- Consigo estimar impacto financeiro e priorizar 1–2 frentes de ação.
-- Consigo apontar segmentos/públicos prioritários para retenção.
-- O dashboard é claro e orientado a decisão (não é vitrine de gráfico).
-- As regras de cálculo e tratamento estão documentadas e replicáveis.
-
-
-============================================================
-7) LIMITES / OBSERVAÇÕES
-============================================================
-- Não precisamos de modelo preditivo neste projeto (pode ser futuro).
-- Priorizo clareza, consistência e tomadas de decisão, não complexidade por complexidade.
-- Se houver inconsistências nos dados (datas, duplicidades, tipos), isso deve ser tratado e documentado como parte do valor do projeto.
+- Este projeto não inclui modelo preditivo de churn.
+- O foco está em diagnóstico, clareza e suporte à decisão.
+- Análises de impacto financeiro, priorização de públicos e plano de ação
+  serão tratadas como etapas futuras do portfólio.
 
 FIM DO DOCUMENTO
